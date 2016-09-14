@@ -1,0 +1,3339 @@
+﻿
+@book{
+ZhangJi-7919,
+   Author = {Zhang, Yong and Ji, Dong Hong and Su, Ying and Wu, Hongmiao},
+   Title = {Joint Naïve Bayes and LDA for Unsupervised Sentiment Analysis},
+   Abstract = {In this paper we proposed a hierarchical generative model based on Na茂ve Bayes and LDA for unsupervised sentiment analysis at sentence level and document level of granularity simultaneously. In particular, our model called NB-LDA assumes that each sentence instead of word has a latent sentiment label, and then the sentiment label generates a series of features for the sentence independently in the Na茂ve Bayes manner. The idea of NB assumption at sentence level makes it possible that we can use advanced NLP technologies such as dependency parsing to improve the performance for unsupervised sentiment analysis. Experiment results show that the proposed NB-LDA can obtain significantly improved results for sentiment analysis comparing to other approaches.},
+   Keywords = {Sentiment Analysis;Latent Dirichlet Allocation;Naïve Bayes;Opinion Mining},
+   Year = {2013} }
+
+
+
+
+@book{
+LiuZhang-8154,
+   Author = {Liu, Bing and Zhang, Lei},
+   Title = {A Survey of Opinion Mining and Sentiment Analysis},
+   Publisher = {Springer US},
+   Year = {2012} }
+
+
+
+
+@misc{
+BaiChen-7909,
+   Author = {Bai, Xue and Chen, Fu and Zhan, Shaobin},
+   Title = {A Study on Sentiment Computing and Classification of Sina Weibo with Word2vec},
+   Pages = {358-363},
+   Abstract = {In recent years, Weibo has greatly enriched people's life. More and more people are actively sharing information with others and expressing their opinions and feelings on Weibo. Analyzing emotion hidden in this information can benefit online marketing, branding, customer relationship management and monitoring public opinions. Sentiment analysis is to identify the emotional tendencies of the microblog messages, that is to classify users' emotions into positive, negative and neutral. This paper presents a novel model to build a Sentiment Dictionary using Word2vec tool based on our Semantic Orientation Pointwise Similarity Distance (SO-SD) model. Then we use the Emotional Dictionary to obtain the emotional tendencies of Weibo messages. Through the experiment, we validate the effectiveness of our method, by which we have performed a preliminary exploration of the sentiment analysis of Chinese Weibo in this paper.},
+   Keywords = {Web sites;customer relationship management;emotion recognition;marketing data processing;natural language processing;pattern classification;Chinese Weibo;SO-SD model;Sina Weibo;Weibo messages},
+   Year = {2014} }
+
+
+
+
+@misc{
+SuXu-7910,
+   Author = {Su, Zengcai and Xu, Hua and Zhang, Dongwen and Xu, Yunfeng},
+   Title = {Chinese sentiment classification using a neural network tool — Word2vec},
+   Pages = {1-6},
+   Abstract = {package is adopted to train and classify the comment texts. To conduct the experiments, we collect a large number of Chinese comments on clothing products as data set. The experimental results show that the accuracy of sentiment classification is over 90 percent, which proves the effectiveness of proposed method for Chinese sentiment classification.},
+   Keywords = {feature extraction;feature selection;natural language processing;neural nets;support vector machines;word processing;Chinese sentiment classification;SVMperf package;Word2vec;feature selection},
+   Year = {2014} }
+
+
+
+
+@misc{
+XuLiang-7912,
+   Author = {Xu, Steven and Liang, Hui Zhi and Baldwin, Timothy},
+   Title = {UNIMELB at SemEval-2016 Tasks 4A and 4B: An Ensemble of Neural Networks and a Word2Vec Based Model for Sentiment Classification},
+   Year = {2016} }
+
+
+
+
+@misc{
+ShamsShakery-7914,
+   Author = {Shams, M. and Shakery, A. and Faili, H.},
+   Title = {A non-parametric LDA-based induction method for sentiment analysis},
+   Pages = {216-221},
+   Abstract = {Sentiment analysis is the process of analyzing the characteristics of opinions, feelings, and emotions which are expressed in textual data. This paper presents a novel approach for generation of a lexical resource named PersianClues used for sentiment analysis in Persian language. Moreover, a novel unsupervised LDA-based sentiment analysis method called LDASA is proposed. In order to generate the PersianClues, at the first phase, an automatic translation approach is used to translate the existing English clues to Persian. Next, iterative refinement approach is used to correct the erroneous clues resulted from previous step. Then, topic-based polar sets are achieved from these clues and finally, each document is categorized into its related polarity using a classification algorithm. To evaluate this method, three resources about hotels, cell phones and digital cameras have been manually gathered from the e-shopping websites and the results of sentiment analysis on these resources are compared with a baseline named SVM-Unigrams. The experimental results demonstrate an improvement of 9% on average in polarity classification accuracy of the base system.},
+   Keywords = {iterative methods;language translation;natural language processing;pattern classification;support vector machines;text analysis;English clues;LDA-based sentiment analysis method;LDASA;Persian language},
+   Year = {2012} }
+
+
+
+
+@misc{
+FuLiu-7915,
+   Author = {Fu, Xianghua and Liu, Guo and Guo, Yanyan and Guo, Wubiao},
+   Title = {Multi-aspect Blog Sentiment Analysis Based on LDA Topic Model and Hownet Lexicon},
+   Pages = {131-138},
+   Abstract = {Blog  is an important web2.0 application, which attracts many users to express their subjective reviews about financial events, political events and other objects. Usually a Blog  page includes more than one theme. However the existing researches of multi-aspect sentiment analysis focus on the product reviews. In this paper, we propose a multi-aspect Chinese Blog  sentiment analysis method based on LDA topic model and Hownet lexicon. At first, we use a Chinese Blog  corpus to train a LDA topic model and identify the themes of this corpus. Then the LDA model which has been trained is used to segment the themes of Blog  pages with paragraphs. After that the sentiment word tagging method based on Hownet is used to calculate the sentiment orientation of every Blog  theme. So the sentiment orientation of the Blog  pages can be represented by the sentiment orientation of multi-aspect Blog  themes. The experiment results on SINA Blog  dataset show our method not only gets good topic segments, but also improves the sentiment classification performance.},
+   Keywords = {Sentiment analysis;LDA topic model;Hownet lexicon},
+   Year = {2011} }
+
+
+
+
+@misc{
+DingSong-7918,
+   Author = {Ding, Wanying and Song, Xiaoli and Guo, Lifan and Xiong, Zunyan and Hu, Xiaohua},
+   Title = {A Novel Hybrid HDP-LDA Model for Sentiment Analysis},
+   Pages = {329-336},
+   Abstract = {Sentiment analysis studies the public opinions towards an entity, and it is an important research area in data mining. Recently, a lot of sentiment analysis models have been proposed, including supervised and unsupervised approaches. However, the role of supervised models has been undermined by the phenomenon of big data, and the unsupervised ones are drawing more and more attention. But, most current unsupervised methods are based on Latent Dirichlet Allocation (LDA), and they need to specify the number of aspects in advance, making them subjective. In addition, these methods treat factual words and opinioned words the same, and assume that one sentence contains only one aspect, all of which make the existing unsupervised methods unsatisfactory. To solve these problems, this paper proposes a novel hybrid Hierarchical Dirichlet Process-Latent Dirichlet Allocation (HDP-LDA) model. This model can automatically determine the number of aspects, distinguish factual words from opinioned words, and further effectively extracts the aspect specific sentiment words. Experiment result shows that our model can clearly capture the aspects people mentioned and the specific sentiment words they use in each aspect, improving the performance of sentiment analysis efficiently. At last, we compared our model with the influential topic models, namely, JST, AUSM and Maxine-LDA, on the online restaurant review, and found our model performs very well.},
+   Keywords = {Latent Dirichlet Allocation;Sentiment Analysis;Aspect Detection;Probabilistic Model;Hierarchical Dirichlet Process},
+   Year = {2013} }
+
+
+
+
+@misc{
+çobanözyer-7923,
+   Author = {Çoban, Önder and Özyer, Gülşah Tümüklü},
+   Title = {Sentiment classification for Turkish Twitter feeds using LDA},
+   Abstract = {Today, people are able to express their opinions and ideas on any subject using personal blogs or a variety of social media environments. Contents shared by users with each passing day increases the data size on the web but this situation is a complication for meaningful information extraction. Therefore, sentiment analysis studies aimed at automatically obtaining meaningful information from social media content showed a significant increase in recent years. In these studies, automatically analyzing the content of messages and identifying sentiment such as positive, neutral, negative etc. are intended. In this study, a system has been proposed for analyzing sentiment of Turkish Twitter feeds. In addition, sentiment classification which is a leading problem for sentiment analysis studies has been performed using topic modeling and the effect of modeling on results are examined. The topic model has been created using LDA (Latent Dirichlet Allocation) algorithm. Experimental results obtained with different feature extraction model and classifiers. The results show that topic modeling is more successful compared to the methods used in the previous studies. Also, sentiment classification based on topic model knowledge has been found to increase sentiment analysis success by %26 compared to our previous work.},
+   Keywords = {Analytical models;Feeds;Niobium;Sentiment analysis;Support vector machines;Tagging;Twitter;LDA;Opinion mining;Sentiment analysis},
+   Year = {2016} }
+
+
+
+
+@misc{
+LeeHan-7924,
+   Author = {Lee, Kyungyup Daniel and Han, Kyungah and Myaeng, Sung Hyon},
+   Title = {Capturing Word Choice Patterns with LDA for Fake Review Detection in Sentiment Analysis},
+   Keywords = {LDA;Sentiment analysis;fake review detection;topic modeling;word choice patterns},
+   Year = {2016} }
+
+
+
+
+@misc{
+ChenChen-7925,
+   Author = {Chen, Yu Sheng and Chen, Lieu Hen and Takama, Yasufumi},
+   Title = {Proposal of LDA-Based Sentiment Visualization of Hotel Reviews},
+   Pages = {687-693},
+   Abstract = {With the growth of user generated contents (UGC), it is important to know consumers' opinions about features or deficiencies of products quickly. Such information is important not only for companies, but also for consumers. Keyword-based visualization and clustering are effective methods to observe summary of opinions. In order to decrease users' effort in examining vast amount of UGC, we proposed an interactive visualization system that presents sentiment words with aspects based on natural language processing and sentiment lexicon. This paper also proposes to apply latent Dirichlet allocation (LDA) to cluster reviews into several topics in order to improve understandability of visualization. This paper explains the developed system with case studies.},
+   Keywords = {consumer behaviour;data visualisation;hotel industry;interactive systems;natural language processing;LDA-based sentiment visualization;UGC;consumers opinions;hotel reviews;interactive visualization system},
+   Year = {2015} }
+
+
+
+
+@misc{
+YinHan-7927,
+   Author = {Yin, Shunshun and Han, Jun and Huang, Yu and Kumar, Kuldeep},
+   Title = {Dependency-Topic-Affects-Sentiment-LDA Model for Sentiment Analysis},
+   Pages = {413-418},
+   Abstract = {Sentiment analysis tends to use automated approaches to mine the sentiment information expressed in text, such as reviews, blogs and forum discussions. As most traditional approaches for sentiment analysis are based on supervised learning models and need many labeled corpora as their training data which are not always easily obtained, various unsupervised models based on Latent Dirichlet Allocation (LDA) have been proposed for sentiment classification. In this paper, we propose a novel probabilistic modeling framework based on LDA, called Dependency-Topic-Affects-Sentiment-LDA (DTAS) model, which drops the "bag of words" assumption and assumes that the topics of sentences in a document form a Markov chain, and the sentiment of one sentence is affected by its corresponding topic and its previous sentence's topic. We applied DTAS to reviews of books and hotels. The experiment results of sentiment classification shows that DTAS outperforms other unsupervised generative models and gets high and stable accuracy.},
+   Keywords = {data mining;pattern classification;probability;text analysis;DTAS model;LDA;Markov chain;blogs;book reviews;dependency-topic-affects-sentiment-LDA model},
+   Year = {2014} }
+
+
+
+
+@misc{
+ChenTang-7929,
+   Author = {Chen, Xue and Tang, Wenqing and Xu, Hao and Hu, Xiaofeng},
+   Title = {Double LDA: A Sentiment Analysis Model Based on Topic Model},
+   Pages = {49-56},
+   Abstract = {The sentiment mining is a fast growing topic of both academic research and commercial applications, especially with the widespread of short-text applications on the Web. A fundamental problem that confronts sentiment mining is the automatics and correctness of mined sentiment. This paper proposes an DLDA (Double Latent Dirichlet Allocation) model to analyze sentiment for short-texts based on topic model. Central to DLDA is to add sentiment to topic model and consider sentiment as equal to topic, but independent of topic. DLDA is actually two methods DLDA I and its improvement DLDA II. Compared to the single topic-word LDA, the double LDA I, i.e., DLDA I designs another sentiment-word LDA. Both LDAs are independent of each other, but they combine to influence the selected words in short-texts. DLDA II is an improvement of DLDA I. It employs entropy formula to assign weights of words in the Gibbs sampling based on the ideas that words with stronger sentiment orientation should be assigned with higher weights. Experiments show that compared with other traditional topic methods, both DLDA I and II can achieve higher accuracy with less manual needs.},
+   Keywords = {data mining;sampling methods;text analysis;DLDA;Gibbs sampling;academic research;commercial applications;double LDA;double latent Dirichlet allocation model;entropy formula},
+   Year = {2014} }
+
+
+
+
+@misc{
+KimCalvo-8086,
+   Author = {Kim, Sunghwan Mac and Calvo, Rafael A.},
+   Title = {Sentiment Analysis in Student Experiences of Learning},
+   Pages = {111-120},
+   Abstract = {ABSTRACT  In this paper we present an evaluation of new techniques for automatically detecting sentiment polarity (Positive or Negative) in the students responses to Unit of Study Evaluations (USE). The study compares categorical model and dimensional model making use of five emotion categories: Anger, Fear, Joy, Sadness, and Surprise. Joy and Surprise are taken as a Positive polarity, whereas Anger, Fear and Sadness belong to Negative polarity in the binary classes, respectively. We evaluate the performances of category-based and dimension-based emotion prediction models on the 2,940 textual responses. In the former model, WordNet-Affect is used as a linguistic lexical resource and two dimensionality reduction techniques are evaluated: Latent Semantic Analysis (LSA) and Non-negative Matrix Factorization (NMF). In the latter model, ANEW (Affective Norm for English Words), a normative database with affective terms, is employed. Despite using generic emotion categories and no syntactical analysis, NMF-based categorical model and dimensional model result in better performances above the baseline.},
+   Year = {2010} }
+
+
+
+
+@misc{
+VilaresDoval-8091,
+   Author = {Vilares, David and Doval, Yerai and Alonso, Miguel A. and Gómez-Rodríguez, Carlos},
+   Title = {LyS at TASS 2015: Deep Learning Experiments for Sentiment Analysis on Spanish Tweets},
+   Abstract = {ABSTRACT  This paper describes the participation of the LyS group at tass 2015. In this year's edition, we used a long short-term memory neural network to address the two proposed challenges: (1) sentiment analysis at a global level and (2) aspect-based sentiment analysis on football and political tweets. The performance of this deep learning approach is compared to our last-year model, based on a square-regularized logistic regression. Experimental results show that strategies such as unsupervised pre-training, sentiment-specific word embedding or modifying the current architecture might be needed to achieve state-of-the-art results.},
+   Year = {2015} }
+
+
+
+
+@misc{
+KoehlerGreenhalgh-8092,
+   Author = {Koehler, Matthew J. and Greenhalgh, Spencer P. and Zellner, Andrea},
+   Title = {Potential applications of sentiment analysis in educational research and practice – Is SITE the friendliest conference?},
+   Abstract = {Despite the widespread use of sentiment analysis by many disciplines, it has been a largely underused tool in educational contexts. The purpose of this paper is to explore some potential uses for sentiment analysis in educational settings and to present a sample study using the approach. Using sentiment analysis, we compare the “friendliness” of two educational technology conferences and use these data to answer the question: Is SITE the friendliest conference? We then expand the discussion to consider how education researchers and practitioners may fruitfully use sentiment analysis.},
+   Year = {2015} }
+
+
+
+
+@misc{
+KaewyongSukprasert-8098,
+   Author = {Kaewyong, Phuripoj and Sukprasert, Anupong and Salim, Naomie and Phang, Fatin Aliah},
+   Title = {THE POSSIBILITY OF STUDENTS' COMMENTS AUTOMATIC INTERPRET USING LEXICON BASED SENTIMENT ANALYSIS TO TEACHER EVALUATION},
+   Year = {2015} }
+
+
+
+
+@misc{
+FeatherstoneBotha-8101,
+   Author = {Featherstone, C. and Botha, A.},
+   Title = {Sentiment analysis of the ICT4Rural Education teacher professional development course},
+   Abstract = {This paper reports on an attempt to gauge the experiences of teachers participating in a teacher professional development course through sentiment analysis. The course formed part of a large scale implementation aimed at changing teachers' classroom practice to reflect a 21st century teaching and learning engagement. The course was purposely designed for a gameful educational user experience to address the design challenge of motivating the participants through a yearlong intervention. Although the actual design and implementation of the course is beyond the scope of this paper, we present results that indicate that the course was experienced mostly relevant and positive. This novel way of gauging the sentiment and hedonistic attributes of a course, holds much promise for similar applications.},
+   Keywords = {computer aided instruction;continuing professional development;educational courses;teaching;ICT4Rural Education teacher professional development course;classroom practice;educational user experience;learning engagement;participant motivation;sentiment analysis},
+   Year = {2015} }
+
+
+
+
+@misc{
+ToppingIllingworth-8102,
+   Author = {Topping, David and Illingworth, Sam},
+   Title = {Using Sentiment Analysis to Observe How Science is Communicated},
+   Year = {2016} }
+
+
+
+
+@misc{
+LópezSantiago-8112,
+   Author = {López, E. B. and Santiago, F. M. and Vallejo, A. P. and López, A. U.},
+   Title = {Sentiment analysis on a corpus of texts written by primary school children},
+   Pages = {1-5},
+   Abstract = {This paper describes the making of the e-Culturas corpus from written texts by 10-11-year-old-children. These texts have been written from the memory of some event in which the kid has felt fear, hapiness or sadness. The purpose of the corpus in this report is the training of an automatic classifier for these sentiments. The results of the evaluation of the classifier are hopeful, in spite of being in a preliminary development status. We think that they show that the methodology used for the making of the corpus is suitable, and specific techniques can perform at a level good enough to be useful within the e-Culturas web platform.},
+   Keywords = {Internet;pattern classification;text analysis;automatic classifier;e-culturas Web platform;e-culturas corpus;primary school children;sentiment analysis;text corpus;Accuracy},
+   Year = {2010} }
+
+
+
+
+@misc{
+LópezSantiago-8114,
+   Author = {López, E. B. and Santiago, F. M. and Vallejo, A. P. and López, A. U.},
+   Title = {Sentiment analysis on a corpus of texts written by primary school children},
+   Pages = {1-5},
+   Abstract = {This paper describes the making of the e-Culturas corpus from written texts by 10-11-year-old-children. These texts have been written from the memory of some event in which the kid has felt fear, hapiness or sadness. The purpose of the corpus in this report is the training of an automatic classifier for these sentiments. The results of the evaluation of the classifier are hopeful, in spite of being in a preliminary development status. We think that they show that the methodology used for the making of the corpus is suitable, and specific techniques can perform at a level good enough to be useful within the e-Culturas web platform.},
+   Keywords = {Internet;pattern classification;text analysis;automatic classifier;e-culturas Web platform;e-culturas corpus;primary school children;sentiment analysis;text corpus;Accuracy},
+   Year = {2010} }
+
+
+
+
+@misc{
+Fujiwara平沢卓也-8129,
+   Author = {Fujiwara, Tomoko and 平沢卓也},
+   Title = {Analysis of Cosmonaut's Diary(No.2) : Time Series Change of Sentiment},
+   Pages = {837-838},
+   Year = {1995} }
+
+
+
+
+@misc{
+Christopher J. OldfieldYugong Cheng-8135,
+   Author = {Christopher J. Oldfield and Yugong Cheng and Marc S. Cortese and Pedro Romero and Vladimir N. Uversky and A. Keith Dunker},
+   Title = {Learning with Compositional Semantics as Structural Inference for Subsentential Sentiment Analysis.},
+   Pages = {793-801},
+   Abstract = {Determining the polarity of a sentiment-bearing expression requires more than a simple bag-of-words approach. In particular, words or constituents within the expression can interact with each other to yield a particular overall polarity. In this paper, we view such subsentential interactions in light of  compositional semantics , and present a novel learning-based approach that incorporates structural inference motivated by compositional semantics into the learning procedure. Our experiments show that (1) simple heuristics based on compositional semantics can perform better than learning-based methods that do not incorporate compositional semantics (accuracy of 89.7% vs. 89.1%), but (2) a method that integrates compositional semantics into learning performs better than all other alternatives (90.7%). We also find that "content-word negators", not widely employed in previous work, play an important role in determining expression-level polarity. Finally, in contrast to conventional wisdom, we find that expression-level classification accuracy uniformly  decreases as additional, potentially disambiguating, context is considered.},
+   Keywords = {Proteins;Binding Sites;Protein Conformation;Protein Structure, Secondary;Protein Binding;Protein Folding;Kinetics;Models, Theoretical;Models, Molecular;Databases, Protein},
+   Year = {2008} }
+
+
+
+
+@misc{
+ToutanovaManning-8149,
+   Author = {Toutanova, Kristina and Manning, Christopher D.},
+   Title = {Enriching the knowledge sources used in a maximum entropy part-of-speech tagger},
+   Pages = {63--70},
+   Year = {2000} }
+
+
+
+
+@misc{
+ManningSurdeanu-8150,
+   Author = {Manning, Christopher D. and Surdeanu, Mihai and Bauer, John and Finkel, Jenny and Bethard, Steven J. and McClosky, David},
+   Title = {The Stanford CoreNLP Natural Language Processing Toolkit},
+   Pages = {55--60},
+   Year = {2014} }
+
+
+
+
+@misc{
+Zhang-8155,
+   Author = {Zhang, Lei And Liu Bing},
+   Title = {Sentiment Analysis and Opinion Mining},
+   Publisher = {Springer US},
+   Pages = {1--10},
+   ISBN = {978-1-4899-7502-7},
+   Year = {2016} }
+
+
+
+
+@article{
+黄仁张卫-7906,
+   Author = {黄仁 and 张卫},
+   Title = {基于word2vec的互联网商品评论情感倾向研究},
+   Journal = {计算机科学},
+   Number = {s1},
+   Abstract = {在电子商务蓬勃发展的网络环境下,产品的评论数据已成为企业提高商品质量和提升服务的重要数据源。这些评论中包含用户对产品各个方面的情感倾向,对其进行情感分析可以帮助商家了解产品的优缺点,也能为潜在消费者的购买决策提供数据支持。提出了基于组合神经网络的商品属性聚类及基于word2vec的商品评论情感分析新方法,通过word2vec计算语义相似度,建立情感词典,用构建的情感词典对测试文本进行情感分类。实验验证了该方法在互联网商品评论中的有效性和准确性。},
+   Keywords = {wordvec;情感倾向;情感词典;情感分类},
+   Year = {2016} }
+
+
+
+
+@article{
+张冬雯杨鹏飞-7907,
+   Author = {张冬雯 and 杨鹏飞 and 许云峰},
+   Title = {基于word2vec和SVMperf的中文评论情感分类研究},
+   Journal = {计算机科学},
+   Number = {s1},
+   Abstract = {利用有监督的机器学习的方法来对中文产品评论文本进行情感分类,该方法结合了word2vec和SVMperf两种工具。先由word2vec训练出语料中每个词语的词向量,通过计算相互之间的余弦距离来达到相似概念词语聚类的目的,通过相似特征聚类将高相似度领域词汇扩充到情感词典;再使用word2vec训练出词向量的高维度表示;然后采用主成分分析方法(PCA)对高维度向量进行降低维度处理,形成特征向量;最后使用两种方法抽取有效的情感特征,由SVMperf进行训练和预测,从而完成文本的情感分类。实验结果表明,采用相似概念聚类方法对词典进行扩充任务或情感分类任务都可以获得很好的效果。},
+   Keywords = {情感分类;wordvec;SVMperf;语义特征;PCA},
+   Year = {2016} }
+
+
+
+
+@article{
+ZhangXu-7911,
+   Author = {Zhang, Dongwen and Xu, Hua and Su, Zengcai and Xu, Yunfeng},
+   Title = {Chinese comments sentiment classification based on word2vec and SVM perf},
+   Journal = {Expert Systems with Applications},
+   Volume = {42},
+   Number = {4},
+   Pages = {1857-1863},
+   Abstract = {Since the booming development of e-commerce in the last decade, the researchers have begun to pay more attention to extract the valuable information from consumers comments. Sentiment classification, which focuses on classify the comments into positive class and negative class according to the polarity of sentiment, is one of the studies. Machine learning-based method for sentiment classification becomes mainstream due to its outstanding performance. Most of the existing researches are centered on the extraction of lexical features and syntactic features, while the semantic relationships between words are ignored. In this paper, in order to get the semantic features, we propose a method for sentiment classification based on word2vec and SVM perf . Our research consists of two parts of work. First of all, we use word2vec to cluster the similar features for purpose of showing the capability of word2vec to capture the semantic features in selected domain and Chinese language. And then, we train and classify the comment texts using word2vec again and SVM perf . In the process, the lexicon-based and part-of-speech-based feature selection methods are respectively adopted to generate the training file. We conduct the experiments on the data set of Chinese comments on clothing products. The experimental results show the superior performance of our method in sentiment classification.},
+   Keywords = {Sentiment classification;Word2vec;SVMperf;Semantic features},
+   Year = {2015} }
+
+
+
+
+@article{
+AbdelwahabElmaghraby-7913,
+   Author = {Abdelwahab, Omar and Elmaghraby, Adel},
+   Title = {UofL at SemEval-2016 Task 4: Multi Domain word2vec for Twitter Sentiment Classification},
+   Abstract = {In this paper, we present a transfer learning sys- tem for twitter sentiment classification and compare its performance using different fea- ture sets that include different word represen- tation vectors. We utilized data from a different source domain to increase the performance of our system in the target domain. Our approach was based on training various word2vec mod- els on data from the source and target domains combined, then using these models to calculate the average word vector of all the word vectors in a tweet observation, then input the average word vector as a feature to our classifiers for training. We further developed one doc2vec model that was trained on the positive, nega- tive and neutral tweets in the target domain only. We then used these models in calculating the average word vector for every tweet in the training set as a preprocessing step. The final evaluation results show that our approach gave a prediction accuracy on the Twitter2016 test dataset that outperformed two teams that were among the top 10 in terms of AvgF1 scores.},
+   Year = {} }
+
+
+
+
+@article{
+XunLiu-7916,
+   Author = {Xun, J. and Liu, P. and Yang, Y. and Wei, J.},
+   Title = {Multi-document sentiment summarization based on LDA model},
+   Journal = {Journal of Computational Information Systems},
+   Volume = {10},
+   Number = {15},
+   Pages = {6389-6399},
+   Abstract = {It is difficult for the existing methods to get overall sentiment orientation of the comment text. To solve this problem, the method of multi-document sentiment summarization based on Latent Dirichlet Allocation (LDA) model was proposed. In this method, all the subjective sentences were extracted by sentiment analysis and described by LDA model, then a summary was generated based on the weight of sentences which combined the importance of words and the characteristics of sentences. The experimental results show that this method can effectively identify key sentiment sentences, and achieve good results in precision, recall and F-measure.},
+   Year = {2014} }
+
+
+
+
+@article{
+LiangLiu-7917,
+   Author = {Liang, Jiguang and Liu, Ping and Tan, Jianlong and Bai, Shuo},
+   Title = {Sentiment Classification Based on AS-LDA Model ☆},
+   Journal = {Procedia Computer Science},
+   Volume = {31},
+   Pages = {511-516},
+   Abstract = {We address the task of sentiment classification - identification of the polarity of the subjective document in this paper. We introduces a sentiment classification method called AS LDA. In this model, we assume that words in subjective documents consists of two parts: sentiment element words and auxiliary words which are sampled accordingly from sentiment topics and auxiliary topics. Sentiment element words include targets of the opinions, polarity words and modifiers of polarity words. Experimental results demonstrate that our approach outperforms Latent Dirichlet Allocation (LDA).},
+   Keywords = {sentiment analysis;sentiment classification;Latent Dirichlet Allocation;subjective document},
+   Year = {2014} }
+
+
+
+
+@article{
+ChouTsai-7920,
+   Author = {Chou, Po Hao and Tsai, Tzong Han and Hsu, Yung Jen},
+   Title = {Context-aware sentiment propagation using LDA topic modeling on Chinese ConceptNet},
+   Journal = {Soft Computing},
+   Pages = {1-11},
+   Abstract = {A sentiment dictionary is a valuable resource in sentiment analysis research. Previous work has propagated sentiment values from existing dictionaries via semantic networks to build wide-coverage dict},
+   Year = {2016} }
+
+
+
+
+@article{
+YangZhu-7921,
+   Author = {Yang, Min and Zhu, Dingju and Mustafa, Rashed and Chow, Kam Pui},
+   Title = {Learning Domain-specific Sentiment Lexicon with Supervised Sentiment-aware LDA},
+   Journal = {Frontiers in Artificial Intelligence & Applications},
+   Volume = {263},
+   Abstract = {ABSTRACT  Sentiment lexicons play a crucial role in sentiment analysis and opinion mining. However, most previous works focus on discovering general-purpose sentiment lexicons. They cannot capture domain-specific sentiment words, or implicit and connotative sentiment words that are seemingly objective. In this paper, we propose a novel sentimentaware LDA model. The model uses a minimal set of domainindependent seed words to discover a domain-specific lexicon, learning a lexicon much richer and adaptive to the sentiment of specific document. By comprehensive experiments, we demonstrate that our model can generate a high-quality domain-specific lexicon. Furthermore, the resulting lexicon significantly improves the performance of sentiment classification tasks.},
+   Keywords = {Conference_Paper},
+   Year = {2014} }
+
+
+
+
+@article{
+OuyangLiu-7922,
+   Author = {Ouyang, J. H. and Liu, Y. H. and Li, X. M. and Zhou, X. T.},
+   Title = {Multi-grain sentiment/topic model based on LDA},
+   Journal = {电子学报},
+   Abstract = {The topic and sentiment unification model (Reverse-Joint Sentiment/Topic Model;Joint Sentiment/Topic Model) can effectively extract information of topic and sentiment simultaneously and receives wide attention in the field of sentiment analysis,because it does not consider the relationship between the overall distribution and local distribution,so the classification performance is not good and stable.This paper proposed the multi-grain topic and sentiment unification model (MG-R-JST;MG-JST) by taking into account both grains on sentiment/topic distribution鈥攄ocument-level and local-level.MG-R-JST/MG-JST generated the sentiment/topic of words on the effect of the document-level and local-level distribution.we used Gibbs sampling for model inference and showed the process.Experiments on the dataset of MR and MDS demonstrate the effectiveness of the proposed method,and the classification performance is better and more stable than the topic and sentiment unification model.},
+   Year = {2015} }
+
+
+
+
+@article{
+Peng-7926,
+   Author = {Peng, Qing Xi},
+   Title = {Classifying Sentiment Based on LDA Model},
+   Journal = {Applied Mechanics & Materials},
+   Volume = {427-429},
+   Pages = {2614-2617},
+   Abstract = {Online reviews as a new textual domain offer a unique proposition for sentiment analysis. Their short document length suggests any sentiment they contain is compact and explicit. Although supersized methods have obtained good results, a large amount of corpus should be trained beforehand. Recently, topic models have been introduced for the simultaneous analysis for sentiment in the document. However, the LDA model makes the assumption that, given the parameters the words in the document are all independent. It obviously isnt the case. The words in the document express the sentiment of the author. This paper proposes a model to solve the problem. We assume that the sentiments are related to the topic in the documents. A sentiment layer is added to the LDA model to improve it. Experimental result in the dataset demonstrates the advantage of the proposed model.},
+   Keywords = {Gibbs Sampling;Latent Dirichlet Allocation (LDA);Sentiment Classification;Topic Model},
+   Year = {2013} }
+
+
+
+
+@article{
+RajamohanaUmamaheshwari-7928,
+   Author = {Rajamohana, S. P. and Umamaheshwari, K. and Karthiga, R.},
+   Title = {Sentiment classification based on LDA using SMO classifier},
+   Journal = {International Journal of Applied Engineering Research},
+   Volume = {10},
+   Number = {55},
+   Pages = {1051-1055},
+   Year = {2015} }
+
+
+
+
+@article{
+Paolo-7930,
+   Author = {Paolo, Rocca Comite Mascambruno},
+   Title = {Un metodo basato su LDA per la sentiment analysis},
+   Journal = {Universita Degli Studi Di Salerno},
+   Abstract = {La progressiva diffusione dei social network, sia generalisti (quali Twitter, Facebook o Google+, la recente piattaforma messa a punto da Google) sia specializzati (ad esempio le comunità professionali di Linkedin), ha reso disponibili una massiccia e inedita quantità di dati sulle preferenze sulle opinioni degli utenti.&#xD;&#xA;Questi dati, disponibili in quantità significative e in tempo reale, possono essere sia di carattere orizzontale e quindi di caratterizzazione territoriale (grazie anche alla possibilità di geo localizzazione degli smartphone, tablet e integrati nei MID (Mobile Internet Device) di ultima generazione, sia verticale (in termini anagrafici, culturali, professionali e in termini di orientamenti settoriali e capacità di spesa).&#xD;&#xA;La qualità e la contestualità (temporale e spaziale) di questi dati sulle tendenze degli utenti, con l’affermazione (oramai consolidata) del Web 2.0 (oggi Web 3.0), amplia la dimensione partecipativa alle scelte dell’impresa e delle istituzioni. Più che sul giacimento di idee e di opinioni disponibili in rete, imprese e istituzioni dovrebbero puntare sul valore delle comunità virtuali per modificare le proprie strategie di marketing, partendo proprio dal concetto di stakeholder, sviluppando, con il monitoraggio degli orientamenti, nuove metodologie di CRM... [a cura dell'autore]},
+   Year = {} }
+
+
+
+
+@article{
+TembhurnikarPatil-7931,
+   Author = {Tembhurnikar, Suvarna D. and Patil, Nitin N.},
+   Title = {Sentiment Analysis using LDA on Product Reviews: A Survey},
+   Abstract = {This paper presents a survey of sentiments analysis for product review. Online social and news media has become a very popular for users to share their opinions and generate prosperous and timely information about real world events of all kinds. Several efforts were dedicated for mining opinions and sentiments automatically from natural language in social media messages, news and commercial product reviews. For this task a deep understanding of the explicit and implicit information are needed. Social media like facebook, twitter, online review websites like Amazon are popular sites where millions of users exchange their opinions and making it a valuable platform for tracking and analyzing public sentiments. This provides important information for decision making in various domains. A lot of research has been done on modeling and tracking public sentiment. Here main focus is given to interpret sentiment variations. It has been observed that emerging topics within the sentiment variation periods are greatly related to the actual reasons behind the variations.},
+   Year = {} }
+
+
+
+
+@article{
+PoriaChaturvedi-7932,
+   Author = {Poria, Soujanya and Chaturvedi, Iti and Bisio, Federica and Cambria, Erik},
+   Title = {Sentic LDA: Improving on LDA with Semantic Similarity for Aspect-Based Sentiment Analysis},
+   Abstract = {Abstract--The advent of the Social Web has provided netizens with new tools for creating and sharing, in a time- and cost- efficient way, their contents, ideas, and opinions with virtually the millions of people connected to the World Wide Web. This huge amount of information, however, is mainly unstructured as specifically produced for human consumption and, hence, it is not directly machine-processable. In order to enable a more efficient passage from unstructured information to structured data, aspect-based opinion mining models the relations between opinion targets contained in a document and the polarity values associated with these. Because aspects are often implicit, however, spotting them and calculating their respective polarity is an extremely difficult task, which is closer to natural language understanding rather than natural language processing. To this end, Sentic LDA exploits common-sense reasoning to shift LDA clustering from a syntactic to a semantic level. Rather than look- ing at word co-occurrence frequencies, Sentic LDA leverages on the semantics associated with words and multi-word expressions to improve clustering and, hence, outperform state-of-the-art techniques for aspect extraction.},
+   Year = {} }
+
+
+
+
+@article{
+SureshMuthukumaran-7933,
+   Author = {Suresh, P. and MuthuKumaran, Mr. S.},
+   Title = { Sentiment Analysis of Product Reviews Using LDA Method based on Customer Text Content},
+   Abstract = {Abstract-This paper proposes a new approach to aspect-based sentiment analysis. The goal of our algorithm is to obtain a summary of the most positive and the most negative aspects of a specific product, given a collection of free-text customer reviews. Our approach starts by matching handcrafted dependency paths in individual sentences to find opinions expressed towards candidate aspects. Then, it clusters together different mentions of the same aspect by using a Word Net-based similarity measure. Finally, it computes a sentiment score for each aspect, which represents the overall emerging opinion of a group of customers towards a specific aspect of the product. Our approach does not require any seed word or domain-specific knowledge, as it only employs an off the-shelf sentiment lexicon. We discuss encouraging preliminary results in detecting and rating aspects from on- line reviews of books. We investigate the efficacy of topic model based approaches to two multi-aspect sentiment analysis tasks multi aspect sentence labeling and multi-aspect rating prediction},
+   Year = {} }
+
+
+
+
+@article{
+ZhangLiang-7934,
+   Author = {Zhang, Jian Hua and Liang, Zheng You},
+   Title = {A Sentiment Analysis Method Based on Sentiment Words Extraction and LDA Feature Representation},
+   Journal = {Computer & Modernization},
+   Number = {5},
+   Pages = {79-83},
+   Abstract = {As a new field of sentiment analysis,text mining can be used to classify and summarize online users' product reviews.The summaries and classification help provider to improve service and product quality,and also provide buyer advicse for other consumers. The paper proposes a sentiment analysis method based on sentiment words extraction and LDA feature representation,for online products' reviews making binary classification. The processing steps are as follows: extract sentiment words from the preprocessed text using the manually created sentiment dictionary; create the topic subject distribution of documents using the LDA model; take comment-subject distribution as feature; do classification based on the SVM classifier. Experiments show that,the proposed method has excellent effects of review of judgments classification.},
+   Keywords = {sentiment analysis;sentiment words extraction;latent Dirichlet allocation;topic model;support vector machine},
+   Year = {2014} }
+
+
+
+
+@article{
+李纲甘停-7935,
+   Author = {李纲 and 甘停 and 寇广增},
+   Title = {基于文本情感分类的网络推手识别},
+   Journal = {图书情报工作},
+   Volume = {54},
+   Number = {8},
+   Pages = {77-80},
+   Abstract = {摘　要: 网络推手识别研究在净化网络环境、监测网络舆论导向等领域有广阔的发展前景。采用文本情感倾向分析方法进行网络推手识别,通过分析信息发布者的情感倾向,统计正面情感信息与负面情感信息的比重,确定该信息发布者是否是网络推手。重点讨论信息抽取及情感分类相关技术的实现,并验证方法的可行性。},
+   Keywords = {网络推手;正文抽取;情感分类},
+   Year = {2010} }
+
+
+
+
+@article{
+李纲程洋洋-7936,
+   Author = {李纲 and 程洋洋 and 寇广增},
+   Title = {句子情感分析及其关键问题},
+   Journal = {图书情报工作},
+   Volume = {54},
+   Number = {11},
+   Pages = {104-107},
+   Abstract = {摘　要: 情感分析关注具有情感倾向的评价性信息,具有广泛的应用。情感分析按照粒度的不同分为三种:词汇情感分析、句子情感分析和文档情感分析。文中对句子情感分析及其关键问题进行介绍,首先简要描述句予情感分析的任务,然后介绍句子情感分析中主客观句分类方法及两种主观句情感分类方法——基于情感词的方法和机器学习方法,最后对情感分析中的三个关键问题——词汇上下文极性判定、评价主题识别、意见持有者识别进行总结。},
+   Keywords = {句子情感分析;词汇上下文极性;评价主题;意见持有者},
+   Year = {2010} }
+
+
+
+
+@article{
+夏火松刘建-7937,
+   Author = {夏火松 and 刘建 and 朱慧毅},
+   Title = {中文情感分类挖掘预处理关键技术比较研究},
+   Journal = {情报杂志},
+   Volume = {30},
+   Number = {9},
+   Pages = {160-163},
+   Abstract = {比较研究了中文情感分类挖掘预处理技术的不同组合对分类效果的影 响.预处理中关键技术为文本分词、特征选择和权重计算.考察了文档频率DF、信息增益IG、互信息MI、X2分布CHI、文本证据权(Weight of Evi-dence for Text,WET)5种不同的特征选取方法和布尔权重、词频型特征权重TF、TF-IDF函数3种常用的权重计算方法的15种不同组合.采用支持向量机 (SVM)分类器以考察特征选择方法和权重计算方法不同的组合的对情感分类的效果.实验结果表明IG和TF-IDF的组合最为有效,WET和TF的组合效 果最差,并给出了效果差异的原因.},
+   Keywords = {情感分类;预处理;特征值选择;特征权重;支持向量机(SVM)},
+   Year = {2011} }
+
+
+
+
+@article{
+徐健-7938,
+   Author = {徐健},
+   Title = {基于网络用户情感分析的预测方法研究},
+   Journal = {中国图书馆学报},
+   Volume = {39},
+   Number = {3},
+   Pages = {96-107},
+   Abstract = {网络用户情感分析领域的研究为 特定领域社会行为的预测提供了新的方法和工具。本文分析了基于情感分析进行预测的逻辑基础、典型预测方法、关键技术以及当前存在的问题和发展趋势。研究发 现:研究基于网络用户情感分析预测社会活动趋势的方法在政治、财经等多个领域具备应用条件;典型预测方法可归纳为以情感分析结果作为辅助依据的预测方法和 以情感分析结果作为主要依据的预测方法;预测过程涉及情感分析源的选择、预测时间提前量的确定以及情感词统计处理三个关键环节;当前研究还存在网络用户情 感的代表性,待分析语料的全面和正确获取,以及网络用户情感的正确分析和统计等问题,有待深入研究。},
+   Keywords = {社会化媒体;网络用户;情感分析;预测方法},
+   Year = {2013} }
+
+
+
+
+@article{
+李纲王忠义-7939,
+   Author = {李纲 and 王忠义 and 寇广增},
+   Title = {情感分类中情感词的情感倾向度的计算方法研究},
+   Journal = {情报学报},
+   Volume = {28},
+   Number = {3},
+   Pages = {292-298},
+   Abstract = {情感分类由于具有广泛的应用价值,成为当前的一个研究热点,然而 情感词的情感度的准确确定一直是影响情感分类准确性的关键.本文针对当前情感词情感度确定中存在的问题和不足,提出一种基于改进的模糊层次分析法的情感词 情感度的计算方法.该方法充分发挥了人和计算机的优点和长处,既能提高情感词情感度确定的科学准确性和情感检索的精准性,又可以减轻人的负担.},
+   Keywords = {情感分类;情感倾向度;模糊层次分析法},
+   Year = {2011} }
+
+
+
+
+@article{
+史伟王洪伟-7940,
+   Author = {史伟 and 王洪伟 and 何绍义},
+   Title = {基于微博平台的公众情感分析},
+   Journal = {情报学报},
+   Volume = {31},
+   Number = {11},
+   Pages = {1171-1178},
+   Abstract = {微博是一种在线交流形式,以其简短、方便和及时性在中国成为 2011年的一个热点.本文以新浪微博为平台,通过抽取2011年7月23日"动车事故"发生后公众发表的微博并进行情感分析.提取了六维情感类(期待, 高兴,喜爱,惊讶,焦虑,悲伤,生气和憎恨),构建了用于情感分析的模糊情感本体,建立了微博文本的影响力和情感计算方法,对"动车事故"后的公众情感随 事态发展的变化进行了探讨.},
+   Keywords = {微博;情感分析;模糊情感本体;情感计算},
+   Year = {2012} }
+
+
+
+
+@article{
+唐晓波肖璐-7941,
+   Author = {唐晓波 and 肖璐},
+   Title = {基于情感分析的评论挖掘模型研究},
+   Journal = {情报理论与实践},
+   Volume = {36},
+   Number = {7},
+   Pages = {100-105},
+   Abstract = {摘　要: 在社会化网络环境下,关于产品的评论成为企业竞争情报分析重要的数据源。这些评论中包含用户对产品各个方面的情感倾向,对其进行情感分析可以帮助商家了解产品的优缺点。针对现有情感分析的不足,本文在构建评论挖掘模型时综合采用了共词分析和基于句法分析的极性传递法。共词分析可定量确定用户关心的产品维度;极性传递算法考虑句子结构特点,在对句子级文本做情感分析时相较传统情感分类算法有更好的分析效果。同时,引入极性值和强度值计算情感词和主题词的情感强度。},
+   Keywords = {情感分析;评论挖掘;共词分析},
+   Year = {2013} }
+
+
+
+
+@article{
+李光敏张行文-7942,
+   Author = {李光敏 and 张行文 and 张磊 and 杨朋英},
+   Title = {面向网络舆情的评论文本情感分析研究},
+   Journal = {情报杂志},
+   Number = {5},
+   Pages = {157-160},
+   Abstract = {摘　要: 随着Intemet的迅速发展,互联网超越传统媒体成为反映社会舆情的主要载体。如何有效地从其中获取社情民意以引导社会健康发展是政府等职能部门所关注的重要问题。首先提出对日益增多的网络评论文本进行情感分析研究的必要性。然后从主题识别、主客观性分类、情感极性分类等方面介绍针对网络舆情的情感分析在国内外的研究进展。最后列举出情感分析在网络舆情监控方面的应用和今后需深入研究的问题。},
+   Keywords = {网络舆情;情感分析;主题识别;极性分类},
+   Year = {2014} }
+
+
+
+
+@article{
+甘小红张兆年-7943,
+   Author = {甘小红 and 张兆年},
+   Title = {基于多特征融合的中文情感分类方法研究},
+   Journal = {图书情报工作},
+   Volume = {56},
+   Number = {21},
+   Pages = {109-113},
+   Abstract = {提出一种具有特征级别的领域特征集合的情感资源挖掘方法,将基于 HowNet词典的分类法构建的情感特征与基于机器学习的特征分类方法中的无内容特征以及领域特征相融合,并将该集合放入支持向量机中进行情感分类实验, 实验结果表明,使用抽取模式以及多特征融合的分类方法,可增强中文情感分类效果,验证两种分类方法综合研究的正确性与有效性,弥补目前特征级别的中文情感 分类研究的不足。},
+   Keywords = {情感分类;情感特征;无内容特征;领域特征},
+   Year = {2012} }
+
+
+
+
+@article{
+王波-7944,
+   Author = {王波},
+   Title = {基于跨领域知识的基金评论情感分析},
+   Journal = {情报杂志},
+   Volume = {30},
+   Number = {2},
+   Pages = {44-47},
+   Abstract = {对互联网上的基金评论进行情感 倾向性分析,能够对中小投资者提供有益的帮助。由于这类评论未标注且样本数量相对较少,限制了基于统计的传统算法的性能。因此,通过引入其他领域的已标注 评论,研究了使用PMI、SI词素算法实现跨领域知识转移的可能性。实验表明,基于其他领域知识的词素算法获得了更好的性能。对于基金评论来说,引入其他 领域的已标注评论,通过使用词素算法,能够实现知识转移并促进系统性能的提升。},
+   Keywords = {情感分析;跨领域;词素;PMI;基金评论},
+   Year = {2011} }
+
+
+
+
+@article{
+夏火松陶敏-7945,
+   Author = {夏火松 and 陶敏 and 王一 and 魏翔},
+   Title = {停用词表对基于SVM的中文文本情感分类的影响},
+   Journal = {情报学报},
+   Volume = {30},
+   Number = {4},
+   Pages = {347-352},
+   Abstract = {摘　要: 运用非结构化信息挖掘,对网络评论情感进行分析是一个非常重要的方法。本文基于Web客户评 论情感文本,在情感文本预处理过程中使用四种不同的停用词表,采用两种不同的特征选择方法,选用著名的TF-IDF权重计算方法,使用基于RBF核函数的 支持向量机方法的分类器实现了对携程网上采集的4000个酒店客户评论情感文本的分类研究。通过实验,分析了不同特征选择方和停用词表的使用对客户评论文 本情感分类的影响,提出了基于情感文本分类的有效的停用词表。},
+   Keywords = {客户评论;情感分类;停用词表;特征选择;支持向量机},
+   Year = {2011} }
+
+
+
+
+@article{
+蔡晓珍徐健-7946,
+   Author = {蔡晓珍 and 徐健 and 吴思竹},
+   Title = {面向情感分析的用户评论过滤模型研究},
+   Journal = {现代图书情报技术},
+   Number = {4},
+   Pages = {58-64},
+   Abstract = {摘　要: 【目的】针对情感分析研究中网络用户评论质量良莠不一的问题,构建过滤模型进行筛选。【方法】选取涉及产品词汇量、评论长度、情感强度、修饰词数量4个指标作为评判依据,利用多元线性回归方法和来自购物网站的数据构建模型。【结果】发现涉及产品词汇量、评论长度、情感强度、修饰词数量与评论质量存在相关性。所构建的过滤模型具有较高的召回率和准确率,为情感分析中数据源的筛选提供一种新方法。【局限】存在数据稀缺性影响,所构建的模型具有局限性。【结论】在误差允许的范围内,该模型能够对评论的质量等级进行自动判断。},
+   Keywords = {评论过滤;用户评论;情感分析},
+   Year = {2014} }
+
+
+
+
+@article{
+唐晓波严承希-7947,
+   Author = {唐晓波 and 严承希},
+   Title = {基于旋进原则和支持向量机的文本情感分析研究},
+   Journal = {情报理论与实践},
+   Volume = {36},
+   Number = {1},
+   Pages = {98-103},
+   Abstract = {针对主观文本识别、情感分词以 及情感分类模型选择等研究方法上存在的效率较低、文本表达维度高等问题,文章提出了一种基于旋进原则和AdaBoost集成技术的回归SVM情感分类模型 (AdaBoost+SVM-L),不仅提高了主观文本标注准确率,更通过AdaBoost+SVM-L模型对情感样本的极性和强度进行了判断,实现了文 本情感强度阈值的可视化。并通过分组对照实验比较了SVM、NB以及AdaBoost+SVM-L模型的性能指标。},
+   Keywords = {文本情感分析;旋进原则;支持向量机;集成},
+   Year = {2013} }
+
+
+
+
+@article{
+杨宇婷王名扬-7948,
+   Author = {杨宇婷 and 王名扬 and 田宪允 and 李鹏宇},
+   Title = {基于文档分布式表达的新浪微博情感分类研究},
+   Journal = {情报杂志},
+   Volume = {35},
+   Number = {2},
+   Pages = {151-156},
+   Abstract = {摘　要: [目的/意义]拥有庞大用户群体的新浪微博每天都产生海量的文本数据,对其进行情感分类有助于分析社会的舆论走向,为舆情监测提供帮助。其中,如何挖掘微博中的文本特征与情感信息是微博情感分类研究的关键。[方法/过程]将能有效考察上下丈语境的基于文档分布式的特征表达方法引入到微博情感分类研究中,通过综合考虑上下文的语义、语序和情感信息,将微博文本转化为高维空间的特征向量,然后利用SVM分类器判断文本的情感极性。[结果/结论]实验表明,对微博文本进行文档分布式特征表达后,其分类准确率可达90.46%,优于其他特征表达方法。},
+   Keywords = {微博;情感分类;文档分布式表达;Doc2vec},
+   Year = {2016} }
+
+
+
+
+@article{
+徐勇张慧-7949,
+   Author = {徐勇 and 张慧 and 陈亮},
+   Title = {一种基于情感分析的UGC模糊综合评价方法——以淘宝商品文本评论UGC为例},
+   Journal = {情报理论与实践},
+   Number = {6},
+   Abstract = {模糊综合评价方法是一种对定性问题进行定量评价的有效方法,在电子商务、采矿、环境等领域有着广泛的应用。文章针对Web 2.0环境下文本形式的评价信息用户生成内容(UGC),在情感分析的基础上,利用模糊统计方法确定指标权重和模糊综合评价的隶属度,通过比较分析选择适合的模糊合成算子,建立用户生成内容模糊综合评价模型FCE。并以淘宝商品文本评价信息为测试数据,对综合评价方法 FCE进行了实证分析,证明了FCE的有效性。},
+   Keywords = {用户生成内容;模糊评价;文本情感分析},
+   Year = {2016} }
+
+
+
+
+@article{
+唐晓波朱娟-7950,
+   Author = {唐晓波 and 朱娟 and 杨丰华},
+   Title = {基于情感本体和kNN算法的在线评论情感分类研究},
+   Journal = {情报理论与实践},
+   Number = {6},
+   Abstract = {[目的/意义]构建针对网络在线评论的情感分析模型,一方面可以为用户决策提供支持;另一方面又可以帮助产品或服务提供商了解用户情感倾向,提升用户体验。[方法/过程]提出了基于情感本体和k NN算法的在线评论情感分类模型。该模型基于情感本体,通过对情感词数量和情感程度进行加权,提出了褒义量和贬义量的概念,并以此作为k NN算法的特征向量。通过爬取豆瓣网电影评论进行训练和测试,并分别从褒性评论和贬性评论的角度对分类效果进行评价。[结果/结论]结果表明,本算法在分类准确率和召回率方面都具有不错的水平,但同时对贬性评论分类效果优于褒性评论,为未来研究提供了新的思路。},
+   Keywords = {在线评论;情感分类;k最近邻分类法;本体},
+   Year = {2016} }
+
+
+
+
+@article{
+肖璐陈果-7951,
+   Author = {肖璐 and 陈果 and 刘继云},
+   Title = {基于情感分析的企业产品级竞争对手识别研究——以用户评论为数据源},
+   Journal = {图书情报工作},
+   Number = {1},
+   Pages = {83-90},
+   Abstract = {[目的 /意义]针对传统方法的不足,提出一种以用户评论为数据源的企业产品级竞争对手识别方法。[方法/过程]首先,根据企业分析维度确定候选竞争产品,进行相关评论文本采集;其次,利用信息抽取技术从本企业产品评论中抽取用户较为关注的产品特征;然后,基于情感分析技术设计特征情感权重算法;利用该算法对本企业产品特征进行优劣势分析,获取优势与劣势特征集,完成待分析产品向量空间表示与相似度计算;分析计算结果,挖掘出与本企业产品优势相似及劣势互补的候选竞争产品,并选择优势相似且劣势互补的产品为主要竞争对手,其他优势相似的产品为次要竞争对手。在实证部分,选择"红米Note"手机为分析对象,以"淘宝""京东""中关村在线"多源评论为数据源,利用基于情感分析的竞争对手识别方法挖掘该产品的主要和次要竞争对手。[结果/结论]本文的基于情感分析的竞争对手识别方法能够实现企业产品级竞争对手的识别与分析。},
+   Keywords = {竞争对手识别;情感分析;用户评论;向量空间模型},
+   Year = {2016} }
+
+
+
+
+@article{
+杜嘉忠徐健-7952,
+   Author = {杜嘉忠 and 徐健 and 刘颖},
+   Title = {网络商品评论的特征–情感词本体构建与情感分析方法研究},
+   Journal = {现代图书情报技术},
+   Volume = {30},
+   Number = {5},
+   Pages = {74-82},
+   Abstract = {【目的】解决情感分析领域使用通用情感词典进行情感分析时,在特定领域内无法识别领域专用情感词,以及同一情感词描述不同特征时可能表达出不同情感倾向的两个问题。【方法】提出一种基于领域专用情感词的网络评论情感分析方法。该方法构建特征–情感词本体,利用本体对网络上的产品评论进行情感分析。并与基于Senti-HowNet词典的情感分析方法进行对比。【结果】本文方法在特征层的情感倾向分析的准确率和召回率都有显著提高。【局限】本文方法中的本体需要尽可能完整的特征词集和情感词集,并且情感分析结果好坏直接依赖于本体的构建是否完善;由于网络文本的不规范性,特征词和情感词抽取以及情感分析的过程都不考虑句法结构;数据分析过程对问题进行了简化,仅考虑特征粒度的情感倾向,未考虑连词等对情感倾向有影响的其他因素。【结论】对专用情感词和通用情感词进行分类管理,解决了两个问题,情感分析结果得到提高。},
+   Keywords = {情感分析;专用情感词;本体;网络评论},
+   Year = {2014} }
+
+
+
+
+@article{
+彭浩徐健-7953,
+   Author = {彭浩 and 徐健 and 肖卓},
+   Title = {基于比较句的网络用户评论情感分析},
+   Journal = {现代图书情报技术},
+   Number = {12},
+   Pages = {48-56},
+   Abstract = {摘　要: 【目的】为帮助企业识别竞争产品,挖掘有价值的信息,提出基于比较句的情感分析模型。【方法】利用基于比较句数目的热门指数和差距指数筛选热门对比产品,从比较句中抽取特征并根据情感词典计算竞争产品的特征得分。为验证模型的效果,以手机产品为实验对象,以百度搜索引擎为数据来源展开实验。【结果】实验从28对手机产品中筛选出9对热门对比产品,并可视化分析产品的特征差异。相对于以往基于文本的情感分析方法,该模型能够更好地识别竞争产品以及判断竞争产品的用户情感取向。【局限】特征抽取准确性有待进一步提高,比较句识别率存在一定的提升空间。【结论】实验结果与实际情况相符合,模型具有有效性,该方法对企业有较高的利用价值。},
+   Keywords = {比较句抽取;情感分析;数据可视化;自然语言处理},
+   Year = {2015} }
+
+
+
+
+@article{
+郑飏飏徐健-7954,
+   Author = {郑飏飏 and 徐健 and 肖卓},
+   Title = {情感分析及可视化方法在网络视频弹幕数据分析中的应用},
+   Journal = {现代图书情报技术},
+   Number = {11},
+   Pages = {82-90},
+   Abstract = {【目的】利用情感分析技术提取弹幕评论中包含的情感数据并对其进行可视化,获取网络视频的情感特征及走势。【应用背景】网络视频弹幕中的评论信息经情感分析及可视化处理后可作为视频的情感标签,在此基础上建立基于评论情感的视频检索模式。【方法】利用句子级别的情感分析方法,建立基于情感词典的弹幕情感分析模型,对评论文本进行情感词抽取及情感值计算,并结合时间序列进行分析。【结果】获取弹幕中的情感数据,绘制弹幕评论的多维情感类别雷达图、情感词标签云和情感趋势曲线等。【结论】利用情感分析及可视化方法,可以帮助用户获取网络视频弹幕数据中包含的情感信息,进而提供一种新的视频检索途径。},
+   Keywords = {弹幕;情感分析;可视化;视频检索},
+   Year = {2015} }
+
+
+
+
+@article{
+张志武-7955,
+   Author = {张志武},
+   Title = {跨领域迁移学习产品评论情感分析},
+   Journal = {现代图书情报技术},
+   Number = {6},
+   Pages = {49-54},
+   Abstract = {针对不完备数据的产品评论情感 分析问题,提出基于谱聚类的跨领域迁移学习情感分析方法。将领域无关的词语作为桥梁,通过谱聚类算法把不同领域的领域相关词语排列到统一的聚类中,减少源 领域和目标领域的领域相关词语间的差异,提高情感分类器在目标领域的分类准确率。实验结果验证该方法在解决跨领域产品评论情感分析问题上的有效性和优越 性。},
+   Keywords = {情感分析;迁移学习;跨领域;谱聚类;产品评论},
+   Year = {2013} }
+
+
+
+
+@article{
+郑丽娟王洪伟-7956,
+   Author = {郑丽娟 and 王洪伟 and 郭恺强},
+   Title = {中文网络评论的情感分类:句子与段落的比较研究},
+   Journal = {情报学报},
+   Volume = {32},
+   Number = {4},
+   Pages = {376-384},
+   Abstract = {摘　要: 针对句子和段落两种粒度的语料,采用机器统计学习方法,对可能影响中文网络评论情感分类效果的因素进行实验研究。选取N-gram作为情感文本的潜在特征项,利用文档频率、X2统计量以及期望交叉熵对特征项实施降维处理,采用布尔权重法构建特征向量,并采用SVM分类器进行网络评论的情感分类。研究发现,语料的粒度对分类准确率的影响较大,句子粒度和段落粒度的分类准确率约相差10%;特征降维方法对句子和段落的分类准确率都有一定影响,且分类效果各有优劣,因此应根据不同需要进行选择;Unigram、Bigram分类效果的优劣受到语料粒度和特征降维方法的影响,因此并非一成不变。},
+   Keywords = {网络评论;情感分类;句子;段落},
+   Year = {2013} }
+
+
+
+
+@article{
+马晓玲金碧漪-7957,
+   Author = {马晓玲 and 金碧漪 and 范并思},
+   Title = {中文文本情感倾向分析研究},
+   Journal = {情报资料工作},
+   Number = {1},
+   Pages = {52-56},
+   Abstract = {文章首先采用文献计量的方法,统计分析了中文文本情感领域相关的研究论文并给出当前研究框架;接着分类研究了中文文本情感分析的代表性成果,按基础理论研究和应用研究两部分进行深入探讨,前者包括词语和文档情感极性判断、细粒度情感信息抽取、情感分析资源建设,后者则包括其在各领域的应用研究及相关商业系统;最后对中文文本情感倾向分析进行了展望。},
+   Keywords = {中文文本情感分析;文献计量;情感极性判断;情感信息抽取;语料库},
+   Year = {2013} }
+
+
+
+
+@article{
+夏火松朱慧毅-7958,
+   Author = {夏火松 and 朱慧毅 and 魏凤蕊},
+   Title = {商品主观评论的情感细分类模型研究},
+   Journal = {情报杂志},
+   Number = {2},
+   Pages = {117-120},
+   Abstract = {在现有褒贬性情感分类的研究中,缺乏对商品具体属性情感倾向的分 析.基于此,建立细分类模型,将情感分类分为初分类和细分类两个过程.初分类确定商品评论的整体情感倾向,根据初分类的结果对商品的各个属性再次进行情感 分类,以确定具体属性的情感倾向.从而消费者无需阅读具体的文本评论,就可以全面直观地了解商品,缩短做出购买决策的时间,降低决策的复杂度.该模型可作 为网上商品销售的一个扩展功能使用,并利用酒店评论文本检测了模型的有效性.同时,论文通过对四种经典的特征算法的测试,发现在情感细分类中互信息 (Mutual Information,MI)达到了更高的准确度.},
+   Keywords = {商品主观评论;文本挖掘;情感细分类;情感倾向分析;支持向量机(SVM);人工神经网络(ANN)},
+   Year = {2013} }
+
+
+
+
+@article{
+陆泉陈静-7959,
+   Author = {陆泉 and 陈静 and 丁恒},
+   Title = {基于社会标签的图像情感自动分类标注研究},
+   Journal = {图书情报工作},
+   Volume = {58},
+   Number = {12},
+   Pages = {118-123},
+   Abstract = {以现存的大量图像社会标签为基础,设计基于社会标签的图像情感自动分类标注模型,提出图像社会标签对情感的贡献度、区分度以及标签在情感维度上的权重3个 因子及计算方法,实现图像5种基本情感语义的分类标注.在实际社会网络数据集上进行验证实验,结果表明建立的模型方法在自动标注图像情感语义方面具有较高 的准确性和应用性.同时还发现,实际数据集中情感分布差异与复合情感对图像自动标注具有影响.},
+   Keywords = {情感标注;自动图像标注;社会标签;文本分类;语义鸿沟},
+   Year = {2014} }
+
+
+
+
+@article{
+陆泉陈静-7960,
+   Author = {陆泉 and 陈静 and 丁恒},
+   Title = {基十社会标签的图像情感自动分类标注研究},
+   Journal = {图书情报工作},
+   Abstract = {以现存的大量图像社会标签为基础,设计基于社会标签的图像情感自动分类标注模型,提出图像社会标签对情感的贡献度、区分度以及标签在情感维度上的权重3个 因子及计算方法,实现图像5种基本情感语义的分类标注。在实际社会网络数据集上进行验证实验,结果表明建立的模型方法在自动标注图像情感语义方面具有较高 的准确性和应用性。同时还发现,实际数据集中情感分布差异与复合情感对图像自动标注具有影响。},
+   Keywords = {情感标注;自动图像标注;社会标签;文本分类;语义鸿沟},
+   Year = {2014} }
+
+
+
+
+@article{
+曹树金周小又-7961,
+   Author = {曹树金 and 周小又 and 陈桂鸿},
+   Title = {网络舆情监控系统中的主题帖自动标引及情感倾向分析研究},
+   Journal = {图书情报知识},
+   Number = {1},
+   Pages = {66-73},
+   Abstract = {本研究以逸仙时空BBS为舆情信息源,对需要关注的帖子进行情感倾向性分析的探索性研究,设计了主题帖自动标引和情感倾向性分析策略,并对主题帖自动标引结果、倾向性人工判断与自动分析的结果进行对比。},
+   Keywords = {网络舆情;舆情监控;主题帖;自动标引;情感倾向;文本倾向性},
+   Year = {2012} }
+
+
+
+
+@article{
+王洪伟郑丽娟-7962,
+   Author = {王洪伟 and 郑丽娟 and 尹裴 and 史伟},
+   Title = {在线评论的情感极性分类研究综述},
+   Journal = {情报科学},
+   Number = {8},
+   Pages = {1263-1271},
+   Abstract = {对在线评论情感极性分类的研究现状与进展进行了总结。首先对情感类型的划分进行归纳,并针对在线评论中所涉及到的肯定和否定两种情感,从粗粒度、细粒度和实证研究三方面展开评述。为研究情感极性分类的商业价值,对在线评论将如何影响消费者的购买行为以及如何影响商家的销售绩效的工作进行整理和评述。最后对今后的研究方向进行展望。},
+   Keywords = {情感极性分类;在线评论;综述},
+   Year = {2012} }
+
+
+
+
+@article{
+施寒潇厉小军-7963,
+   Author = {施寒潇 and 厉小军},
+   Title = {主观性句子情感倾向性分析方法的研究},
+   Journal = {情报学报},
+   Volume = {30},
+   Number = {5},
+   Pages = {522-529},
+   Abstract = {随着电子商务的飞速发展,用户评论信息对潜在顾客、商家和商品生 产商的影响越来越大.由于在线的评论信息十分海量,所以很难通过人工浏览方式进行全面获取.评论句子往往具有很强的主观性,本文提出了整体方案帮助解决评 论信息的获取、处理和可视化显示.通过利用词语的相似性计算方法和字的情感倾向分布概率计算方法,实现了极性词典的倾向值量化计算和极性词典的自动扩展. 通过利用语义角色标注实现对评论句子的浅层语义分析,并利用统计结果设计出计算句子细粒度情感倾向值的方法.实验结果证明,基于语义角色标注方法比基于词 性标注方法在句子细粒度情感倾向值计算中更有效.},
+   Keywords = {情感倾向分析;意见挖掘;语义角色标注},
+   Year = {2011} }
+
+
+
+
+@article{
+张红斌李广丽-7964,
+   Author = {张红斌 and 李广丽},
+   Title = {商品在线评价的情感倾向性分析研究},
+   Journal = {现代图书情报技术},
+   Number = {10},
+   Pages = {61-66},
+   Abstract = {围绕商品在线评论的语义挖掘问题,采用情感倾向性分析技术对商品在线评论进行情感倾向性极性分析,在此基础上定量度量情感倾向性强度,以正确地表达商品在线评论信息的语义内涵。选择淘宝网小米手机和摩托罗拉ME525+手机的在线评论进行实验分析,结果表明本研究获取的情感倾向性自动评分的准确率达到80%以上,且绝大多数的商品属性指标均能保证正确的情感倾向性极性。因此,该研究成果对用户的网上购物具有一定的参考价值。},
+   Keywords = {情感倾向性分析;商品在线评论;Rost EA;Heritrix;正则表达式},
+   Year = {2012} }
+
+
+
+
+@article{
+李纲刘广兴-7965,
+   Author = {李纲 and 刘广兴 and 毛进 and 叶光辉},
+   Title = {一种基于句法分析的情感标签抽取方法},
+   Journal = {图书情报工作},
+   Number = {14},
+   Pages = {12-20},
+   Abstract = {指出情感标签由评价对象和情感词组成,包含评论的关键要素,能清楚地表达评价者的观点意见。提出一种针对产品网络评论的情感标签抽取模型,利用依存句法分析设计情感标签抽取算法,通过情感极性计算对抽取出的情感标签进行过滤。通过放宽的抽取规则与情感极性过滤相结合,以提高情感标签的召回率,实现潜在评价对象的抽取。最后用网络抓取的产品评论语料作为测试数据集对模型进行测试,获得较高的抽取准确率和召回率,并对模型中存在的问题进行总结,作为模型改善的指导。},
+   Keywords = {情感标签;观点挖掘;依存句法分析;产品评论},
+   Year = {2014} }
+
+
+
+
+@article{
+杜思奇李红莲-7966,
+   Author = {杜思奇 and 李红莲 and 吕学强},
+   Title = {基于汉语组块分析的情感标签抽取},
+   Journal = {情报理论与实践},
+   Number = {5},
+   Abstract = {[目的/意义]面向电子商务领域的在线评论,通过识别产品特征和评价词之间是否存在修饰关系,抽取出在线评论中的情感标签,从而帮助网购用户迅速了解某一产品的性能。[方法/过程]引入汉语组块分析对评论文本进行初始化处理,对名词性信息以及形容词性信息进行抽取。通过最大熵对初始化集合进行过滤,从而获得最终的情感标签集合。[结果/结论]该方法对评论文本的适应性较好,可以有效抽取出情感标签。[局限]需要对语料进行初始化抽取,经过过滤后才能获得最终的情感标签集合。},
+   Keywords = {情感标签;汉语组块分析;最大熵模型},
+   Year = {2016} }
+
+
+
+
+@article{
+黄卫东林萍-7967,
+   Author = {黄卫东 and 林萍 and 董怡 and 李宏伟},
+   Title = {基于话题特征词的网络舆情参与者情感演化分析},
+   Journal = {情报杂志},
+   Number = {11},
+   Pages = {117-122},
+   Abstract = {网络舆情参与者对舆情事件情感指向的清晰定位,可以为舆情事件主体或监管部门准确掌握民众关注焦点、制定有效的网络舆情引导措施提供科学的参考。使用PLSA模型提取网络舆情话题及其特征词,结合TF-IDF修正话题特征词;基于已经提取到的话题文本特征词,构建对应的情感词表,并应用HowNet相似度算法计算每个情感词对应的正负情感倾向值;综合考虑特征词对应的所有情感词,计算得出特征词的情感值,对舆情参与者的情感指向及变化进行准确定位。},
+   Keywords = {网络舆情;话题;特征词;情感分析},
+   Year = {2015} }
+
+
+
+
+@article{
+吴青林周天宏-7968,
+   Author = {吴青林 and 周天宏},
+   Title = {基于话题聚类及情感强度的中文微博舆情分析},
+   Journal = {情报理论与实践},
+   Volume = {39},
+   Number = {1},
+   Pages = {109-112},
+   Abstract = {文章通过话题聚类及情感强度分析中文微博舆情,实现对微博热点问题的预测,有利于公众舆情引导.首先充分考虑微博短文本的特点,在特征值提取基础上克服了微博短文本易发生“文本漂移”的缺点,并根据微博高频词对微博进行排序实现微博的快速聚类,接着从主观和客观两方面对热点话题的情感强度进行了分析,基于灰色模型跟踪并预测公众情感变化倾向.实验结果表明,本文提出的基于话题聚类及情感强度的中文微博舆情分析方法具有一定的可行性.},
+   Keywords = {微博;话题聚类;网络舆情},
+   Year = {2016} }
+
+
+
+
+@article{
+刘继李磊-7969,
+   Author = {刘继 and 李磊},
+   Title = {暴恐主题下微博用户特征及情感倾向性分析},
+   Journal = {情报杂志},
+   Number = {12},
+   Pages = {109-113},
+   Abstract = {暴力恐怖事件给国家和社会安全 管理带来很大的挑战,关于"暴恐"舆情的深入研究是网络舆情分析的重要内容之一。基于"新疆暴恐"主题下的微博抽样数据,对微博用户的基本特征进行了统计 描述,刻画了舆情情感倾向强度的动态变化,并构建有序多分类Logistic回归模型,研究了影响网民情感倾向性的主要因素。实证结果表明网民的性别、活 跃度、所在地区的环境效应对情感倾向有显著影响,但活跃度与其它因素的交互作用对影响效应有一定的抵消作用。},
+   Keywords = {暴力恐怖;情感倾向;微博用户;多分类logit模型;负面影响},
+   Year = {2014} }
+
+
+
+
+@article{
+陈忆金曹树金-7970,
+   Author = {陈忆金 and 曹树金 and 陈桂鸿},
+   Title = {网络舆情意见挖掘:用户评论情感倾向分析研究},
+   Journal = {图书情报知识},
+   Number = {6},
+   Pages = {90-96},
+   Abstract = {结合网络舆情信息的实际情况,本文提出舆情意见句的分割、实现舆情意见句主题抽取、进行正负面情感倾向判断、以及能够定量对回帖进行意见情感倾向分析的方法,统计并产生可读性较强的报告。},
+   Keywords = {网络舆情;意见挖掘;情感倾向分析},
+   Year = {2013} }
+
+
+
+
+@article{
+唐晓波童海燕-7971,
+   Author = {唐晓波 and 童海燕 and 严承希},
+   Title = {基于话题情感强度的微博舆情分析},
+   Journal = {图书馆学研究},
+   Number = {17},
+   Pages = {85-93},
+   Abstract = {摘　要: 舆情事件发生时往往引发公众持续的关注和激烈的讨论。鉴于此,文章提出一种基于话题情感强度的微博舆情分析模型,实现对微博舆情热点的探测和跟踪。该模型采用LDA聚类算法对在线微博文本流挖掘检测微博话题,结合情感强度定律计算话题情感强度,通过对话题的情感强度进行时序回归分析,跟踪事件发生过程中公众的情感变化,弥补了传统的话题探测方法不能有效跟踪舆情热点的不足。并通过实证分析证明了该方法的可行性。},
+   Keywords = {情感强度;LDA;舆情分析},
+   Year = {2014} }
+
+
+
+
+@article{
+罗红卫-7972,
+   Author = {罗红卫},
+   Title = {基于SPSS的职教网络英语实践教学情感因素分析报告},
+   Journal = {电化教育研究},
+   Number = {6},
+   Pages = {106-111},
+   Abstract = {实践性教学是网络教育教学过程中的重点和难点。本研究基于网络QQ聊天平台,采用SPSS17.0版社会科学统计软件包进行数据统计,借助对高职英语专业网络实习教学阶段所作的情感调查,了解实习者的情感体验和意义阐释。研究发现情感对网络实践教学作用直接,且实习者具有心流的情感体验。研究试图为网络教育实践教学管理、网络英语实践教学设计、网络教育实践教学学习支持服务的行为取向提供有实际意义的策略参考。},
+   Keywords = {SPSS;职教;网络英语;实践教学;情感},
+   Year = {2012} }
+
+
+
+
+@article{
+吴志华戴晓莹-7973,
+   Author = {吴志华 and 戴晓莹 and 牛青田},
+   Title = {情感因素促进学生职业能力提升的实证分析——以高职实践课程为例},
+   Journal = {教育科学},
+   Volume = {29},
+   Number = {2},
+   Abstract = {摘　要: 本研究通过对6所高职院校616名大三学生调查,分析情感因素以及课程学习投入度与学生职业实践能力的联系.结果显示,学生的职业能力发展水平与他们的职业兴趣、享乐和课程参与度有显著性关系(p<0.01).具有高层次的情感因素的学生的职业实践能力超过了那些职业情感中等和低等层次的学生.结果建议,改善高职学生学习实践课程的情感、情绪会提高学生职业能力水平和提升实践课程学习效果.},
+   Keywords = {情感因素;职业能力;实证分析;高职课程},
+   Year = {2013} }
+
+
+
+
+@article{
+古海波顾佩娅-7974,
+   Author = {古海波 and 顾佩娅},
+   Title = {国际教师情感研究进展的可视化分析及其启示},
+   Journal = {外语电化教学},
+   Number = {3},
+   Pages = {50-56},
+   Abstract = {本文运用Cite Space软件对Web of Science近二十年收录的国际教师情感研究文献进行可视化分析,旨在了解该新兴领域的发展脉络,为外语教师发展研究提供启示。基于对教师情感研究总体趋势、热点主题、高影响力文献和理论视角以及未来研究前沿的分析,本文提出我国外语界需要采取多元研究视角,关注不同外语教师群体的情感体验及其影响因素,以及采用叙事等质性方法理解和呈现教师情感,促进外语教师研究向纵深发展。},
+   Keywords = {教师情感;CiteSpace;外语教师发展},
+   Year = {2015} }
+
+
+
+
+@article{
+陈艳华-7975,
+   Author = {陈艳华},
+   Title = {克拉申的输入及情感过滤假设的认知分析},
+   Journal = {湖南社会科学},
+   Number = {3},
+   Pages = {183-185},
+   Abstract = {摘　要: 本文立足于认知理论,重点研究克拉申的可理解输入和情感因素的有效结合与大学英语分级教学之间的关系,进一步论证了大学英语分级教学改革的认知基础,提出了输入假设和情感过滤假设理论的有效结合对有效实施大学英语分级教学的启示。},
+   Keywords = {大学英语分级教学;输入假设;情感教学},
+   Year = {2011} }
+
+
+
+
+@article{
+秦磊胡加圣-7976,
+   Author = {秦磊 and 胡加圣},
+   Title = {影响学生情感过滤的大学英语教师因素分析},
+   Journal = {现代教育技术},
+   Volume = {20},
+   Number = {6},
+   Pages = {59-62},
+   Abstract = {摘　要: 文章以人本主义教学和情感过滤假说为理论依据,利用主成分分析法探讨了多媒体大学英语课堂影响学生情感过滤的教师因素,以及对大学英语课堂教学的启发,提出教师把积极情感因素渗透到多媒体辅助教学模式中的相关策略。},
+   Keywords = {多媒体;情感过滤;主成分分析法},
+   Year = {2010} }
+
+
+
+
+@article{
+蓝杨-7977,
+   Author = {蓝杨},
+   Title = {基于社会认知理论的国外网络文本情感分析},
+   Journal = {语言教学与研究},
+   Number = {2},
+   Pages = {103-112},
+   Abstract = {摘　要: 随着社交媒体和网络的迅速发展,互联网(如微博和论坛)上产生了大量用户参与的对于诸如人物、事件和产品等的评论信息,这些信息成为分析人们情感和观点的重要材料。本文将基于传统语言特征的分析方法探讨对这些非正式文本情感分析的局限性。受各种社会认知理论的启发,我们结合局部语言特征和全球性社会惯例来改善情感分析的方法。在没有使用任何额外标记数据的基础上,使用这种新方法对美国总统选举领域的多类型文本情感进行分析,其效果显著。},
+   Keywords = {多语类;情感;分析;社会认知;语言学},
+   Year = {2014} }
+
+
+
+
+@article{
+聂尧-7978,
+   Author = {聂尧},
+   Title = {基于评价理论的文本情感分析——以Last Orders与As I Lay Dying为例},
+   Journal = {外语学刊},
+   Number = {5},
+   Pages = {138-141},
+   Abstract = {格雷厄姆·斯威夫特的小说《杯酒留痕》被视为福克纳小说《我弥留之际》的复制品,因为它们在叙事风格、情节和主题方面有许多相似之处,都是描写送葬和死亡的小说,但却是两个风格完全不同的作品。本文借鉴评价理论中有关情感要素的研究成果,通过手动数据统计分析两部小说的主要人物,揭示这两部作品之间的本质差异。},
+   Keywords = {评价理论;人物;情感},
+   Year = {2015} }
+
+
+
+
+@article{
+倪传斌-7979,
+   Author = {倪传斌},
+   Title = {情感因素对外语磨蚀群体目标语接触量的影响——基于数据挖掘的建模与分类},
+   Journal = {外语教学理论与实践},
+   Number = {1},
+   Abstract = {在已探明的外语磨蚀影响因素中,只有情感因素对外语磨蚀的直接作用尚不明确。本文基于对704名大学毕业生的调查,运用结构方程模型分析情感因素对目标语接触量的影响路径和力度,并通过情感因素的分类,提取外语磨蚀群体的主要类别和"低目标语接触量"的群体特征。所得基本结论如下:1)随着时间的推移,情感因素基本保持稳定,目标语接触量会明显下降,好的情感因素可提升目标语接触量;2)"低目标语接触量"的群体特征为:人数比例小,对待目标语的语言态度表现为中性或偏消极,具备中性或偏弱融入性动机和极弱的工具性动机。},
+   Keywords = {情感因素;外语接触量;目标语;数据挖掘;工具性动机;磨蚀;融入性动机;语言态度;群体特征;外语水平},
+   Year = {2010} }
+
+
+
+
+@article{
+曾勉-7980,
+   Author = {曾勉},
+   Title = {语篇分析视域中教师话语的情感作用},
+   Journal = {外语学刊},
+   Number = {1},
+   Pages = {35-37},
+   Abstract = {本文通过语篇实例分析,探讨教 师话语的情感作用。教师话语的情感作用主要受教师自身情感和语篇内容的情感因素影响,同时通过音韵特征表达。教师话语的情感作用使学生从情感高度深刻领会 和理解课文知识、内容和意义,对提高学生语言整体能力、语言欣赏能力和语言思维能力等具有重要作用。},
+   Keywords = {语篇分析;教师话语情感作用},
+   Year = {2011} }
+
+
+
+
+@article{
+龚双萍-7981,
+   Author = {龚双萍},
+   Title = {冲突性网评中情感立场的语用分析},
+   Journal = {现代外语},
+   Number = {2},
+   Pages = {168-178},
+   Abstract = {摘　要: 本文以钓鱼岛事件新闻报道中的冲突性网评为语料,结合Langlotz&Locher(2012)的冲突话语与情感立场理论和Spencer—Oatey(2008)的人际和谐管理模式提出了冲突性网评情感立场的语用解释框架,并在此框架下分析了冲突性网评中的情感立场。分析表明,冲突性网评中主要存在直接情感立场表达、间接情感立场隐含和情感描述等三类情感立场表达策略。冲突性网评所表达的概念内容、人/群际关系,以及情感立场是一个统一的意义整体,三者间存在着动态变化的相互关系。},
+   Keywords = {冲突性网评;情感立场;表达策略;交际参与模式;人;群际关系管理},
+   Year = {2014} }
+
+
+
+
+@article{
+张变革-7982,
+   Author = {张变革},
+   Title = {以情感唤醒理性:阿列克谢耶维奇创作中的知识分子话语},
+   Journal = {俄罗斯文艺},
+   Number = {2},
+   Abstract = {白俄罗斯女作家阿列克谢耶维奇的创作,以直面灾难的道德勇气带给人强烈的情感冲击和思想震撼。这既得益于俄国知识分子精神的传承,也是对当代世界知识分子话语的呼应,是对乌托邦意识形态的反思,是对人理性精神的深沉呼唤。本文以文本细读的方式分析作家创作中情感的道德力量,以历史批评的方法探究俄国知识分子的双重角色,以政治学概念考量作家对极权主义的批判性反思。灾难叙述中呈现出的作者声音,既是对人性尊严的捍卫,也是对人理性误区的反思。俄国知识分子的救世情怀饱含人道主义激情,而知识分子对乌托邦的迷恋则导致了极权主义的产生。在人类面临生存困境的当代,作家的反思尤其具有现实意义。},
+   Keywords = {情感;理性;知识分子;极权主义},
+   Year = {2016} }
+
+
+
+
+@article{
+ZhangBiange-7983,
+   Author = {Zhang and Biange},
+   Title = {以情感唤醒理性:阿列克谢耶维奇创作中的知识分子话语},
+   Journal = {俄罗斯文艺},
+   Number = {2},
+   Pages = {17-24},
+   Abstract = {摘　要: 白俄罗斯女作家阿列克谢耶维奇的创作,以直面灾难的道德勇气带给人强烈的情感冲击和思想震撼。这既得益于俄国知识分子精神的传承,也是对当代世界知识分子话语的呼应,是对乌托邦意识形态的反思,是对人理性精神的深沉呼唤。本文以文本细读的方式分析作家创作中情感的道德力量,以历史批评的方法探究俄国知识分子的双重角色,以政治学概念考量作家对极权主义的批判性反思。灾难叙述中呈现出的作者声音,既是对人性尊严的捍卫,也是对人理性误区的反思。俄国知识分子的救世情怀饱含人道主义激情,而知识分子对乌托邦的迷恋则导致了极权主义的产生。在人类面临生存困境的当代,作家的反思尤其具有现实意义。},
+   Keywords = {知识分子话语;理性精神;作家创作;情感;批判性反思;唤醒;知识分子精神;当代世界},
+   Year = {2016} }
+
+
+
+
+@article{
+陈彧-7985,
+   Author = {陈彧},
+   Title = {不同情感状态下的普通话言语清晰度分析},
+   Journal = {海南大学学报(人文社会科学版)},
+   Number = {5},
+   Pages = {69-76},
+   Abstract = {摘　要: 通过对汉语情感语音库中四名发音人的语音样品进行考察,发现言语清晰度确实受到发音人情感状态的影响,即悲伤情感状态下的言语清晰度好于喜悦和惊奇,而喜悦和惊奇又好于愤怒。同时,相应情感状态下的元音声学空间参数基本能够反映言语清晰度的变化情况。因此,声学空间特征参数能够作为候选参数应用于语音合成实践。},
+   Keywords = {情感语音;言语清晰度;声学空间特征参数;感知实验;相关分析},
+   Year = {2012} }
+
+
+
+
+@article{
+王洪伟刘勰-7986,
+   Author = {王洪伟 and 刘勰 and 尹裴 and 廖雅国},
+   Title = {Web文本情感分类研究综述},
+   Journal = {情报学报},
+   Volume = {29},
+   Number = {5},
+   Pages = {931-938},
+   Abstract = {对用户发表在Web上的评论进行分析,能够识别出隐含在其中的情 感信息,并发现用户情感的演变规律.为此,本文对Web文本情感分类的研究进行综述.将情感分类划分为三类任务:主客观分类、极性判别和强度判别,对各自 的研究进展进行总结.其中将情感极性判别的方法分为基于情感词汇语义特性的识别和基于统计自然语言处理的识别方法.分析了情感分类中的语料库选择和研究难 点.最后总结了情感分类的应用现状,并指出今后的研究方向.},
+   Keywords = {Web文本;情感分类;综述;主观性文本},
+   Year = {2010} }
+
+
+
+
+@article{
+史伟王洪伟-7987,
+   Author = {史伟 and 王洪伟 and 何绍义},
+   Title = {基于语义的中文在线评论情感分析},
+   Journal = {情报学报},
+   Volume = {32},
+   Number = {8},
+   Pages = {860-867},
+   Abstract = {为解决传统的情感分析方法中存在的语义理解能力不足和情感分析不 充分问题,本文从语义的角度,运用构建模糊情感本体的方法,对中文在线评论情感分析进行研究.引入情感空间模型,并将传统的在线评论情感分析细分为特征评 价和情绪表达两方面.基于已建立的模糊情感本体,对产品(服务)的特征、情感类和强度、程度词、否定词、修辞方法和标点等语义元素进行标注,构建从句子层 到文档层的情感计算方法.选取有代表性的评论语料进行实验,结果表明建立的情感分析方法具有优良的准确性和应用性,进一步分析发现不同评论语料中情感具有 不同的表达形式和关联关系.},
+   Keywords = {情感本体;情感分析;语料标注;模糊语义;在线评论},
+   Year = {2013} }
+
+
+
+
+@article{
+史伟王洪伟-7988,
+   Author = {史伟 and 王洪伟 and 何绍义},
+   Title = {基于微博的产品评论挖掘:情感分析的方法1)},
+   Journal = {情报学报},
+   Number = {12},
+   Pages = {1311-1321},
+   Abstract = {针对微博中的海量产品评论信息,提出了一种基于模糊观点词的产品 评论情感极性和强度计算方法。该算法运用规范化的TFIDF加权方法提取产品特征,基于知网构建模糊观点词词库,应用BMI (Balanced Mutual Information)方法进行特征词和观点词关联度计算,因而有效解决了微博产品评论中特征-观点对的提取问题。通过微博文本影响力分析,结合对微博 文本中的情感语义因素定量计算,提高了微博产品评论情感分析的准确率。给出了应用该方法的具体步骤,通过实验分析发现本文构建的算法在各方面的表现都处于 不错的水平并具有很好的应用性。},
+   Keywords = {微博;产品评论;情感分析;观点词},
+   Year = {2014} }
+
+
+
+
+@article{
+孙波刘永娜-7989,
+   Author = {孙波 and 刘永娜 and 陈玖冰 and 罗继鸿 and 张迪},
+   Title = {智慧学习环境中基于面部表情的情感分析},
+   Journal = {现代远程教育研究},
+   Number = {2},
+   Pages = {96-103},
+   Abstract = {情感与认知加工之间存在着密不可分的联系,学习过程中的情感状态 对学习效果有一定的影响。在智慧学习环境中实现学习者情感分析,有利于促进智慧学习的发生。表情作为人类情感表达的主要方式,其中蕴含了大量有关内心情感 变化的信息,通过面部表情人们可以推断内心微妙的情感状态。目前,人脸检测技术已经实现了从复杂背景中定位人脸,分类算法也相对成熟,因此表情识别的研究 工作主要集中在表情特征提取上,而现有研究基本上都是基于人脸与表情的混合特征进行的识别,这产生了较大的干扰。在表情识别时,理想情况是将个体相关的人 脸特征和与个体无关的表情特征相分离。依据心理学家Ekman提出的FACS(面部表情编码系统)构建的智慧学习环境下基于面部表情识别的情感分析框架, 通过特征分解将个体特征及表情特征分解到不同的子空间,在表情子空间中进行表情识别,从而排除个体特征对表情识别的干扰。经JAFFE表情库的验证,表情 识别结果比较理想,已在三维虚拟学习平台Magic Learning的师生情感交互子系统上实现了基于面部表情的学习者情感识别及情感干预。},
+   Keywords = {智慧学习环境;表情识别;表情特征;情感分析;情感干预},
+   Year = {2015} }
+
+
+
+
+@article{
+毕秋敏李明-7990,
+   Author = {毕秋敏 and 李明 and 曾志勇},
+   Title = {一种主动学习和协同训练相结合的半监督微博情感分类方法},
+   Journal = {现代图书情报技术},
+   Number = {1},
+   Pages = {38-44},
+   Abstract = {摘　要: 【目的】针对微博情感分类时未标注样本多和已标注集少的问题,提出一种新的方法。【方法】在协同训练算法的基础上引入主动学习思想,从低置信度样本中选取最有价值的、信息含量大的,提交标注,标注完后添加到训练集中,重新训练分类器进行情感分类。【结果】使用不同的数据集进行实验,实验结果表明该方法所构建的分类器性能优于其他方法,分类准确率明显提高。特别是在已标注样本占40%的情况下,提升5%左右。【局限】在协同训练过程中使用随机特征子空间生成方法不能保证每次构建的两个分类器都是强分类器,因此未能充分地满足协同训练的假设条件。【结论】引入主动学习思想后,能够解决协同训练对低置信度样本处理的不足,进而增强分类器性能,提高分类准确率。},
+   Keywords = {协同训练;主动学习;情感分类},
+   Year = {2015} }
+
+
+
+
+@article{
+明均仁-7991,
+   Author = {明均仁},
+   Title = {融合语义关联挖掘的文本情感分析算法研究},
+   Journal = {图书情报工作},
+   Volume = {56},
+   Number = {15},
+   Pages = {99-103},
+   Abstract = {面对网络中日益丰富的文本性情感信息资源,利用关联挖掘技术对其进行智能化的自动挖掘与分析,获取语义层面的用户情感知识,对于企业竞争策略的制定和竞争优势的保持具有重要的潜在价值。将关联挖掘技术融入文本情感分析之中,研究并设计一种融合语义关联挖掘的文本情感分析算法,实现语义层面的情感分析与用户情感知识挖掘。实验结果表明,该算法取得了很好的预期效果,显著提高了情感分析的准确率与效率以及关联挖掘的深度与广度。},
+   Keywords = {语义关联挖掘;文本情感分析;分析算法},
+   Year = {2012} }
+
+
+
+
+@article{
+尹裴王洪伟-7992,
+   Author = {尹裴 and 王洪伟},
+   Title = {面向产品特征的中文在线评论情感分类:以本体建模为方法},
+   Journal = {系统管理学报},
+   Number = {1},
+   Pages = {103-114},
+   Abstract = {摘　要: 在线产品评论反映了用户对产品的体验,对其进行情感分类不仅有利于商家的战略发展,也有助于消费者理性购物。然而,现有研究大多采用上下文无关的情感分类方法,却无法处理褒贬混合的评论及情感词极性随上下文变化的情况,从而导致情感分类的精度不高。针对现有研究的不足,提出一种产品特征级情感分类方法。基于领域本体识别评论中的特征观点对,根据已知极性的评论判断特征观点对的极性。最后,通过加权平均的方法合计评论中各个特征观点对的极性,最终实现对评论的情感分类。为了验证方法的有效性,以手机和数码相机评论为对象设计实验,实验结果表明,本文提出的方法具有一定的领域普适性,能有效识别不同领域评论中的特征观点对,并判断其情感极性。结果还显示,在准确率、召回率和调和评价值3项性能指标上,该方法都优于文档级、句子级和词语级的基线实验方法。},
+   Keywords = {情感分类;特征观点对;中文在线评论;领域本体;上下文语境},
+   Year = {2016} }
+
+
+
+
+@article{
+夏火松彭柳艳-7993,
+   Author = {夏火松 and 彭柳艳 and 余梦麟},
+   Title = {自动情感文本分类研究综述},
+   Journal = {情报学报},
+   Volume = {30},
+   Number = {5},
+   Pages = {530-539},
+   Abstract = {情感分类及其应用是目前研究的一个热点,是自然语言处理,机器学 习和心理学等多学科交叉的研究课题,在很多领域都有实际的应用,如产品的声誉分析,舆情跟踪,博客兴趣分析等.论文对情感分类目前国内外的研究概貌进行了 分析,将现有文献中的研究方向分为四个类别,并对这四个类别分别进行了描述,对情感分类中的关键问题进行了研究,提出了情感分类的一般框架,最后对目前研 究中存在的不足进行了讨论,对情感分类研究的发展方向进行了展望.},
+   Keywords = {情感语义词典;主观识别;情感分类;舆情跟踪;声誉分析;研究综述},
+   Year = {2011} }
+
+
+
+
+@article{
+马凤闸吴江宁-7994,
+   Author = {马凤闸 and 吴江宁 and 杨光飞},
+   Title = {基于双重选择策略的跨领域情感倾向性分析},
+   Journal = {情报学报},
+   Volume = {31},
+   Number = {11},
+   Pages = {1202-1209},
+   Abstract = {摘　要: 情感倾向性分析旨在识别评论中隐含的情感信息,在产品声誉分析、舆情监控、个性推荐等方面具有广阔的应用前景。在评测消费者对新发布产品的态度时,本产品领域中可供参考的已分类评论数据往往较少,而其他相关领域可能存在大量的已分类的评论数据,利用其他产品已标注的评论数据对新产品进行情感倾向性分析,属于跨领域的情感分类问题。针对这一问题,本文引入迁移学习机制,将经典迁移学习TrAdaBoost算法的样本迁移机制应用于情感倾向性分析,并针对积极类和消极类分类精度不均衡问题提出了改进策略,首先根据评论样本权重进行第一次选择,其次结合分类置信度对评论样本进行第二次选择。实验结果表明,在整体分类精度有所提高的前提下,改进算法的优势在于均衡了积极类和消极类的分类精度,使得分类结果更具实际参考价值。},
+   Keywords = {情感倾向性;跨领域;迁移学习;双重选择},
+   Year = {2012} }
+
+
+
+
+@article{
+赵妍妍秦兵-7995,
+   Author = {赵妍妍 and 秦兵 and 刘挺},
+   Title = {文本情感分析},
+   Journal = {软件学报},
+   Volume = {21},
+   Number = {8},
+   Pages = {1834-1848},
+   Abstract = {对文本情感分析的研究现状与进展进行了总结.首先将文本情感分析归纳为3项主要任务,即情感信息抽取、情感信息分类以及情感信息的检索与归纳,并对它们进行了细致的介绍和分析;进而介绍了文本情感分析的国内外评测和资源建设情况;最后介绍了文本情感分析的应用.重在对文本情感分析研究的主流方法和前沿进展进行概括、比较和分析.},
+   Keywords = {文本情感分析;情感信息抽取;情感信息分类;情感信息的检索与归纳;评测;资源建设},
+   Year = {2010} }
+
+
+
+
+@article{
+谢丽星周明-7996,
+   Author = {谢丽星 and 周明 and 孙茂松},
+   Title = {基于层次结构的多策略中文微博情感分析和特征抽取},
+   Journal = {中文信息学报},
+   Volume = {26},
+   Number = {1},
+   Pages = {73-83},
+   Abstract = {摘　要: 随着Web2.0时代的兴起,与微博相关的研究得到了学术界和工业界的广泛关注。该文使用新浪API获取数据,针对中文微博消息展开了情感分析方面的研究。我们对于三种情感分析的方法进行了深入研究,包括表情符号的规则方法、情感词典的规则方法、基于SVM的层次结构的多策略方法,实验表明基于SVM的层次结构多策略方法效果最好。其次,针对层次结构的多策略方法的特征选择进行了详细分析,包括主题无关、主题相关的特征。实验表明使用主题无关的特征时获得的准确率为66.467%。引入主题相关的特征后,准确率提升至67.283%。},
+   Keywords = {新浪微博;情感分析;SVM},
+   Year = {2012} }
+
+
+
+
+@article{
+杨亮林原-7997,
+   Author = {杨亮 and 林原 and 林鸿飞},
+   Title = {基于情感分布的微博热点事件发现},
+   Journal = {中文信息学报},
+   Volume = {26},
+   Number = {1},
+   Pages = {84-90},
+   Abstract = {微博(Micro- Blog,Twitter)是互联网上的一种重要媒体,以简短、便捷的方式表达用户的观点,并实现多发布工具即时分享,已经成为热点事件产生和传播的重要 场所,因此微博平台中热点事件发现等方面研究的重要性便突显出来了。该文依据热点事件的出现会使用户所发微博中情感词数量增多,情感发生变化,提出了情感 分布语言模型,通过分析相邻时段间情感分布语言模型间的差异,实现对热点事件的发现。实验结果表明该文方法可以有效地从微博平台中发现热点事件,并且有助 于对微博平台中热点事件的管理和监控。},
+   Keywords = {微博;热点事件;情感分布语言模型},
+   Year = {2012} }
+
+
+
+
+@article{
+李寿山黄居仁-7998,
+   Author = {李寿山 and 黄居仁},
+   Title = {基于Stacking组合分类方法的中文情感分类研究},
+   Journal = {中文信息学报},
+   Volume = {24},
+   Number = {5},
+   Pages = {56-61},
+   Abstract = {摘　要: 情感文本分类(简称情感分类)是一种面向主观信息分类的文本分类任务。目前,由于其广泛的应 用前景,该任务在自然语言处理研究领域中得到了普遍关注,相继出现多种用于情感文本分类的有监督的分类方法。该文具体研究四种不同的分类方法在中文情感分 类上的应用,并且采用一种基于Stacking的组合分类方法,用以组合不同的分类方法。实验结果表明,该组合方法在所有领域都能够获得比最好基分类方法 更好的分类效果。从而克服了分类方法领域依赖的困境(不同领域需要选择不同基分类方法才能获得更好的分类结果)。},
+   Keywords = {计算机应用;中文信息处理;情感分类;组合分类器},
+   Year = {2010} }
+
+
+
+
+@article{
+夏云庆杨莹-7999,
+   Author = {夏云庆 and 杨莹 and 张鹏洲 and 刘宇飞},
+   Title = {基于情感向量空间模型的歌词情感分析},
+   Journal = {中文信息学报},
+   Volume = {24},
+   Number = {1},
+   Pages = {99-103},
+   Abstract = {音频信号在歌曲情感分析中难以奏效,所以该文提出以歌词作为歌曲 情感分析的依据,采取基于情感单元的情感向量空间模型(s-VSM)进行歌词情感分析.该模型较好地解决了基于词汇的向量空间模型(w-VSM)在文本表 示效率、歧义、情感功能和数据稀疏性等方面的不足.同时,该文将情感词词频与Thayer二维情感压力模型相结合,提出了"轻松"、"压抑"之外的"复 杂"、"含蓄"两类新的情感压力类别.实验证明: (1)s-VSM模型在歌词情感分类中优于传统方法;(2)四类情感压力模型对歌词情感分析很有帮助.},
+   Keywords = {计算机应用;中文信息处理;文本情感分析;情感向量空间模型;情绪压力},
+   Year = {2010} }
+
+
+
+
+@article{
+王素格李德玉-8000,
+   Author = {王素格 and 李德玉 and 魏英杰},
+   Title = {基于赋权粗糙隶属度的文本情感分类方法},
+   Journal = {计算机研究与发展},
+   Volume = {48},
+   Number = {5},
+   Pages = {855-861},
+   Abstract = {提出了基于赋权粗糙隶属度的文 本情感分类方法.该方法将特征倾向强度引入到文本的向量空间表示法中,建立了基于二元组属性(特征,特征倾向强度)的文本表示模型.提出了基于情感倾向强 度序的属性离散化方法,将特征选择寓于离散化过程,达到数据降维的目的.利用特征倾向强度,定义了赋权粗糙隶属度,用于新文本的情感分类.在真实汽车评论 语料上,与支持向量机分类模型进行比较实验表明,基于赋权粗糙隶属度的文本情感分类方法在对数据进行一定程度的压缩后仍表现出较好的分类性能.},
+   Keywords = {文本情感分类;文本表示;情感倾向强度;离散化;粗糙隶属度},
+   Year = {2011} }
+
+
+
+
+@article{
+林政谭松波-8001,
+   Author = {林政 and 谭松波 and 程学旗},
+   Title = {基于情感关键句抽取的情感分类研究},
+   Journal = {计算机研究与发展},
+   Volume = {49},
+   Number = {11},
+   Pages = {2376-2382},
+   Abstract = {情感分析需要解决的一个重要问题是判断一篇文档的极性是正面的还 是负面的.情感分类的正确率很难达到普通文本分类的水平,因为情感分类更难更复杂.在判断文档的情感极性时,不同的句子具有不同的情感贡献度,所以,对整 篇文档的关键句和细节句进行区分将有助于提高情感分类的性能.关键句通常简短且具有判别性,而细节描述句通常复杂多样且容易引入歧义.在关键句抽取算法 中,考虑3类属性:情感属性、位置属性和关键词属性.为了更好地利用关键句和细节句之间的差异性和互补性,将抽取的关键句分别用于有监督的和半监督的情感 分类.在有监督情感分类中,采用的是分类器融合的方法;在半监督情感分类中,采用的是Co-training算法.在8个领域上进行实验,结果表明所提方 法性能明显优于Baseline,从而证明情感关键句抽取算法是有效的.},
+   Keywords = {情感分类;关键句;分类器融合;联合训练;有监督学习;半监督学习},
+   Year = {2012} }
+
+
+
+
+@article{
+傅向华刘国-8002,
+   Author = {傅向华 and 刘国 and 郭岩岩 and 郭武彪},
+   Title = {中文博客多方面话题情感分析研究},
+   Journal = {中文信息学报},
+   Volume = {27},
+   Number = {1},
+   Pages = {47-55},
+   Abstract = {摘　要: 博客是web环境中个人表达观点和情感的一种重要载体,一般涉及较宽泛的话题,蕴含丰富的舆情信息。现有针对有关社会事件的用户产生内容进行情感分析的研究多数以篇章级为处理粒度,尚不能满足博客文本深度情感分析的需求。该文提出一种基于LDA话题模型与Hownet词典的中文博客多方面话题情感分析方法。该方法首先利用数据语料训练LDA话题模型,然后以滑动窗口为基本处理单位,利用训练好的LDA模型对博客文本进行话题识别与划分;在此基础上,基于Hownet词典对划分后的话题段落进行情感倾向计算。该方法有助于同时识别博客文本所涉及的多方面子话题及每个子话题上的情感倾向。实验结果表明,该方法不仅能获得较好的话题划分结果,也有助于改善情感分析的准确率。},
+   Keywords = {多方面情感分析;博客情感分析;LDA模型;HowNet词典},
+   Year = {2013} }
+
+
+
+
+@article{
+张成功刘培玉-8003,
+   Author = {张成功 and 刘培玉 and 朱振方 and 方明},
+   Title = {一种基于极性词典的情感分析方法},
+   Journal = {山东大学学报:理学版},
+   Volume = {47},
+   Number = {3},
+   Pages = {47-50},
+   Abstract = {极性词典是文本情感分析和倾向性分析的基础。本文构建了一个全面、高效的极性词典,包括基础词典、领域词典、网络词词典以及修饰词词典,深入研究了修饰词对极性词的影响,将极性词与修饰词组合成极性短语作为极性计算的基本单元,提出了一种基于极性词典的情感分析方法。实验结果表明,利用本文构建的词典进行倾向性分析效果不错。},
+   Keywords = {极性词典;修饰词;极性短语;情感分析},
+   Year = {2012} }
+
+
+
+
+@article{
+孙艳周学广-8004,
+   Author = {孙艳 and 周学广 and 付伟},
+   Title = {基于主题情感混合模型的无监督文本情感分析},
+   Journal = {北京大学学报(自然科学版)},
+   Volume = {49},
+   Number = {1},
+   Pages = {102-108},
+   Abstract = {针对有监督、半监督的文本情感分析存在标注样本不容易获取的问题,通过在LDA模型中融入情感模型,提出一种无监督的主题情感混合模型(UTSU模型).UTSU模型对每个句子采样情感标签,对每个词采样主题标签,无须对样本进行标注,就可以得到各个主题的主题情感词,从而对文档集进行情感分类.情感分类实验对比表明,UTSU模型的分类性能比有监督情感分类方法稍差,但在无监督的情感分类方法中效果最好,情感分类综合指标比ASUM模型提高了约2%,比JST模型提高了约16%.},
+   Keywords = {主题模型;LDA;情感分析;混合模型},
+   Year = {2013} }
+
+
+
+
+@article{
+苏艳居胜峰-8005,
+   Author = {苏艳 and 居胜峰 and 王中卿 and 李寿山 and 周国栋},
+   Title = {基于随机特征子空间的半监督情感分类方法研究},
+   Journal = {中文信息学报},
+   Volume = {26},
+   Number = {4},
+   Pages = {85-90},
+   Abstract = {摘　要: 情感分类是目前自然语言处理领域的一个热点研究问题。该文关注情感分类中的半监督学习方法(即基于少量标注样本和大量未标注样本进行学习的方式),提出了一种新的基于动态随机特征子空间的半监督学习方法。首先,动态生成多个随机特征子空间;然后,基于协同训练(Co-training)在每个特征子空间中挑选置信度高的未标注样本;最后使用这些挑选出的样本更新训练模型。实验结果表明我们的方法明显优于传统的静态产生方式及其他现有的半监督方法。此外该文还探索了特征子空间的划分数目问题。},
+   Keywords = {情感分类;半监督学习方法;特征子空间},
+   Year = {2012} }
+
+
+
+
+@article{
+王中卿李寿山-8006,
+   Author = {王中卿 and 李寿山 and 朱巧明 and 李培峰 and 周国栋},
+   Title = {基于不平衡数据的中文情感分类},
+   Journal = {中文信息学报},
+   Volume = {26},
+   Number = {3},
+   Pages = {33-37},
+   Abstract = {近些年来,情感分类在自然语言 处理研究领域获得了显著的发展。然而,大部分已有的研究都假设参与分类的正类样本和负类样本一样多,而实际情况中正负类数据的分布往往是不平衡的。该文收 集四个产品领域的中文评论文本,发现正类样本的数目远远多于负类样本。针对不平衡数据的中文情感分类,提出了一种基于欠采样和多分类算法的集成学习框架。 在四个不同领域的实验结果表明,我们的方法能够显著提高分类性能,并明显优于目前主流的多种不平衡分类方法。},
+   Keywords = {情感分类;不平衡分类;集成学习},
+   Year = {2012} }
+
+
+
+
+@article{
+梁军柴玉梅-8007,
+   Author = {梁军 and 柴玉梅 and 原慧斌 and 昝红英 and 刘铭},
+   Title = {基于深度学习的微博情感分析},
+   Journal = {中文信息学报},
+   Volume = {28},
+   Number = {5},
+   Pages = {155-161},
+   Abstract = {中文微博情感分析旨在发现用户对热点事件的观点态度。已有的研究大多使用SVM、CRF等传统算法根据手工标注情感特征对微博情感进行分析。该文主要探讨利用深度学习来做中文微博情感分析的可行性,采用递归神经网络来发现与任务相关的特征,避免依赖于具体任务的人工特征设计,并根据句子词语间前后的关联性引入情感极性转移模型加强对文本关联性的捕获。该文提出的方法在性能上与当前采用手工标注情感特征的方法相当,但节省了大量人工标注的工作量。},
+   Keywords = {深度学习;微博情感分析;递归神经网络;自编码},
+   Year = {2014} }
+
+
+
+
+@article{
+陈涛徐睿峰-8008,
+   Author = {陈涛 and 徐睿峰 and 吴明芬 and 刘滨},
+   Title = {一种基于情感句模的文本情感分类方法},
+   Journal = {中文信息学报},
+   Volume = {27},
+   Number = {5},
+   Pages = {67-74},
+   Abstract = {考虑到同类型的情感句往往具有相同或者相似的句法和语义表达模式,该文提出了一种基于情感句模的文本情感自动分类方法.首先,将情感表达相关句模人工分为3大类105个二级分类;然后,设计了一种利用依存特征、句法特征和同义词特征的句模获取方法,从标注情感句中半自动地获取情感句模.最后,通过对输入句进行情感句模分类实现文本情感分类.在NLP&CC2013中文微博情绪分类评测语料及RenCECps博客语料的实验结果显示,该文提出的分类方法准确率显著高于基于词特征支持向量机分类器.},
+   Keywords = {情感句模;情感分类;句法特征;依存特征},
+   Year = {2013} }
+
+
+
+
+@article{
+吴琼刘悦-8009,
+   Author = {吴琼 and 刘悦 and 沈华伟 and 张瑾 and 许洪波 and 程学旗},
+   Title = {面向跨领域情感分类的统一框架},
+   Journal = {计算机研究与发展},
+   Volume = {50},
+   Number = {8},
+   Pages = {1683-1689},
+   Abstract = {摘　要: 文本的情感分类问题,即判断文本中的论断是持支持态度还是反对态度.已有的研究表明,监督分 类方法对情感分类很有效.但是多数情况下,已有的标注数据与待判断情感类别的数据不属于同一个领域,此时监督分类算法的性能明显下降,由此产生的即为跨领 域情感分类问题.为解决此问题,提出一个统一框架,分多阶段进行跨领域情感分类:首先利用训练域文本的准确标签来得到测试域文本的初始标签;然后将测试域 建成一个加权网络,将一些较准确的测试文本作为“源点”和“汇点”,进一步利用热传导思想迭代进行跨领域情感分类.实验结果表明,此方法能大幅度提高跨领 域情感分类的精度.},
+   Keywords = {跨领域;情感分类;热传导模型;倾向性分析;迁移学习},
+   Year = {2013} }
+
+
+
+
+@article{
+李素科蒋严冰-8010,
+   Author = {李素科 and 蒋严冰},
+   Title = {基于情感特征聚类的半监督情感分类},
+   Journal = {计算机研究与发展},
+   Volume = {50},
+   Number = {12},
+   Pages = {2570-2577},
+   Abstract = {情感分类是观点挖掘的一个重要的方面.提出了一种基于情感特征聚类的半监督式情感分类方法,该方法只需要对少量训练数据实例进行情感类别标注.首先从消费者评论中提取普通分类特征和情感特征,普通分类特征可以用来训练一个情感分类器.然后使用spectral聚类算法把这些情感特征映射成扩展特征.普通分类特征和扩展特征一起通过训练得到另一个情感分类器.2个分类器再从未标签数据集中选择实例放入到训练集合中,并通过训练得到最终的情感分类器.实验结果表明,在同样的数据集上该方法的情感分类准确度比基于self-learning SVM的方法和基于co-training SVM的方法的情感分类准确度要高.},
+   Keywords = {半监督式学习;情感特征聚类;情感分类;观点挖掘;Web挖掘;数据挖掘},
+   Year = {2013} }
+
+
+
+
+@article{
+张林钱冠群-8011,
+   Author = {张林 and 钱冠群 and 樊卫国 and 华琨 and 张莉},
+   Title = {轻型评论的情感分析研究},
+   Journal = {软件学报},
+   Number = {12},
+   Pages = {2790-2807},
+   Abstract = {以在智能移动设备上发表的用户评论作为研究对象,并将该类评论称为轻型评论.指出了轻型评论与早期互联网评论及短文本研究的异同点,并通过实验总结轻型评论的独有特性:字数少、跨度大,短小评论数量众多,评论长度与数量满足幂率分布.同时,针对轻型评论的情感分类研究展开了一系列的实验研究,发现:(1)情感分类效果随着评论长度的增加而下降;(2)传统的特征筛选方法以及特征加权方法对于轻型评论效果都不够理想;(3)极性词在短评论中比例高于长评论;(4)长、短评论在用词上存在较高的重叠度.在此基础上,提出了一种基于短评论特征共现的特征筛选方法,将短小评论中的优势信息和传统的特征筛选方法相结合,在筛选掉无用噪音的同时增补有利于分类的有效特征.实验结果表明,该方法可以有效地提高轻型评论中较长评论的分类效果.},
+   Keywords = {情感分析;用户评论;短文本;意见挖掘},
+   Year = {2014} }
+
+
+
+
+@article{
+王志昊王中卿-8012,
+   Author = {王志昊 and 王中卿 and 李寿山 and 李培峰},
+   Title = {不平衡情感分类中的特征选择方法研究},
+   Journal = {中文信息学报},
+   Volume = {27},
+   Number = {4},
+   Pages = {113-118},
+   Abstract = {摘　要: 随着网络的发展,情感分类任务受到广大研究人员的密切关注。针对情感分类中的不平衡数据分布和高维特征问题,该文比较研究了四种经典的特征选择方法在不平衡情感分类中的应用。同时,该文提出了三种不同的特征选择模式并实验比较了这三种模式在分类和降维性能方面的表现。实验结果表明在不平衡数据的情感分类任务中,特征选择方法能够在不损失分类效果的前提下显著降低特征向量的维度。此外,特征选择方法中信息增益(IG)结合"先随机欠采样后特征选择"模式能够取得最佳的分类效果。},
+   Keywords = {情感分类;不平衡数据;特征选择},
+   Year = {2013} }
+
+
+
+
+@article{
+林江豪阳爱民-8013,
+   Author = {林江豪 and 阳爱民 and 周咏梅 and 陈锦 and 蔡泽键},
+   Title = {一种基于朴素贝叶斯的微博情感分类},
+   Journal = {计算机工程与科学},
+   Volume = {34},
+   Number = {9},
+   Pages = {160-165},
+   Abstract = {本文基于二次情感特征提取算法,利用句法依存关系进行一次文本情 感特征提取,在此基础上,利用情感词典,进行二次情感特征提取.构建朴素贝叶斯分类器,对采集的热门话题微博和酒店评论进行文本情感倾向性分类.主要比较 了表情符号、标点符号,基于情感词典的特征提取和基于二次情感特征提取方法,在不同的组合下的分类性能,寻找更佳的微博文本情感分类预处理方法.并与酒店 评论情感分类结果对比、分析,发现影响微博情感分类性能的原因.实验结果表明,二次特征提取方法在分类上取得更高的F1.实验最佳的分类预处理方式是“表 情符号十标点符号十二次情感特征提取+BOOL值”.同时发现,朴素贝叶斯在酒店评论情感分类取得更高的分类性能,主要是微博评价对象多样化造成的.},
+   Keywords = {微博;文本情感分类;二次情感特征提取;朴素贝叶斯},
+   Year = {2012} }
+
+
+
+
+@article{
+高伟王中卿-8014,
+   Author = {高伟 and 王中卿 and 李寿山},
+   Title = {基于集成学习的半监督情感分类方法研究},
+   Journal = {中文信息学报},
+   Volume = {27},
+   Number = {3},
+   Pages = {120-126},
+   Abstract = {情感分类旨在对文本所表达的情感色彩类别进行分类的任务。该文研究基于半监督学习的情感分类方法,即在很少规模的标注样本的基础上,借助非标注样本提高情感分类性能。为了提高半监督学习能力,该文提出了一种基于一致性标签的集成方法,用于融合两种主流的半监督情感分类方法:基于随机特征子空间的协同训练方法和标签传播方法。首先,使用这两种半监督学习方法训练出的分类器对未标注样本进行标注;其次,选取出标注一致的未标注样本;最后,使用这些挑选出的样本更新训练模型。实验结果表明,该方法能够有效降低对未标注样本的误标注率,从而获得比任一种半监督学习方法更好的分类效果。},
+   Keywords = {情感分类;半监督;集成学习},
+   Year = {2013} }
+
+
+
+
+@article{
+张志琳宗成庆-8015,
+   Author = {张志琳 and 宗成庆},
+   Title = {基于多样化特征的中文微博情感分类方法研究},
+   Journal = {中文信息学报},
+   Volume = {29},
+   Number = {4},
+   Pages = {134-143},
+   Abstract = {随着Web 2.0时代的兴起,微博作为一个新的信息分享平台已经成为人们生活中一个重要的信息来源和传播渠道.近年来针对微博的情感分类问题研究也越来越多地引起人们的关注.该文深入分析了传统的情感文本分类和微博情感分类在特征表示和特征筛选上存在的差异,针对目前微博情感分类在特征选择和使用上存在的缺陷,提出了三种简单但十分有效的特征选取和加入方法,包括词汇化主题特征、情感词内容特征和概率化的情感词倾向性特征.实验结果表明,通过使用该文提出的特征选择和特征加入方法,微博情感分类准确率由传统方法的73.17%提高到了84.17%,显著改善了微博情感分析的性能.},
+   Keywords = {中文微博;情感分类;机器学习;特征选择},
+   Year = {2015} }
+
+
+
+
+@article{
+张志飞苗夺谦-8016,
+   Author = {张志飞 and 苗夺谦 and 岳晓冬 and 聂建云},
+   Title = {强语义模糊性词语的情感分析},
+   Journal = {中文信息学报},
+   Volume = {29},
+   Number = {2},
+   Pages = {68-78},
+   Abstract = {摘　要: 语义的模糊性给词语的情感分析带来了挑战。有些情感词语不仅使用频率高,而且语义模糊性强。如何消除语义模糊性成为词语情感分析中亟待解决的问题。该文提出了一种规则和统计相结合的框架来分析具有强语义模糊性词语的情感倾向。该框架根据词语的相邻信息获取有效的特征,利用粗糙集的属性约简方法生成决策规则,对于规则无法识别的情况,再利用贝叶斯分类器消除语义模糊性。该文以强语义模糊性词语“好”为例,对提出的框架在多个语料上进行实验,结果表明该框架可以有效消除“好”的语义模糊性以改进情感分析的效果。},
+   Keywords = {情感分析;语义模糊性;粗糙集;贝叶斯分类},
+   Year = {2015} }
+
+
+
+
+@article{
+赵传君王素格-8017,
+   Author = {赵传君 and 王素格 and 李德玉 and 李欣},
+   Title = {基于分组提升集成的跨领域文本情感分类},
+   Journal = {计算机研究与发展},
+   Number = {3},
+   Pages = {629-638},
+   Abstract = {摘　要: 针对目标领域带标签数据偏少的问题,综合运用半监督学习、BootStrapping、数据分组、AdaBoost、集成学习等策略与技术,提出了一种基于分组提升集成的跨领域文本情感分类方法.该方法首先利用少量人工标注的目标领域数据,基于合成过抽样技术产生一定数量的虚拟数据.在此基础上,采用BootStrapping方法获得更多目标领域高可信度的带标签数据.在分类器的构建方面,首先将源领域的带标签数据等量分割,并分别与目标领域带标签数据组合,在每个组合数据块上运用AdaBoost方法提升地训练多个分类器,并将这些分类器线性地集成为一个分类器.在亚马逊购物网站4个领域的情感数据集上的实验表明,基于分组提升集成的跨领域文本情感分类方法一定程度上提高了跨领域文本情感分类的精度.},
+   Keywords = {情感分类;跨领域;合成过抽样技术;分组提升;集成分类器},
+   Year = {2015} }
+
+
+
+
+@article{
+高旸周莉-8018,
+   Author = {高旸 and 周莉 and 张勇 and 邢春晓 and 孙一钢 and 朱先忠},
+   Title = {面向股票新闻的情感分类方法},
+   Journal = {软件学报},
+   Abstract = {互联网新闻资讯对证券市场和投资者有举足轻重的影响,新闻进行情感分类后再展示给用户,可以帮助投资者迅速做出投资决定.从文本分类的基本方法出发,实现了基于n-gram统计模型的新词发现方法,并将所得结果用于构建中文分词词典和情感词典.同时引入评价理论,并用朴素贝叶斯、k近邻和支持向量机3种方法进行股票新闻标题的情感分类实验.所用实验数据来自2009年“新浪财经”共计23万余条的新闻标题,结果表明二分类的准确率最高可达82.9%.此外,还实现了一个原型系统用于展示股票新闻的分类结果.},
+   Keywords = {中文新词发现;n-gram;模型;情感分类},
+   Year = {2010} }
+
+
+
+
+@article{
+昝红英左维松-8019,
+   Author = {昝红英 and 左维松 and 张坤丽 and 吴云芳},
+   Title = {规则和统计相结合的情感分析研究},
+   Journal = {计算机工程与科学},
+   Volume = {33},
+   Number = {5},
+   Pages = {146-150},
+   Abstract = {摘　要: 基于递归分治策略基本思想,本文构建了一种新的情感分析模型并解释了模型的合理性。本文首先分析了资源和统计方法的优缺点。资源的情感倾向性分析优点在于情感词表准确,缺点是完备性较差;而统计的方法则恰恰相反。进而提出了规则和统计相结合的方法分析文本的情感倾向性,并将规则和统计相结合的情感分析方法应用于该模型,并验证了其有效性。实验表明,在数据不均衡的条件下,该方法的正确率达到了77.68%。},
+   Keywords = {中文信息处理;情感分类;搭配规则;判定表},
+   Year = {2011} }
+
+
+
+
+@article{
+王丙坤黄永峰-8021,
+   Author = {王丙坤 and 黄永峰 and 李星},
+   Title = {基于多粒度计算和多准则融合的情感分类},
+   Journal = {清华大学学报(自然科学版)},
+   Number = {5},
+   Pages = {497-502},
+   Abstract = {摘　要: 随着在线用户生成内容的激增,无监督情感分类方法有着广泛应用前景。现有基于情感词的无监督情感分类方法没有考虑句子类型和句间关系对情感分类的影响,分类效果较差;基于自学习的无监督情感分类方法在生成伪标注数据集时,又会引入较多错误。针对上述问题,该文提出了一种基于多粒度计算和多准则融合的无监督情感分类方法。该方法通过多粒度计算,提高现有基于情感词的无监督情感分类精度;同时通过多准则融合来减少伪标注数据错误率。在3个真实中文数据集上的实验结果表明:与现有无监督情感分类方法相比,该方法平均提高了6.5%的分类精度。},
+   Keywords = {情感分类;无监督方法;多粒度计算;多准则融合},
+   Year = {2015} }
+
+
+
+
+@article{
+王小凤耿国华-8022,
+   Author = {王小凤 and 耿国华 and 李鹏 and 刘晓宁},
+   Title = {一个基于相关反馈的神经网络音乐情感分类器构建算法},
+   Journal = {西北大学学报:自然科学版},
+   Volume = {42},
+   Number = {1},
+   Pages = {30-35},
+   Abstract = {目的构造音乐情感分类器,为计算机理解情感提供途径。方法首先分析现有音乐情感模型,然后提取音乐情感特征并采用神经网络构造音乐情感分类器,最后采用相关反馈对分类结果进行标注并进一步训练分类器,直至训练样本的错误分类率在一定误差范围内。结果对测试样本进行情感分类,达到了最高89%的分类准确率,实现了音乐情感分类器的构建和音乐片断的情感标注。结论研究成果是音乐情感检索的基础工作,也可用于其他音频的情感识别和分类。},
+   Keywords = {音乐情感;反馈;分类器;神经网络},
+   Year = {2012} }
+
+
+
+
+@article{
+陈强何炎祥-8023,
+   Author = {陈强 and 何炎祥 and 刘续乐 and 孙松涛 and 彭敏 and 李飞},
+   Title = {基于句法分析的跨语言情感分析},
+   Journal = {北京大学学报:自然科学版},
+   Volume = {50},
+   Number = {1},
+   Pages = {55-60},
+   Abstract = {摘　要: 利用句法分析模型,将语句分成若干组合词,根据组合词的主谓成分中情感词对于句子情感贡献的不同,分别赋予不同的权重。统计分析该语句的情感分布特征,利用得到的特征参数训练分类器,再将训练好的分类器用于测试语料的情感分类。实验结果表明,与已有的判别方法相比,该方法的情感分类判别准确率较理想。此方法也可用于语句的比较级判别和否定句的极性判断等。},
+   Keywords = {跨语言;情感分类;句法分析;贝叶斯分类},
+   Year = {2014} }
+
+
+
+
+@article{
+张玉红周全-8024,
+   Author = {张玉红 and 周全 and 胡学钢},
+   Title = {面向跨领域情感分类的特征选择方法},
+   Journal = {模式识别与人工智能},
+   Volume = {26},
+   Number = {11},
+   Pages = {1068-1072},
+   Abstract = {数据标记的难以获取使得跨领域适应成为一种有效的途径。然而情感 分类具有较强的领域依赖性,利用传统的特征选择方法在原始领域构建的特征空间不能体现领域间的共性,难以适用于目标领域。为此,提出一种面向跨领域情感分 类的特征选择方法( LLRTF),利用对数似然比选取在原始领域富有判别力的特征,并通过对照两个领域的统计信息,选出其中在目标领域影响较大的特征。基于该方法构建的公共 特征空间,能减少领域间数据分布的差异。实验结果表明,LLRTF优于基准算法。},
+   Keywords = {特征选择;跨领域;情感分类},
+   Year = {2013} }
+
+
+
+
+@article{
+杨立公汤世平-8025,
+   Author = {杨立公 and 汤世平 and 朱俭},
+   Title = {基于马尔科夫逻辑网的句子情感分析方法},
+   Journal = {北京理工大学学报},
+   Volume = {33},
+   Number = {6},
+   Pages = {600-604},
+   Abstract = {提出一种基于马尔科夫逻辑网的句子情感分析方法.与深度学习方法 相结合实现跨领域的知识迁移,同时采用马尔科夫逻辑网将句子的上下文信息与其它情感特征相结合实现句子情感分析.在COAE评测数据上的实验结果表明,该 方法与SVM分类方法相比,准确率达到70.02%,并且在跨领域的情感分析任务中也得到了较好的结果.},
+   Keywords = {情感分析;马尔科夫逻辑网;深度学习},
+   Year = {2013} }
+
+
+
+
+@article{
+赵文清侯小可-8026,
+   Author = {赵文清 and 侯小可 and 沙海虹},
+   Title = {语义规则在微博热点话题情感分析中的应用},
+   Journal = {智能系统学报},
+   Number = {1},
+   Pages = {121-125},
+   Abstract = {近来,针对微博热点话题的情感分析研究得到了广泛关注,而基于监 督的学习方法在分析文本时会忽视词语的上下文联系。根据中文微博的特点,提出了一种基于语义规则的方法对微博热点话题进行情感分析。该方法首先需要人工整 理出程度副词表、否定词表和微博中默认表情符号的褒贬分类。然后在情感词语计算的基础上,考虑上下文中否定词和程度词对修饰情感词语的情感倾向和情感强度 的影响,同时也设定规则计算表情符号对一条微博的情感倾向判断的作用。最后与基于情感词典的方法做实验对比,实验结果表明该方法在文本情感倾向性识别的准 确率上有了一定提高。},
+   Keywords = {微博;热点话题;情感分析;语义规则;情感词典},
+   Year = {2014} }
+
+
+
+
+@article{
+樊娜蔡皖东-8027,
+   Author = {樊娜 and 蔡皖东 and 赵煜},
+   Title = {基于混合模型的文本主题-情感分析方法},
+   Journal = {华中科技大学学报(自然科学版)},
+   Number = {1},
+   Pages = {31-34},
+   Abstract = {摘　要: 提出了一种基于混合模型的文本主题一情感分析方法.将训练集中的文本分别标记情感倾向和主题 类别。根据不同情感和主题的语言表达方式,分别估计出情感和主题语言模型.通过计算待处理的测试文本语言模型与这两类模型之间的距离,评估测试文本与模型 之间的相似性,最终确定文本的主题和情感倾向.模型的参数选用了bigram特征,参数估计采用了最大似然估计和平滑技术相结合的策略.这种模型化方法具 有通用性,可以应用到不同类型的数据集中.实验表明,与支持向量机方法相比,本文方法提取主题和分析情感的准确率更高,鲁棒性更强.},
+   Keywords = {混合模型;情感分析;主题提取;KL距离;监督学习},
+   Year = {2010} }
+
+
+
+
+@article{
+林明明邱云飞-8028,
+   Author = {林明明 and 邱云飞 and 邵良杉},
+   Title = {基于HGSD的消费情感分类算法},
+   Journal = {模式识别与人工智能},
+   Number = {6},
+   Abstract = {针对中文消费评价的情感分类问题,构造基于词典语义概念和上下文 语义相结合的情感分类方法,对情感进行分类。该方法首先构造提取不同领域基准词集的方法。然后利用一元语言模型,通过HowNet计算情感相似值,进行情 感词提取。最后结合HowNet方法和Google相似距离方法构造一种情感分类算法,对句子进行情感倾向性分类,既考虑词语本身含义,又考虑词语在上下 文中的含义。通过对书籍、电脑和酒店的评价进行实验,F值较高,同时与其他方法进行对比实验,体现文中算法的有效性。},
+   Keywords = {词典语义;上下文语义;情感分类;知网;Google相似距离},
+   Year = {2015} }
+
+
+
+
+@article{
+夏梦南杜永萍-8029,
+   Author = {夏梦南 and 杜永萍 and 左本欣},
+   Title = {基于依存分析与特征组合的微博情感分析},
+   Journal = {山东大学学报(理学版)},
+   Volume = {49},
+   Number = {11},
+   Pages = {22-30},
+   Abstract = {针对微博短文本存在口语化、简洁化等社交网络特征,充分利用句法 依存关系以及条件随机场(conditional random fields,CRFs),抽取候选评价对象,并在基于机器学习的微博情感分类方法的基础上结合情感分析词典,引入情感值、微博标签、主题等特征,优化分 类性能。在COAE(Chinese opinion analysis evaluation)微博评测数据集上,以准确率、召回率、F1值为评价指标对所提方法进行验证,证实了基于句法依存分析与CRFs相结合的评价对象抽 取方法的有效性,分析了各类特征对情感分类性能的影响,最终在COAE微博观点句识别任务中准确率达91.4%。},
+   Keywords = {情感分析;特征选择;情感要素抽取},
+   Year = {2014} }
+
+
+
+
+@article{
+梁军柴玉梅-8030,
+   Author = {梁军 and 柴玉梅 and 原慧斌 and 高明磊 and 昝红英},
+   Title = {基于极性转移和LSTM递归网络的情感分析},
+   Journal = {中文信息学报},
+   Volume = {29},
+   Number = {5},
+   Pages = {152-159},
+   Abstract = {摘　要: 长短时记忆(long short term memory,LSTM)是一种有效的链式循环神经网络(recurrent neural network,R2 NN1),被广泛用于语言模型、机器翻译、语音识别等领域。但由于该网络结构是一种链式结构,不能有效表征语言的结构层次信息,该文将LSTM扩展到基于树结构的递归神经网络(Recursive Neural Network,RNN)上,用于捕获文本更深层次的语义语法信息,并根据句子前后词语间的关联性引入情感极性转移模型。实验证明本文提出的模型优于LSTM、递归神经网络等。},
+   Keywords = {LSTM;递归神经网络;情感分析},
+   Year = {2015} }
+
+
+
+
+@article{
+罗亚伟田生伟-8031,
+   Author = {罗亚伟 and 田生伟 and 禹龙 and 吐尔根·依布拉音 and 艾斯卡尔·艾木都拉},
+   Title = {细粒度意见挖掘中维吾尔语文本情感分析研究},
+   Journal = {中文信息学报},
+   Number = {1},
+   Abstract = {传统的情感分析研究通过分析,确定词语、句子或篇章的情感,但忽略了情感表达的主题。针对这一不足,该文提出了一种基于双层CRFs模型的细粒度意见挖掘中维吾尔语意见型文本陈述级情感分析方法。第一层模型识别意见型文本中的主题词和意见词,确定意见陈述的范围,并将识别结果传递给第二层模型,将其作为重要特征之一,用于陈述级情感分析。细粒度意见挖掘中情感分析的目标是构建意见陈述,主题词,意见词,情感四元组。该方法用于维吾尔语陈述级情感分析的准确率为77.41%,召回率为78.51%,证明了该方法在细粒度意见挖掘中情感分析任务上的有效性。},
+   Keywords = {细粒度;陈述级;情感分析;CRFs;维吾尔语},
+   Year = {2016} }
+
+
+
+
+@article{
+陈钊徐睿峰-8032,
+   Author = {陈钊 and 徐睿峰 and 桂林 and 陆勤},
+   Title = {结合卷积神经网络和词语情感序列特征的中文情感分析},
+   Journal = {中文信息学报},
+   Volume = {29},
+   Number = {6},
+   Pages = {172-178},
+   Abstract = {目前基于词嵌入的卷积神经网络文本分类方法已经在情感分析研究中取得了很好的效果.此类方法主要使用基于上下文的词嵌入特征,但在词嵌入过程中通常并未考虑词语本身的情感极性,同时此类方法往往缺乏对大量人工构建情感词典等资源的有效利用.针对这些问题,该文提出了一种结合情感词典和卷积神经网络的情感分类方法,利用情感词典中的词条对文本中的词语进行抽象表示,在此基础上利用卷积神经网络提取抽象词语的序列特征,并用于情感极性分类.该文提出的相关方法在中文倾向性分析评测COAE2014数据集上取得了比目前主流的卷积神经网络以及朴素贝叶斯支持向量机更好的性能.},
+   Keywords = {卷积神经网络;情感分析;词语情感序列特征},
+   Year = {2015} }
+
+
+
+
+@article{
+栗雨晴礼欣-8033,
+   Author = {栗雨晴 and 礼欣 and 韩煦 and 宋丹丹 and 廖乐健},
+   Title = {【专刊】基于双语词典的微博多类情感分析方法},
+   Journal = {电子学报},
+   Abstract = {发布微博已成为个体、群体表达情感、意见的重要手段,因此针对微博文本进行情感倾向分析具有重要的现实意义。现有情感分析方法多面向单一语种语料,如:中文语料,并将微博文本分为正向情感和负向情感两类。但是,中英文搭配使用的表达习惯已逐渐成为个体意见表达的重要形式,因此区别于以往工作,本文提出一种基于双语词典的多类情感分析方法。通过构建双语多类情感词典,对微博文本进行多分类语义倾向性分析,将文本情感倾向分为社会关爱、高兴、忧伤、愤怒和恐惧5类,其中“社会关爱”类别的引入旨在更准确有效的捕捉、辨别群体意见。双语词典的种子词汇及所属类别通过大量微博语料分析及人工标注获得。此外,作者还通过引入WordNet、HowNet的中文、英文语义相似性计算模型进一步扩充双语情感词典。基于建立的双语多类情感词典,我们对微博文本进行向量化处理,并提出利用半监督高斯混合模型和基于对称相对熵的K近邻算法的文本分类算法。实验结果表明,本文提出的基于双语词典的多类情感分析模型具有良好的分类效果,其分类准确率、F1值较传统方法有明显提高。},
+   Year = {2015} }
+
+
+
+
+@article{
+刘玉娇琚生根-8034,
+   Author = {刘玉娇 and 琚生根 and 伍少梅 and 苏翀},
+   Title = {基于情感字典与连词结合的中文文本情感分类},
+   Journal = {四川大学学报(自然科学版)},
+   Number = {1},
+   Abstract = {本文首先利用基础情感词典以及基准词对所需研究领域的评论文本进行分析,以此获得特定领域具有感情倾向的特征词语。而后利用基准词以及获得的特征词语对评论进行分析,对于有感情词的句子,采用计算感情值来判别其感情倾向以及感情程度,对于无感情词的句子,采用连词的方法来进行感情的判别。实验结果表明,该方法能够对不同领域的评论得到较好的感情分类效果。},
+   Keywords = {中文文本情感;基准词;SO-PMI算法;情感字典;共现},
+   Year = {2015} }
+
+
+
+
+@article{
+吴钰洁朱福喜-8035,
+   Author = {吴钰洁 and 朱福喜 and 周竞},
+   Title = {基于概率图模型的文本情感分析},
+   Journal = {小型微型计算机系统},
+   Volume = {36},
+   Number = {7},
+   Pages = {1421-1425},
+   Abstract = {摘　要: 相比于句子级和文档级情感分析,词语级的情感分析呈现出领域性和上下文相关性,难以得到良好的应用.提出一种基于概率图模型的情感分析方法,先通过分析训练语料建立一种具有先验概率的图模型,用于计算语料中词语的情感概率值,再利用信息熵公式将概率值归一化为情感特征值,最后使用该特征值训练SVM分类器对测试语料进行分类.论文在理论上证明该方法能够有效运用于具有“评价对象”和“评价词”二元特性的商品评论的情感判定,且在未表明用户明显态度语句的极性判定中也可以获得良好的效果.实验结果也显示,该方法比传统SVM分类方法在准确率上有明显提高.},
+   Keywords = {概率图模型;情感分析;信息熵;TF-IDF},
+   Year = {2015} }
+
+
+
+
+@article{
+YanyanBing-8036,
+   Author = {YanYan, ZHAO and Bing, QIN and Ting, LIU and 赵妍妍 and 秦兵 and 刘挺},
+   Title = {Sentiment Analysis文本情感分析},
+   Journal = {软件学报},
+   Volume = {21},
+   Number = {8},
+   Pages = {1834-1848},
+   Abstract = {This paper surveys the state of the art of sentiment analysis. First, three important tasks of sentiment analysis are summarized and analyzed in detail, including sentiment extraction, sentiment classification, sentiment retrieval and summarization. Then, the evaluation and corpus for sentiment analysis are introduced. Finally, the applications of sentiment analysis are concluded. This paper aims to take a deep insight into the mainstream methods and recent progress in this field, making detailed comparison and analysis.},
+   Keywords = {文本情感分析;情感信息抽取;情感信息分类;情感信息的检索与归纳;评测;资源建设},
+   Year = {2010} }
+
+
+
+
+@article{
+田锋兰田-8037,
+   Author = {田锋 and 兰田 and Kuo-Ming, CHAO and 吴凡 and 郑庆华 and 高鹏达},
+   Title = {领域实例迁移的交互文本非平衡情感分类方法},
+   Journal = {西安交通大学学报},
+   Volume = {49},
+   Number = {4},
+   Pages = {67-72},
+   Abstract = {针对交互文本句子短、成分缺失、多领域下类分布不均衡导致的高 维、特征值稀疏、正样本稀少的难点,提出面向目标数据集实例迁移的数据层面采样方法.该方法提出目标数据集和源数据集共性特征的Top-N信息增益和值占 比函数,选择评价两个数据集实例相似度的特征;提出目标数据集和源数据集特征空间一致性处理方法,克服两者特征空间不一致的问题;提出分领域的实例选取与 迁移方法,克服多领域下的类分布不均衡问题.实验结果表明:该方法有效缓解了交互文本的非平衡问题,使支持向量机、随机森林、朴素贝叶斯、随机委员会4个 经典分类算法的加权平均的接收者运行特征曲线(receiver operating characteristic,ROC)指标提升了11.3%.},
+   Keywords = {交互文本;非平衡情感分类;多领域;实例迁移},
+   Year = {2015} }
+
+
+
+
+@article{
+张玲玲冀俊忠-8038,
+   Author = {张玲玲 and 冀俊忠 and 贝飞 and 吴晨生},
+   Title = {基于句法分析和属性概率权重的跨语言情感分类方法研究},
+   Journal = {模式识别与人工智能},
+   Year = {2015} }
+
+
+
+
+@article{
+张玲玲冀俊忠-8039,
+   Author = {张玲玲 and 冀俊忠 and 贝飞 and 吴晨生},
+   Title = {基于句法分析和属性概率权重的跨语言情感分类算法},
+   Journal = {模式识别与人工智能},
+   Volume = {28},
+   Number = {11},
+   Pages = {1002-1012},
+   Abstract = {在篇章级情感分类研究方法中,算法常仅考虑情感的分布信息,忽略情感知识的语义信息,影响跨语言情感分类的准确率.针对上述问题,文中提出基于句法分析和属性概率权重的跨语言情感分类算法.首先,通过句法分析得到表征词语之间关系的依赖对,再将依赖对翻译到目标语言.然后,基于词典极性的分布信息与文档情感分类的相关性,将类别属性的语义权重特征融合到朴素贝叶斯分类方法中,实现新的分类方法.使用带标签的英文分类数据集作为训练语料,标准中文数据集作为测试语料进行实验,结果表明文中算法的有效性.},
+   Keywords = {跨语言;情感分析;朴素贝叶斯;类别属性权重},
+   Year = {2015} }
+
+
+
+
+@article{
+李青蒋冬梅-8040,
+   Author = {李青 and 蒋冬梅 and Ping, FAN and Ilse, Ravyse and Hichem, Sahli},
+   Title = {基于流形特征的视频情感分析与识别},
+   Journal = {计算机工程与科学},
+   Volume = {32},
+   Number = {12},
+   Pages = {39-41},
+   Abstract = {本文研究了基于Isomap的 非线性降维方法,对由面部表情序列提取的面部动画参数特征进行降维,分析了降维后的流形特征空间与认知心理学情感空间之间的关系。实验结果表 明,Isomap降维后的情感流形特征能够表现情感的强度变化,而且比PCA降维特征对情感强度的描述更加合理和平滑;情感识别实验也表明,使用 Isomap降维流形特征的识别率要高于原始情感特征和PCA降维特征,而且对各种情感的识别结果更加均衡。},
+   Keywords = {Isomap;流形;情感空间;非线性特征降维;情感强度},
+   Year = {2010} }
+
+
+
+
+@article{
+张磊李梦诗-8041,
+   Author = {张磊 and 李梦诗 and 陈黎 and 黎红友 and 李志蜀 and 彭舰},
+   Title = {基于双层HHMM的产品评论特征和情感分类},
+   Journal = {四川大学学报(工程科学版)},
+   Volume = {45},
+   Number = {2},
+   Pages = {94-102},
+   Abstract = {近年来,中文产品评论的特征情感分类是Web数据挖掘的重要研究 内容之一.提出了一套完整的产品命名实体、特征词、情感词以及边界的标注规则,设计了多层次的混合标签模式;提出了双层HHMM(层级隐马尔科夫模型)结 构,将词形标注和词性标注的特点进行融合;提出了基于词形标注的HHMM-1算法和基于词性标注的HHMM-2算法,实现复杂短语的自动标注.实验证明, 双层HHMM模型起到了互补的作用,模型的查全率和F-score值均有较大提高.},
+   Keywords = {Web数据挖掘;特征情感分类;标注规则;双层HHMM},
+   Year = {2013} }
+
+
+
+
+@article{
+王志昊王中卿-8042,
+   Author = {王志昊 and 王中卿 and 李寿山 and 李培峰 and 施寒潇},
+   Title = {面向半监督情感分类的特征选择方法研究},
+   Journal = {中文信息学报},
+   Volume = {27},
+   Number = {6},
+   Pages = {96-102},
+   Abstract = {摘　要: 特征选择旨在降低高维度特征空间,进而简化问题和优化学习方法.已有的研究显示特征提取方法能够有效降低监督学习的情感分类中的特征维度空间.同以往研究不一样的是,该文首次探讨半监督情感分类中的特征提取方法,提出一种基于二部图的特征选择方法.该方法首先借助二部图模型来表述文档与单词间的关系;然后,结合小规模标注样本的标签信息和二部图模型,利用标签传播(LP)算法计算每个特征的情感概率;最后,按照特征的情感概率进行排序进而实现特征选择.多个领域的实验结果表明,在半监督情感分类任务中,基于二部图的特征选择方法明显优于随机特征选择,在保证分类效果不下降(甚至提高)的前提下有效降低了特征空间维度.},
+   Keywords = {情感分类;半监督学习;二部图;标签传播;特征选择},
+   Year = {2013} }
+
+
+
+
+@article{
+伊马木·达吾提何炎祥-8043,
+   Author = {伊马木·达吾提 and 何炎祥 and 刘续乐},
+   Title = {基于主谓情感差异性句法分析框架的跨语言情感分析},
+   Journal = {小型微型计算机系统},
+   Number = {3},
+   Pages = {494-498},
+   Abstract = {摘　要: 随着互联网的快速发展和全球化进程的加快,因特网提供的信息资源呈现出多语言化的特点.各语言可利用资源的不平衡给网络信息的研究和利用带来障碍.在此背景之下,利用资源丰富语言对资源贫乏语言进行情感分析具有重要的应用价值与现实意义.提出一种基于主谓情感差异句法分析框架,实现跨语言的情感分析.将目标语言数据翻译后作为测试集,利用句法分析工具Stanford Parser进行句法分析,结合情感词典和转折词表,再基于双语语料训练出贝叶斯分类器后对跨语言测试语料进行最终的情感分析.实验结果表明,本文方法在情感分类的准确率上高于传统方法 20%以上,具有一定的实用价值.},
+   Keywords = {跨语言情感分析;句法分析;Stanford;PARSER;贝叶斯分类},
+   Year = {2016} }
+
+
+
+
+@article{
+李爱萍邸鹏-8044,
+   Author = {李爱萍 and 邸鹏 and 段利国},
+   Title = {基于句子情感加权算法的篇章情感分析},
+   Journal = {小型微型计算机系统},
+   Volume = {36},
+   Number = {10},
+   Pages = {2252-2256},
+   Abstract = {摘　要: 针对篇章级的文本情感倾向性分析准确率不高的问题,提出一种新的基于句子加权算法的篇章级文本情感倾向性分析方法.该方法将文本细化为句子的集合,在充分分析汉语中各种句子的句式结构特点的基础上,对复杂句采用新的情感判断规则判别情感,对简单句采用朴素贝叶斯算法判别情感,依据新提出的句子情感值的计算规则为每个句子赋予情感权值,最后依据此次研究提出的句子情感权值合成算法计算得出篇章级文本的情感倾向性.在实验中,使用本文所提出的方法对篇章级文本进行情感分析获得了较好的准确率、召回率和F值.实验证明,基于句子加权算法的情感分析方法要比传统的文本分类方法效率更高.},
+   Keywords = {情感倾向性;复杂句;简单句;情感权值;句子加权算法},
+   Year = {2015} }
+
+
+
+
+@article{
+李强刘晓峰-8045,
+   Author = {李强 and 刘晓峰 and 贺静},
+   Title = {基于语音特征的情感分类},
+   Journal = {小型微型计算机系统},
+   Number = {2},
+   Pages = {385-388},
+   Abstract = {情感识别是智能机器人技术研究 中的一个重要课题,对不同的情感识别有助于提高机器人的智能水平和与人类沟通的效果.首先采用语速、瞬时能量、瞬时过零率、共振峰和基频五种语音特征,以 及正常、喜悦、愤怒、悲伤、惊讶五种情绪状态,建立语音特征与情绪的相关性模型,然后设计PNN识别算法,再通过该算法对情绪状态训练分类,最后在语音识 别过程中提取的低阶特征,识别高阶情感语义.通过实验效果对比分析,其平均识别率可以达到82.58%,优于HMM的82.2%,主成分析的66.16% 和多元回归分析的62.68%,可以得出该模型对语音情感识别有较好的识别率.},
+   Keywords = {情感计算;语音识别;PNN;贝叶斯分类},
+   Year = {2016} }
+
+
+
+
+@article{
+刘德喜-8046,
+   Author = {刘德喜},
+   Title = {情感词扩展对微博情感分类性能影响的实验分析},
+   Journal = {小型微型计算机系统},
+   Number = {5},
+   Pages = {957-965},
+   Abstract = {微博情感分类是典型的情感分析任务之一,而情感词是很多情感分析方法的基础.由于手工情感词典的局限性,情感词的自动扩展经常作为情感分析的重要步骤,而情感词扩展方法的好坏也经常用情感分类等任务来间接评测.在中、英文两个语种的微博数据集上进行对比实验,详细地分析了通过典型的情感词扩展方法抽取的新情感词对微博主观性分类和倾向性分类的影响.实验中对比了中、英文两种语种、不同的情感词扩展方法、不同的情感强度计算方法、不同的微博情感分类方法、不同的候选情感词词性、不同的种子情感词典、以及不同的微博情感分类测试集,透过多个视角,观察和分析情感词扩展在微博情感分类中作用,为相关研究工作提供参照或证据.},
+   Keywords = {情感词扩展;情感分类;微博;实验分析},
+   Year = {2016} }
+
+
+
+
+@article{
+邢玉娟郭显-8047,
+   Author = {邢玉娟 and 郭显 and 谭萍 and 李明},
+   Title = {Mixed-Fisher特征云模型聚类在文本情感分类中的应用  2015年11月13日},
+   Journal = {计算机科学与探索},
+   Abstract = {海量网络信息的出现,使得提取文本信息情感观点成为研究的热点。针对文本情感分类中文本信息模糊及分类准确率低的问题,提出了一种基于 Mixed-Fisher 特征选择的文本云向量模型聚类算法。该算法首先分别计算文档中各个词性特征项的Fisher判别比,根据Fisher判别比越大特征向量判别性越强的Fisher准则,选择Fisher比值较大的前q个特征,并按照词性进行组合生成文档的 Mixed-Fisher特征向量;然后在 Mixed-Fisher 特征向量集上构建文档的云向量模型,根据云向量模型间的差异度对模型进行聚类和合并。将该算法应用于文本情感观点的分类,选择核 Fisher 判别技术用于最终文本观点的判定。仿真实验结果表明,基于 Mixed-Fisher 特征的云向量聚类模型的分类准确率明显优于传统向量空间模型,并验证了核Fisher判别技术的有效性。},
+   Keywords = {文本情感分类;Fisher 判别比;词性特征;云向量模型;核Fisher判别},
+   Year = {2015} }
+
+
+
+
+@article{
+魏志生吉阳生-8048,
+   Author = {魏志生 and 吉阳生 and 罗春勇 and 陈家骏},
+   Title = {加入领域先验知识的产生式情感分类模型},
+   Journal = {计算机科学与探索},
+   Volume = {05},
+   Number = {12},
+   Pages = {1105-1113},
+   Abstract = {情感分类是通过分析数据中的情 感信息,来预测数据所传递的情感倾向。其中结合语言学词典与产生式分类器构造带有先验知识的分类模型,是一类重要的研究课题。通过研究情感词的领域性和不 同权重的特性,提出了一种新的融入情感先验知识的情感分类方法。通过自动分析构造领域相关的情感词及其权重信息,将其作为情感先验知识,融入到产生式分类 模型中,得到更适合特定领域的分类模型。实验结果表明,该方法在分类性能上,显著并一致地优于其他结合了领域无关先验知识的产生式分类模型。},
+   Keywords = {情感分类;先验知识;领域情感词;情感词},
+   Year = {2011} }
+
+
+
+
+@article{
+何炎祥刘健博-8049,
+   Author = {何炎祥 and 刘健博 and 孙松涛 and 文卫东},
+   Title = {基于层叠条件随机场的微博商品评论情感分类},
+   Journal = {山东大学学报(理学版)},
+   Number = {11},
+   Pages = {67-73},
+   Abstract = {摘　要: 商品评论是消费者针对某一个商品的主观议论。针对微博中商品的评论文本短小、结构多样等特征,在仅使用现有的微博级情感标注的条件下,提出了一种基于层叠条件随机场模型。以中文小句中枢说为理论基础,将商品评论的句子划分为若干小句,使用微博内小句序列的各种特征训练粗粒度的随机条件场情感分类模型,同时使用小句内汉字序列的各种特征来训练细粒度的随机条件场情感分类模型。实验结果表明,本文提出的方法优于传统的情感分类方法。},
+   Keywords = {微博;情感分析;小句中枢说;条件随机场},
+   Year = {2015} }
+
+
+
+
+@article{
+周文张书卿-8050,
+   Author = {周文 and 张书卿 and 欧阳纯萍 and 刘志明 and 阳小华},
+   Title = {基于情感依存元组的新闻文本主题情感分析},
+   Journal = {山东大学学报:理学版},
+   Number = {12},
+   Pages = {1-6},
+   Abstract = {以情感依存元组(EDT)作为中文情感表达的基本结构,把新闻文 本主题情感倾向性判别任务分成主题识别、情感倾向性分析和主客观分类三个逐层递进的子任务。在主题识别前先对TF-IDF方法进行改进,再结合基于交叉熵 方法提取主题特征词,同时考虑了新闻文章标题的主题表征作用,将标题词纳入主题特征集;然后基于空间向量模型计算句子与主题特征向量的相似度,在此基础上 考虑句子位置、长度及句子与标题的相似度,计算句子的主题相关度以抽取主题句;最后建立情感依存元组判别模型计算主题句的情感,采用主、客观分类规则筛选 出新闻倾向关键句。本方法在COAE 2014评测中各项指标皆逼近最好成绩,表明基于情感依存元组的分类方法具有较高的分类性能。},
+   Keywords = {情感分析;情感依存元组;主题情感;倾向关键句},
+   Year = {2014} }
+
+
+
+
+@article{
+冯时付永陈-8051,
+   Author = {冯时 and 付永陈 and 阳锋 and 王大玲 and 张一飞},
+   Title = {基于依存句法的博文情感倾向分析研究},
+   Journal = {计算机研究与发展},
+   Volume = {49},
+   Number = {11},
+   Pages = {2395-2406},
+   Abstract = {博客作为一种用户发表其观点和看法的载体己成为Web上一个重要 的情感抒发与交流平台,博文搜索为这种交流提供了方便快捷的途径.很多时候,用户进行博文搜索时更关注作者对事件所持的观点或情感,但目前的博文搜索返回 结果大多基于主题而非情感倾向.基于此提出一种基于句法依存分析技术的算法SOAD(sentiment orientation analysis based on syntactic dependency)对博文搜索结果进行情感倾向性分析.基于SOAD算法,构建了一个中文博文搜索原型系统,对博文搜索结果进行再处理.实验证明,一 方面,SOAD算法在分析博文情感上具有更大的优势;另一方面,建立的原型系统实现了依据情感倾向返回搜索结果的目标.},
+   Keywords = {依存句法分析;观点挖掘;情感分析;倾向性分析;博文搜索},
+   Year = {2012} }
+
+
+
+
+@article{
+乌达巴拉汪增福-8052,
+   Author = {乌达巴拉 and 汪增福},
+   Title = {一种扩展式CRFs的短语情感倾向性分析方法研究},
+   Journal = {中文信息学报},
+   Volume = {29},
+   Number = {1},
+   Pages = {155-162},
+   Abstract = {短语情感倾向性分析是文本情感分析的重要研究内容.该文将短语情感倾向性分析问题视作序列标注问题,利用条件随机场模型实现短语的情感倾向性判断.条件随机场模型是利用序列特征处理序列标注问题的经典方法,然而现有条件随机场模型无法将词语的情感倾向性分析与短语的情感倾向性分析相结合,从而造成准确率不高.因此,该文提出一种扩展式条件随机场模型YACRFs.该模型在链式条件随机场模型的基础上进行扩充,将词语情感倾向性分析与短语情感倾向性分析有效地结合起来,引入了情感词汇、短语规则模板以及词性等特征.与传统的规则方法和统计分类方法进行对比实验,该文提出方法取得了最高准确率81.07%.进一步地,在应用于句子情感倾向性分析的实验中得到了94.30%的准确率.实验结果表明,该文所提出的YACRFs模型能够显著提高短语情感倾向性判断结果的准确率.},
+   Keywords = {短语;情感倾向性分析;条件随机场},
+   Year = {2015} }
+
+
+
+
+@article{
+廖健王素格-8054,
+   Author = {廖健 and 王素格 and 李德玉 and 张鹏},
+   Title = {基于观点袋模型的汽车评论情感极性分类},
+   Journal = {中文信息学报},
+   Volume = {29},
+   Number = {3},
+   Pages = {113-120},
+   Abstract = {摘　要: 该文针对网络评论倾向分级问题,提出了一种基于观点袋模型和语言学规则的多级情感分类方法。通过分析句子中的词性搭配关系,设计了12种抽取特征-观点搭配模式,并对存在问题给出了解决策略。依据汉语用词特点和词汇在汽车领域的特殊用法,提出搭配四元组的情感倾向极性值计算方法。在此基础上,利用获取的搭配四元组及其情感倾向极性,建立文本的向量化表示,并构造了权重计算公式。最后,利用文本余弦相似度计算方法实现对评论文本的五级情感极性分类。通过在COAE2012任务3的汽车数据集上进行的测试,取得了较好的分类结果。},
+   Keywords = {情感分类;观点袋模型;词性搭配},
+   Year = {2015} }
+
+
+
+
+@article{
+张志飞苗夺谦-8055,
+   Author = {张志飞 and 苗夺谦 and 聂建云 and 岳晓冬},
+   Title = {否定句的情感不确定性度量及分类},
+   Journal = {计算机研究与发展},
+   Number = {8},
+   Pages = {1806-1816},
+   Abstract = {情感分类是社交媒体大数据分析的有力手段之一.否定句作为一种普遍且特殊的句子现象,其情感分类的研究具有重要的意义.否定词语和情感词语在否定句情感分类中同样重要,已有方法仅仅考虑否定词语修饰情感词语的情况,忽视否定词语本身反映情感的作用.为了统一解决否定词语修饰和不修饰情感词语情况下的分类问题,提出了基于决策粗糙集的否定句情感分类模型.构造词典并结合句际关系计算子句情感值,根据子句情感值提出基于KL散度的句子情感不确定性度量方法;然后融合多个特征,特别是与否定相关的独立否定特征和显著副词特征,用于否定句的特征表示;最后提出基于决策相关程度的决策正域约简算法,生成否定句情感分类决策规则.实验结果验证了该模型的有效性以及情感不确定性度量对于情感分类的作用.},
+   Keywords = {情感分类;否定句;情感不确定性;决策粗糙集;属性约简},
+   Year = {2015} }
+
+
+
+
+@article{
+朱江王柏-8056,
+   Author = {朱江 and 王柏 and 吴斌},
+   Title = {新浪微博群体分级别情感行为分析及建模仿真},
+   Journal = {北京邮电大学学报},
+   Volume = {36},
+   Number = {6},
+   Pages = {50-54},
+   Abstract = {为研究社会网络用户情感行为, 以新浪微博数据为基础,对用户微博内容情感进行分级,进而对微博用户群体情感行为进行分析,建立了分级别情感发帖模型,并进行了仿真实验.通过分析发现用 户在表达某一级别情感的发帖量均服从幂律分布,且幂指数随着情感级别趋向平和而增加.大部分用户通过微博表达情感时较为平和,需要表达激烈的情感时,用户 参与比例会减小.在级别情感发帖模型的建立过程中,考虑到了发帖人受到周围情感环境因素的影响以及自身情感的随机性变化,并通过模型仿真的结果验证了分级 别情感发帖量服从幂律分布以及幂指数的变化趋势.},
+   Keywords = {情感分级;群体情感行为;幂律分布},
+   Year = {2013} }
+
+
+
+
+@article{
+肖红许少华-8057,
+   Author = {肖红 and 许少华},
+   Title = {基于句法分析和情感词典的网络舆情倾向性分析研究},
+   Journal = {小型微型计算机系统},
+   Volume = {35},
+   Number = {4},
+   Pages = {811-813},
+   Abstract = {随着互联网信息技术的发展,网络媒体已经成为民众表达情绪、意愿的主要场所,也是舆情信息传播的主要渠道.为了在海量的网络互动信息中能够准确迅速地对网民观点进行情感倾向性分析,本文提出了一种将句法分析和情感词典相结合的分析方法.首先,对目前通用的情感词典组织模型进行了改进,给出了具体的改进模型.然后,在用情感词典进行切词的基础上对句子进行语法分析,再利用情感词在句子中的成份、情感指数权重以及与其他情感词之间的组合共现关系计算出综合的情感指数.通过对论坛回复、新闻语评论内容的实际测试,验证了此方法的有效性.实验结果表明,此方法在一定程度上提高了情感分析的正确率,并具有一定的适应性和推广性.},
+   Keywords = {倾向性分析;情感分析;句法分析;情感词典;网络舆情},
+   Year = {2014} }
+
+
+
+
+@article{
+罗毅李利-8058,
+   Author = {罗毅 and 李利 and 谭松波 and 程学旗},
+   Title = {基于中文微博语料的情感倾向性分析},
+   Journal = {山东大学学报(理学版)},
+   Volume = {49},
+   Number = {11},
+   Pages = {1-7},
+   Abstract = {微博的兴起与传播使得短文本情感分类成为目前的热门研究领域。通过对中文微博语料的情感倾向性分析进行研究,提出了一种新的情感分类方法。首先构建了两级情感词典,并对不同级别情感词作不同增强;然后在情感特征方面使用N-Gram方法,尽量获取有限长度博文中的未登录情感词和情感信息。经实验验证与传统方式相比较,该方法的准确率和召回率都有所提高,在COAE2014微博情感倾向性评测任务中也取得了较好的成绩。},
+   Keywords = {情感分类;倾向性分析;观点挖掘},
+   Year = {2014} }
+
+
+
+
+@article{
+朱玺董喜双-8059,
+   Author = {朱玺 and 董喜双 and 关毅 and 刘志广},
+   Title = {基于半监督学习的微博情感倾向性分析},
+   Journal = {山东大学学报(理学版)},
+   Volume = {49},
+   Number = {11},
+   Pages = {37-42},
+   Abstract = {摘　要: 微博情感倾向性分析通常指对中文微博中每个句子褒义、贬义或者中性的情感进行自动分类。针对微博碎片化和情感类别失衡的特点,在半监督学习reserved self-training方法的框架基础上提取了适用于微博情感分类的文本特征,并提出了针对情感倾向性分析通过训练度阈值设定的方法来优化reserved self-training迭代终止的条件,在保留reserved self-training能有效处理微博语料中语料情感不平衡问题的优点基础上,防止了训练过度情况的发生。COAE 2014微博情感倾向性评测结果证明了该方法的有效性。},
+   Keywords = {情感分析;训练度阈值},
+   Year = {2014} }
+
+
+
+
+@article{
+孙晓唐陈意-8060,
+   Author = {孙晓 and 唐陈意},
+   Title = {基于层叠模型细粒度情感要素抽取及倾向分析},
+   Journal = {模式识别与人工智能},
+   Number = {6},
+   Abstract = {针对商品评论中的细粒度情感要素抽取问题,提出基于条件随机场模 型( CRFs)和支持向量机( SVM)的层叠模型。针对情感对象与情感词的识别,将评论的句法信息、语义信息等引入CRFs模型,进一步提高CRFs特征模板的鲁棒性。在SVM模型 中,引入情感对象和情感词的深层词义及情感词的基本情感倾向等特征,改进传统的词包模型,对掖情感对象,情感词业词对进行细粒度的情感分类判断,从而获得 商品评论中的情感关键信息:(情感对象,情感词,情感倾向性)三元组。实验表明,文中的CRFs和SVM层叠模型可提高情感要素抽取与情感分类判断的准确 性。},
+   Keywords = {情感计算;情感要素;语义角色;语法依存树;词义聚类},
+   Year = {2015} }
+
+
+
+
+@article{
+王伟孟祥福-8061,
+   Author = {王伟 and 孟祥福 and 肖春娇},
+   Title = {基于耦合关系的情感词语义分析方法},
+   Journal = {计算机科学与探索},
+   Volume = {8},
+   Number = {9},
+   Pages = {1146-1152},
+   Abstract = {针对传统话题模型不能很好地获取文本情感信息并进行情感分类的问题,提出了情感LDA(latent Dirichlet allocation)模型,并通过对文本情感进行建模分析,提出了情感词耦合关系的LDA模型。该模型不但考虑了情感词的话题语境,而且考虑了词的情感耦合关系,并且通过引入情感变量对情感词的概率分布进行控制,采用隐马尔科夫模型对情感词耦合关系的转移进行建模分析。实验表明,该模型可以对情感词耦合关系和话题同时进行分析,不仅能有效地进行文本情感建模,而且提升了情感分类结果的准确度。},
+   Keywords = {潜在Dirichlet分配(LDA)模型;情感词耦合;隐马尔科夫模型(HMM);文本情感建模},
+   Year = {2014} }
+
+
+
+
+@article{
+杨亮林鸿飞-8062,
+   Author = {杨亮 and 林鸿飞 and 郭巍},
+   Title = {面向文本的情感迁移分析策略},
+   Journal = {计算机工程与科学},
+   Volume = {33},
+   Number = {9},
+   Pages = {123-129},
+   Abstract = {摘　要: 情感的迁移变化是外界刺激与个体感知共同作用的结果,本文着重就个体感知进行了探讨。首先就 文本中情感的迁移规律进行了分析,讨论了心情与人格要素对情感迁移的影响。在此基础上,采用将语言特征与情感间迁移规律相结合的方法,通过机器学习实现了 文本的情感分类。实验结果表明,情感分类的精确率相对传统方法提高了9.21%,方法的有效性得到了证明。},
+   Keywords = {情感迁移;情感分类;文本情感分析},
+   Year = {2011} }
+
+
+
+
+@article{
+宋佳颖黄旭-8063,
+   Author = {宋佳颖 and 黄旭 and 付国宏},
+   Title = {基于词语情感隶属度特征的情感极性分类},
+   Journal = {北京大学学报(自然科学版)},
+   Volume = {52},
+   Number = {1},
+   Pages = {171-177},
+   Abstract = {摘　要: 在模糊集合论框架下探索基于词语情感隶属度的情感极性分类特征表示方法。以TF-IDF为权重分别构建情感特征词语的正向、负向极性隶属度,并以隶属度对数比作为分类特征值构建基于支持向量机的情感极性分类系统。在产品评论、NLPCC2014情感分类评测数据和IMDB英文影评等数据上的实验结果表明,基于情感隶属度特征的系统优于基于布尔、频度和词向量等特征表示的系统,验证了所提出的基于情感隶属度特征表示的有效性。},
+   Keywords = {情感极性分类;模糊集合论;隶属度;支持向量机},
+   Year = {2016} }
+
+
+
+
+@article{
+李本阳关毅-8064,
+   Author = {李本阳 and 关毅 and 董喜双 and 李生},
+   Title = {基于单层标注级联模型的篇章情感倾向分析},
+   Journal = {中文信息学报},
+   Volume = {26},
+   Number = {4},
+   Pages = {3-8},
+   Abstract = {摘　要: 情感分类是目前篇章情感分析的主要方法,但该方法存在难以融入中文结构特征的问题。针对此问题,采用级联模型对篇章情感倾向进行分析,将篇章情感倾向分析分为两层:小句级和篇章级,对篇章情感倾向分析引入小句级的情感分析。该文使用最大熵模型处理小句级情感分类,小句级的输出作为上层篇章级的输入,并结合句型特征和句子位置等信息作为特征,采用支持向量机模型进行篇章级情感分类。同时对于级联模型中双层标注问题,基于交叉验证的思想提出了单层标注级联模型,避免了多层标注工作以及错误。实验结果表明,该方法的准确率较传统情感分类方法提高了2.53%。},
+   Keywords = {情感倾向分析;情感分类;级联模型;最大熵;支持向量机},
+   Year = {2012} }
+
+
+
+
+@article{
+魏现辉张绍武-8065,
+   Author = {魏现辉 and 张绍武 and 杨亮 and 林鸿飞},
+   Title = {基于加权SimRank的跨领域文本情感倾向性分析},
+   Journal = {模式识别与人工智能},
+   Volume = {26},
+   Number = {11},
+   Pages = {1004-1009},
+   Abstract = {近年来,跨领域文本倾向性分析已成为自然语言处理领域的一个研究热点.它利用已经标注倾向性的源领域文本,预测目标领域文本的倾向性.然而,由于不同领域的数据往往服从不同的分布,导致传统的监督分类模型通常不能取得理想的效果.为解决以上问题,提出了一种基于加权SimRank的分析模型.本模型在加权SimRank算法的基础上,构建潜在特征空间,然后在潜在特征空间下学习得到映射函数,并对每个样本重新映射,从而缩小了不同领域间的数据分布差异,实现了跨领域情感分类.最后,通过实验验证了该方法的有效性.},
+   Keywords = {跨领域;情感分类;加权SimRank},
+   Year = {2013} }
+
+
+
+
+@article{
+刘义红朱琛-8066,
+   Author = {刘义红 and 朱琛 and 祝恒书},
+   Title = {一种基于词序的社会情感演变分析模型},
+   Journal = {计算机工程与科学},
+   Volume = {37},
+   Number = {11},
+   Pages = {2175-2181},
+   Abstract = {摘　要: 提出了一种基于词序的社会情感演变分析模型(BTMESE),模型通过引入文档中词与词之间的前后关联性,以期有效地揭示时间、文本、情感三种信息之间的潜在联系,进而追踪社会情感演变趋势,进一步提高情感分析的准确率。该模型可应用于情感预测、时间预测等领域。通过在真实世界的数据集上进行验证,结果证明该模型简单有效,能够较好地进行社会情感分析。},
+   Keywords = {词序;情感分析;社交媒体;主题模型},
+   Year = {2015} }
+
+
+
+
+@article{
+黄萱菁张奇-8067,
+   Author = {黄萱菁 and 张奇 and 吴苑斌},
+   Title = {文本情感倾向分析},
+   Journal = {中文信息学报},
+   Volume = {25},
+   Number = {6},
+   Pages = {118-126},
+   Abstract = {近年来,文本情感倾向研究受到研究界和企业界越来越多的关注,成为了自然语言处理、信息检索、数据挖掘等领域的研究热点之一。随着研究的不断深入,大量情感倾向分析的新方法、新问题也不断涌现。该文重点对文本情感倾向研究的前沿进展进行概括和分析。首先,结合近年来的研究成果,对文本情感倾向分析的两类主要问题进行了定义,并归纳了不同的倾向性表示方法。接下来,对倾向性分类、倾向性信息抽取、语料库与评测以及倾向性分析应用等方面的研究现状进行介绍。最后,总结了情感倾向性分析技术并对未来的发展进行了展望。由于国内对于文本情感倾向分析的研究起步较早,在一些问题的研究上处于国际前沿水平,已经发表了许多高水平论文,该文也将对此加以介绍。},
+   Keywords = {倾向性分析;评价挖掘;倾向性分类;综述},
+   Year = {2011} }
+
+
+
+
+@article{
+宋晓雷王素格-8068,
+   Author = {宋晓雷 and 王素格 and 李红霞 and 李德玉},
+   Title = {基于概率潜在语义分析的词汇情感倾向判别},
+   Journal = {中文信息学报},
+   Volume = {25},
+   Number = {2},
+   Pages = {89-93},
+   Abstract = {该文利用概率潜在语义分析,给出了两种用于判别词汇情感倾向的方法。一是使用概率潜在语义分析获得目标词和基准词之间的相似度矩阵,再利用投票法决定其情感倾向;二是利用概率潜在语义分析获取目标词的语义聚类,然后借鉴基于同义词的词汇情感倾向判别方法对目标词的情感倾向做出判别。两种方法的优点是均可在没有外部资源的条件下,实现词汇情感倾向的判别。},
+   Keywords = {概率潜在语义分析;数据稀疏;语义聚类;情感倾向},
+   Year = {2011} }
+
+
+
+
+@article{
+吕韶华杨亮-8069,
+   Author = {吕韶华 and 杨亮 and 林鸿飞},
+   Title = {基于SimRank的跨领域情感倾向性分析算法研究},
+   Journal = {中文信息学报},
+   Volume = {26},
+   Number = {6},
+   Pages = {38-44},
+   Abstract = {情感倾向性判断是指根据文本表述分析文本的倾向性,即发表文本的作者所持有的支持或反对的态度,对于特定领域的情感倾向性研究尤以运用监督分类方法所得出的实验结果较为理想。但若将此类方法直接运用于不同领域的文本,其效果却难以尽如人意。在这种情况下,如何利用已标注情感倾向性的源领域文本去判断未知情感倾向性的目标领域文本的倾向性,即跨领域的情感倾向性分析问题——成为当前研究的热点。为此,该文提出一种基于SimRank的跨领域情感倾向性分析算法,把在源领域和目标领域中共现的词汇作为连接两个领域的桥梁,利用情感词典和SimRank算法找出潜在情感空间,然后使用SVM对已标注的源领域进行训练进而得到训练模型,以便利用此模型预测目标领域的情感倾向性。该文亦通过相关实验所得到的实验结果表明了此方法的有效性。},
+   Keywords = {跨领域;倾向性判断;SimRank;支撑向量机},
+   Year = {2012} }
+
+
+
+
+@article{
+刘龙飞杨亮-8070,
+   Author = {刘龙飞 and 杨亮 and 张绍武 and 林鸿飞},
+   Title = {基于卷积神经网络的微博情感倾向性分析},
+   Journal = {中文信息学报},
+   Volume = {29},
+   Number = {6},
+   Pages = {159-165},
+   Abstract = {摘　要: 微博情感倾向性分析旨在发现用户对热点事件的观点态度。由于微博噪声大、新词多、缩写频繁、有自己的固定搭配、上下文信息有限等原因,微博情感倾向性分析是一项有挑战性的工作。该文主要探讨利用卷积神经网络进行微博情感倾向性分析的可行性,分别将字级别词向量和词级别词向量作为原始特征,采用卷积神经网络来发现任务中的特征,在COAE2014任务4的语料上进行了实验。实验结果表明,利用字级别词向量及词级别词向量的卷积神经网络分别取得了95.42%的准确率和94.65%的准确率。由此可见对于中文微博语料而言,利用卷积神经网络进行微博情感倾向性分析是有效的,且使用字级别的词向量作为原始特征会好于使用词级别的词向量作为原始特征。},
+   Keywords = {深度学习;情感倾向性分析;卷积神经网络;词向量},
+   Year = {2015} }
+
+
+
+
+@article{
+张磊李珊-8071,
+   Author = {张磊 and 李珊 and 彭舰 and 陈黎 and 黎红友},
+   Title = {基于依存关系和最大熵的特征-情感对分类},
+   Journal = {电子科技大学学报},
+   Number = {3},
+   Pages = {420-425},
+   Abstract = {中文产品评论特征词与关联的情感词的分类是观点挖掘的重要研究内容之一。该文改进了英文依存关系语法,总结出5种常用的中文产品评论依存关系;利用最大熵模型进行训练,设计了基于依存关系的复合特征模板。实验证明,应用该复合模板进行特征-情感对的提取,系统的查全率和F-score相比于传统方法,分别提高到78.68%和75.36%。},
+   Keywords = {依存关系;特征-情感对;特征模板;最大熵;Web数据挖掘},
+   Year = {2014} }
+
+
+
+
+@article{
+许歆艺刘功申-8072,
+   Author = {许歆艺 and 刘功申},
+   Title = {基于文本纹理特征的中文情感倾向性分类},
+   Journal = {中文信息学报},
+   Volume = {29},
+   Number = {3},
+   Pages = {106-112},
+   Abstract = {随着互联网的发展,社交网络、电子商务等已经成为人们关注的焦 点,对社交网络的文本进行情感倾向性分析和挖掘变得越来越重要.该文针对网络上的中文文本,提出一种基于文本纹理特征的情感倾向性分类方法.通过测试多种 文本纹理特征对文本情感倾向性的影响,成功将文本纹理特征融入情感分类中.通过计算各类特征与文本的情感倾向性的相关度,对特征进行降维.相对于基于词频 的情感倾向性分类方法,查准率平均提高了10%左右.},
+   Keywords = {中文文本分类;情感倾向性;文本纹理;SVM},
+   Year = {2015} }
+
+
+
+
+@article{
+陆浩牛振东-8073,
+   Author = {陆浩 and 牛振东 and 张楠 and 孙星恺 and 刘文礼},
+   Title = {基于句法与主题扩展的中文微博情感倾向性分析模型},
+   Journal = {北京理工大学学报},
+   Number = {8},
+   Pages = {824-830},
+   Abstract = {摘　要: 微博数据具有微博文本长度不一,文本内容主题发散性,夹杂微博专用符号等特性,需要一种融合句法分析、领域知识、表情符号等多因素的综合建模方法对社会、娱乐、安全等多领域微博进行情感分析.文章提出了一种面向主题的中文微博情感建模方法,该模型涵盖了数据预处理、句法分析、主题扩展、领域知识、情感词上下文极性调整、表情符号等内容,最后以新浪微博采集数据,选取3个领域主题进行了实验,在特定的实验环境下,得到了较高的分析准确率.},
+   Keywords = {微博;情感分析;句法分析;主题扩展},
+   Year = {2014} }
+
+
+
+
+@article{
+夏睿宗成庆-8074,
+   Author = {夏睿 and 宗成庆},
+   Title = {情感文本分类混合模型及特征扩展策略},
+   Journal = {智能系统学报},
+   Volume = {06},
+   Number = {6},
+   Pages = {483-488},
+   Abstract = {针对篇章级别情感文本分类问 题,分析了传统的生成式模型和判别式模型的性能,提出了一种级联式情感文本分类混合模型以及句法结构特征扩展策略.在该模型中,生成式模型(朴素贝叶斯分 类器)和判别式模型(支持向量机)以级联的方式进行组合,旨在消除对于分类临界样本,模型判决置信度不足引起的误差.在混合模型的基础上,提出了一种高效 扩展依存句法特征的策略.该策略既提高了系统的正确率,又避免了传统特征扩展方法所带来的计算量增加的问题.实验结果表明,混合模型及特征扩展策略与传统 方法相比,在算法准确性和效率上,都有显著的提高.},
+   Keywords = {文本分类;情感分类;混合模型;特征扩展},
+   Year = {2011} }
+
+
+
+
+@article{
+桂斌杨小平-8075,
+   Author = {桂斌 and 杨小平 and 朱建林 and 张中夏 and 肖文韬},
+   Title = {基于意群划分的中文微博情感倾向分析研究},
+   Journal = {中文信息学报},
+   Volume = {29},
+   Number = {3},
+   Pages = {100-105},
+   Abstract = {微博作为一种新兴的社交网络平台,逐渐成为公众发布个人信息,获 取实时信息,表达个人观点的新平台.针对微博情感倾向判断的问题,提出了一种基于意群划分的中文微博情感倾向分析(STDSG)方法.引入意群的概念,提 出微博意群划分算法,根据意群间的关系,考虑否定词、程度词及标点符号的对情感倾向分析的影响,提出计算微博意群情感倾向的方法.在给定的数据集上,实验 结果准确率达到了80.1%,总体性能优于基于情感词典的方法及基于支持向量机的方法.},
+   Keywords = {微博;意群;情感倾向},
+   Year = {2015} }
+
+
+
+
+@article{
+李婷玉葛正荣-8076,
+   Author = {李婷玉 and 葛正荣 and 姚天昉},
+   Title = {汉语情感问题类型分类研究},
+   Journal = {中文信息学报},
+   Volume = {25},
+   Number = {2},
+   Pages = {94-98},
+   Abstract = {摘　要: 随着网络搜索引擎技术的飞速发展,对于问答系统的需求愈发迫切。而问答系统处理问题的第一步 就需要分辨情感问题和非情感问题并对情感问题进行分类。该文首先分析了当前问答系统和问题分类领域的研究现状,总结了一些存在的问题。然后针对情感问题从 三个方面进行分类。在语义层面,提取了三个关键词;在语法层面,通过规则的制定,将其分成五种疑问句类型;在领域层面,通过搜索引擎的相关网页数量来进行 判断。再对综合上述三个方面所开发出的测试系统进行分析。实验结果表明:对于情感问题的分类,从三个层面进行分析比较全面。},
+   Keywords = {情感问题;问答系统;问题分类;自然语言处理},
+   Year = {2011} }
+
+
+
+
+@article{
+乌达巴拉汪增福-8077,
+   Author = {乌达巴拉 and 汪增福},
+   Title = {基于半监督的短语情感倾向性分析方法},
+   Journal = {模式识别与人工智能},
+   Volume = {29},
+   Number = {4},
+   Abstract = {现有的情感倾向性分析技术无法挖掘情感表达中的深层语言现象且存在特征稀疏问题.文中提出一种基于语义空间模型的半监督短语情感倾向性分析方法.首先研究语义空间内的词语表示问题,提出基于依存语法语义空间模型的词语语义分布计算方法,采用无监督的学习方法计算该词语分布.然后研究短语识别及表示问题,利用词语语义分布的非线性组合方式实现短语结构的表示.最后综合词语语义分布和短语结构表示的相关研究成果,利用神经网络模型设计基于短语的情感倾向性分析系统.实验表明,该方法在构建的测试集上的识别准确率达到预期效果.},
+   Keywords = {情感倾向性分析;词语表示;短语组合;神经网络},
+   Year = {2016} }
+
+
+
+
+@article{
+薛雨丽毛峡-8078,
+   Author = {薛雨丽 and 毛峡 and CALEANU, Catalin-Daniel and 常青},
+   Title = {基于社交、情感和生理的分层模糊表情生成},
+   Journal = {模式识别与人工智能},
+   Volume = {23},
+   Number = {5},
+   Pages = {663-670},
+   Abstract = {针对目前人脸表情生成模型存在 的情感类型较少、未考虑除情感以外产生表情的其它来源以及表情模式固定的局限性,提出一个分层模糊表情生成模型.该模型考虑社交、情感和生理等不同层次对 表情生成的影响,利用模糊理论生成灵活、丰富的表情.基于该模型建立分层智能模糊表情生成系统,并对该系统进行评价,其结果说明分层模糊表情生成在人机交 互中起到较好作用.},
+   Keywords = {社交;情感;生理;分层模糊表情生成},
+   Year = {2010} }
+
+
+
+
+@article{
+白李娟赵小蕾-8079,
+   Author = {白李娟 and 赵小蕾 and 毛启容 and 吴宝凤},
+   Title = {基于声学上下文的语音情感特征提取与分析},
+   Journal = {小型微型计算机系统},
+   Volume = {34},
+   Number = {6},
+   Pages = {1451-1456},
+   Abstract = {针对语句之间的情感存在相互关联的特性,本文从声学角度提出了上下文动态情感特征、上下文差分情感特征、上下文边缘动态情感特征和上下文边缘差分情感特征共四类268维语音情感上下文特征以及这四类情感特征的提取方法,该方法是从当前情感语句与其前面若干句的合并句中提取声学特征,建立上下文特征模型,以此辅助传统特征所建模型来提高识别率.最后,将该方法应用于语音情感识别,实验结果表明,加入新的上下文语音情感特征后,六类典型情感的平均识别率为82.78%,比原有特征模型的平均识别率提高了约8.89%.},
+   Keywords = {声学上下文语音情感特征;情感语音合并句;模糊密度;决策融合;语音情感识别},
+   Year = {2013} }
+
+
+
+
+@article{
+陈立江毛峡-8080,
+   Author = {陈立江 and 毛峡},
+   Title = {基于Fisher准则与SVM的分层语音情感识别},
+   Journal = {模式识别与人工智能},
+   Volume = {25},
+   Number = {4},
+   Pages = {604-609},
+   Abstract = {针对说话人无关的语音情感识别,提出一个分层语音情感识别模型,由粗到细识别悲伤、愤怒、惊奇、恐惧、喜悦和厌恶6种情感.每层采用Fisher比率从288个备选特征中选择适合该层分类的特征,同时将Fisher比率作为输入参数训练该层的支持向量机分类器.基于北京航空航天大学情感语音数据库和德国柏林情感语音数据库,设计4组对比实验,实验结果表明,Fisher准则在两两分类特征选择上优于PCA,SVM在说话人无关的语音情感识别推广方面优于人工神经网络(ANN).在两个数据库的基础上得到类似结果,说明文中分类模型具有一定的跨文化适应性.},
+   Keywords = {语音情感识别;说话人无关;Fisher准则;支持向量机},
+   Year = {2012} }
+
+
+
+
+@article{
+卞金洪王吉林-8081,
+   Author = {卞金洪 and 王吉林 and 余威风 and 赵力},
+   Title = {基于核主分量分析和典型相关分析的语音情感识别},
+   Journal = {数据采集与处理},
+   Volume = {29},
+   Number = {2},
+   Pages = {222-226},
+   Abstract = {摘　要: 核主分量分析(Kernel principal component analysis ,KPCA)是一种利用核方法将主分量分析(Principal component analysis,PCA)推广后的学习方法,KPCA方法能够使得输入空间线性不可分的样本在特征空间有更好的可分性。典型相关分析(Canonical correlation analysis,CCA)是分析两组随机变量之间的相关性的一种统计方法。本文提出将KPCA方法用于语音情感识别中,并采用KPCA和CCA结合的方法用于情感识别。与传统的PCA方法进行了对比,研究结果表明基于KPCA及KPCA+CCA的情感识别有较好的效果。},
+   Keywords = {语音信号;情感识别;情感特征;核主分量分析;典型相关分析},
+   Year = {2014} }
+
+
+
+
+@article{
+王兰成徐震-8082,
+   Author = {王兰成 and 徐震},
+   Title = {基于情感本体的主题网络舆情倾向性分析},
+   Journal = {信息与控制},
+   Volume = {42},
+   Number = {1},
+   Pages = {46-52},
+   Abstract = {摘　要: 在研究文本倾向性识别方法的基础上,分别实现基于文本分类、基于语义规则模式和基于情感词的倾向性分析算法.研究情感本体构建和基于HowNet与主题领域语料的情感概念选择方法,两者结合能提高情感本体中概念的全面性和领域针对性.利用情感本体抽取特征词并判断其情感倾向度,结合句法规则及程度副词影响,用特征情感倾向度作为特征权重,采用机器学习的方法对主题网络舆情web文本进行倾向性分析.实验表明,其分析结果有更高的准确率和召回率,实现方案的普遍性和稳定性值得进一步研究.},
+   Keywords = {情感本体;主题文本;网络舆情;倾向性分析},
+   Year = {2013} }
+
+
+
+
+@article{
+王伟王洪伟-8083,
+   Author = {王伟 and 王洪伟},
+   Title = {特征观点对购买意愿的影响:在线评论的情感分析方法},
+   Journal = {系统工程理论与实践},
+   Number = {1},
+   Pages = {63-76},
+   Abstract = {网络口碑是影响消费者购买行为的因素之一,在线评论中的各种评价信息会改变用户对产品质量的感知,进而影响购买意愿.不同产品特征对用户购买意愿的影响程度各不相同.为此,结合情感分析技术,构建计量经济模型,分析产品特征评价与用户购买意愿的关系,能够识别产品特征的重要程度.首先对产品特征进行抽取和降维,提取"特征一观点对".然后依据信息增益的思想,计算特征的信息增益.利用情感分析技术识别情感极性及其强度,结合产品特征的信息增益,建立产品特征评价对用户购买意愿的计量经济模型,得到产品特征重要度的量化方法.对亚马逊网站上386款数码相机进行持续39个月的跟踪,实证结果表明,对数码相机产品特征的重要度识别高于TF-IDF算法以及HAC算法.研究结果建立起产品特征与用户购买意愿的联系,为网络口碑营销提供了理论依据.},
+   Keywords = {产品特征;在线评论;购买意愿;情感分析;特征挖掘;观点识别},
+   Year = {2016} }
+
+
+
+
+@article{
+张倩瞿有利-8084,
+   Author = {张倩 and 瞿有利},
+   Title = {用于网络评论分析的主题-对立情感挖掘模型},
+   Journal = {计算机科学与探索},
+   Volume = {7},
+   Number = {7},
+   Pages = {620-629},
+   Abstract = {为了挖掘网络评论中的产品主题和主题的对立情感信息,以帮助生产商和服务商改进产品和服务质量,帮助消费者做出购买决策,基于LDA (latent Dirichlet allocation)提出了一个用于网络评论分析的主题-对立情感挖掘模型(topic-opposite sentiment mining model, TOSM),模型假设句子为分配主题和情感的最小单位.该模型在LDA的基础上增加情感层,将LDA的三层结构拓展为四层,能同时得到主题以及主题的对立情感信息.为了使对立情感的描述更准确,在情感层中融入了情感词典先验信息.在Amazon网站的电子产品评论和 Yelp 网站的饭店评论数据集上进行三组实验.实验表明 TOSM 挖掘到的观点主题与评论中有价值的细节描述相匹配,TOSM模型的情感分类结果优于其他模型.},
+   Keywords = {主题模型;LDA;情感;评论挖掘;主题-对立情感挖掘模型(TOSM)},
+   Year = {2013} }
+
+
+
+
+@article{
+李宏光代凯峰-8085,
+   Author = {李宏光 and 代凯峰 and 刘振娟 and 宿翀},
+   Title = {一类面向多目标决策的分层情感认知模型},
+   Journal = {控制与决策},
+   Volume = {30},
+   Number = {12},
+   Pages = {2129-2136},
+   Abstract = {决策者的情感认知对于复杂多目 标决策具有关键的作用,为了能使计算机掌握决策者的决策情感认知规律,提升计算机辅助多目标决策的能力,提出一种融合了性格特征、心境状态和情感状态的多 层情感认知模型.描述决策者在处理复杂决策问题时的情感状态量化关系,运用分层情感认知模型构建集感性和理性于一身的虚拟人,代替决策者完成对多目标优化 问题的交互决策求解.实例分析验证了所提出模型的有效性.},
+   Keywords = {多目标决策;情感计算;认知},
+   Year = {2015} }
+
+
+
+
+@article{
+CumminsBurd-8087,
+   Author = {Cummins, Stephen and Burd, Liz and Hatch, Andrew},
+   Title = {Using Feedback Tags and Sentiment Analysis to Generate Sharable Learning Resources Investigating Automated Sentiment Analysis of Feedback Tags in a Programming Course},
+   Pages = {653-657},
+   Abstract = {This paper demonstrates how sentiment analysis can be used to identify differences in how students and staff perceive the opinions contained in feedback for programming work. The feedback considered in this paper is conceptually different in that it is given in the form of tags that when associated with a fragment of source code can be considered as a sharable learning resource. The research presented investigates the differences in perception of whether feedback is positive, negative or neutral according to students and examiners. This paper also investigates the adequacy of an automated sentiment analysis engine with a view that sentiment information when combined with the feedback tag and source code may create a more informative sharable learning resource. This paper describes the investigatory technique and presents the initial results. Results indicate that there are important differences between the sentiment of feedback perceived by students and examiners. This paper highlights the benefit of including sentiment data along with feedback.},
+   Keywords = {computer aided instruction;computer science education;educational courses;feedback;groupware;feedback tags;investigatory technique;learning resources;programming course;sentiment analysis},
+   Year = {2010} }
+
+
+
+
+@article{
+SagumVera-8088,
+   Author = {Sagum, Ria A. and Vera, Jessiree Grace M. De and Lansang, Prince John S. and Narciso, Danica Sharon R. and Respeto, Jahren K.},
+   Title = {Application of Language Modelling in Sentiment Analysis for Faculty Comment Evaluation},
+   Journal = {Lecture Notes in Engineering & Computer Science},
+   Volume = {2215},
+   Number = {1},
+   Year = {2015} }
+
+
+
+
+@article{
+AltrabshehCocea-8089,
+   Author = {Altrabsheh, Nabeela and Cocea, Mihaela and Fallahkhair, Sanaz},
+   Title = {Sentiment Analysis: Towards a Tool for Analysing Real-Time Students Feedback},
+   Pages = {419-423},
+   Abstract = {Students' real-time feedback has numerous advantages in education, however, analysing feedback while teaching is both stressful and time consuming. To address this problem, we propose to analyse feedback automatically using sentiment analysis. Sentiment analysis is domain dependent and although it has been applied to the educational domain before, it has not been previously used for real-time feedback. To find the best model for automatic analysis we look at four aspects: preprocessing, features, machine learning techniques and the use of the neutral class. We found that the highest result for the four aspects is Support Vector Machines (SVM) with the highest level of preprocessing, unigrams and no neutral class, which gave a 95 percent accuracy.},
+   Keywords = {computer aided instruction;learning (artificial intelligence);support vector machines;teaching;SVM;automatic analysis;education;educational domain;machine learning techniques;neutral class},
+   Year = {2014} }
+
+
+
+
+@article{
+Wiebe-8090,
+   Author = {Wiebe, Jan},
+   Title = {Manual and Automatic Subjectivity and Sentiment Analysis},
+   Journal = {Tutorial at Eurolan Summer School},
+   Abstract = {1. Method for identifying brilliant material in paint-US Patent 7035464 2. Halley shines in a brilliant light. 3. In a classic pasodoble, an opening section in the minor mode features a brilliant trumpet melody, while the second section in the relative major begins with the},
+   Keywords = {Article;Presentation;Technical Report},
+   Year = {2007} }
+
+
+
+
+@article{
+WahabKhan-8093,
+   Author = {Wahab, Abdul and Khan, Muhammad Faheem and Khan, Aurangzeb and Khan, Aziz Ullah},
+   Title = {IMPORTANT FEATURES SELECTION DURING SENTIMENT ANALYSIS},
+   Journal = {Science International},
+   Abstract = {The rapid growth of online blogs, social networks and other forums able the people and online users to discuss the various aspect about product, service and other features. It became more popular to automatically analyze the opinion of others. in decision making the opinion of other people are more helpful about product, services, online shopping etc. The contribution of this article is to extract important features during the process of sentiment analysis. The results show the efficiency and value of the proposed method which outperform among the various research work. The proposed work achieves an accuracy of 85.71% for important features selecting during sentiment analysis using frequency based selection method.},
+   Year = {2014} }
+
+
+
+
+@article{
+Johnes-8094,
+   Author = {Johnes, Geraint},
+   Title = {Tweet sensations: investigating the potential use of sentiment analysis in higher education in the UK},
+   Abstract = {Online social networking sites offer a rich data set which can be used by organisations to enhance their understanding of how stakeholders form their opinions about the organisation's offerings. Using data about British universities collected from twitter, this paper reports the results obtained by conducting a sentiment analysis, and suggests ways in which universities could benefit from such analyses.},
+   Year = {2013} }
+
+
+
+
+@article{
+Fakhraie-8095,
+   Author = {Fakhraie, Najmeh},
+   Title = {What's in a Note? Sentiment Analysis in Online Educational Forums},
+   Journal = {School of Graduate Studies - Theses},
+   Abstract = {This multi-disciplinary study examines the linguistic characteristics which influence communication and social interaction in computer-mediated communication (CMC). We begin by conducting a qualitative data analysis on a group of graduate students taking online courses. Through this, we look more closely at their perception of social interaction in their online learning environment (Knowledge eCommons). We then take individual student notes and analyze their linguistic characteristics. We look at the emotional cues in notes, the use of factual, objective language and other linguistic features. We study these notes through the use of sentiment analysis methodologies 鈥 which will be explained in detail in the first and second chapter. We have proposed a method for deducing note objectivity and have computed reliability testing of this method. Our analyses show that there is a high correlation between the use of objective language in a note and the value that students place on that note.},
+   Keywords = {Sentiment Analysis;Communication;Threaded Forums;Online education;Computational Linguistics;Text Analysis;Thesis},
+   Year = {2011} }
+
+
+
+
+@article{
+Gitau-8096,
+   Author = {Gitau, Eric},
+   Title = {An approach for using twitter to perform sentiment analysis in Kenya},
+   Journal = {Masters of Science in Computer Science},
+   Abstract = {The interest in sentiment analysis as a research area has become increasingly popular with the developmentof new social interaction technologies. Twitter, being one of these new technologies, presents a uniqueenvironment where one can track sentiments expressed about various topics. This report therefore considersthe problem of attempting to classify sentiments expressed on twitter about certain products, services orpersonalities as being positive, negative or neutral. The approach adopted to solve this problem is throughthe use of machine learning methods. In particular, the Na茂ve Bayes model is chosen to build the classifier.This being a learning problem, training data and testing data is required. Two methods of collectingtraining data are considered and their impact on the performance of the classifier is discussed. The firstmethod is distant supervision, where emoticons are used as labels to identify and collect training data thatcontains sentiment information. The other method is manual supervision where a human trainer manuallyidentifies and labels training data with that contains the necessary sentiment information. It is discoveredthat using distant supervision to collect training data results in poorer performance, than using manualsupervision techniques, even where the training set collected using distant supervision is larger than thetraining set from the manual supervision techniques. Using emoticons as labels to identify 5000 tweets astraining data, the classifier performed with an accuracy of 70.3% compared to use of 500 hand labeledtweets as training data which resulted in 76.3% accuracy. A third method for collecting training data usingmanual supervision methods is also suggested and its performance is also discussed. This method whichuses hand labeled keywords grouped according to word characteristics yields a performance of 80.3%. Thisreport concludes by giving recommendations of ideal models to start with when attempting to develop atwitter based sentiment classifier. A software tool, developed using the learning model to classify livestreams of data from twitter into positive, negative or neutral classes and provide a summary of results, isalso demonstrated.},
+   Year = {2011} }
+
+
+
+
+@article{
+EsparzaDíaz-8097,
+   Author = {Esparza, Guadalupe Gutiérrez and Díaz, Alejandro Padilla and Canul-Reich, Juana and Carlos, Alejandro and De-Luna and Ponce, Julio},
+   Title = {Proposal of a Sentiment Analysis Model in Tweets for Improvement of the Teaching -Learning Process in the Classroom Using a Corpus of Subjectivity},
+   Journal = {International Journal of Combinatorial Optimization Problems & I},
+   Abstract = {In this paper, we propose a sentiment analysis model for the assessment of teacher performance in the classroom by tweets written by a pilot group of college students. Naive Bayes (NB) is the technique to be applied to classify tweets based on the polar express emotion (positive, negative and neutral), to carry out this process, a dataset fits adding distinctive terms of context as possible features to support the classification process.},
+   Year = {2016} }
+
+
+
+
+@article{
+ZarraChiheb-8099,
+   Author = {Zarra, T. and Chiheb, R. and Faizi, R. and Afia, A. El},
+   Title = {Using textual similarity and sentiment analysis in discussions forums to enhance learning},
+   Abstract = {Web 2.0 technologies have changed the learning process and have affected the unidirectional relationship obtaining between the teacher and the student. Web 2.0 has given rise to new bidirectional learning strategies in which the learner is both an actor and active member in the learning process. Given the wide use of these technologies as educational tools, our objective in this article is to analyze learners’ comments in discussion forums, which are popular platforms amongst students. For this purpose, we use the Latent Semantic Analysis (LSA), a statistical model that can allow us to establish the relationship between the set of messages published by learners and course content that students need to master. We also use sentiment analysis techniques to identify the students’ opinions about educational issues that are problematic. The implementation of both methods has revealed that the data available in educational discussion boards can improve the quality of learning and teaching.},
+   Year = {2016} }
+
+
+
+
+@article{
+EeseeOmar-8100,
+   Author = {Eesee, A. and Omar, N.},
+   Title = {A Hybrid Method for Arabic Educational Sentiment Analysis},
+   Year = {2016} }
+
+
+
+
+@article{
+HungAlfred-8103,
+   Author = {Hung, Lai Po and Alfred, Rayner and Ahmad Hijazi, Mohd Hanafi and Ag. Ibrahim, Ag. Asri},
+   Title = {A Review on the Ensemble Framework for Sentiment Analysis},
+   Journal = {Advanced Science Letters},
+   Volume = {21},
+   Number = {10},
+   Pages = {2957-2962},
+   Abstract = {Sentiment analysis is an important task for the automated classification of positive and negative opinions by a machine. The approaches to this task can either be rule-based or machine learning, the later being the current trend due to its automaticity and versatility. An ensemble framework based on machine learning classifiers diversifies the text data and learning process in order to produce accurate sentiment classification. In this review paper, we highlight the various parts to consider when creating an ensemble of machine learning classifiers for sentiment analysis. Starting from the selection of suitable text features until the training of the machine learner, they all influence the accuracy of the system. The ensemble framework improves the accuracy of the system based on the concept that stronger classifiers compensate for the performance of weak classifiers. Concluding thought to the paper is the inclusion of diversified feature selection method into the ensemble framework to select useful features and reduce size of feature set.},
+   Year = {2015} }
+
+
+
+
+@article{
+SchneiderMichael-8104,
+   Author = {Schneider and Michael, J.},
+   Title = {A Study on the Efficacy of Sentiment Analysis in Author Attribution},
+   Journal = {East Tennessee State University},
+   Abstract = {The field of authorship attribution seeks to characterize an author’s writing style well enough to determine whether he or she has written a text of interest. One subfield of authorship attribution, stylometry, seeks to find the necessary literary attributes to quantify an author’s writing style. The research presented here sought to determine the efficacy of sentiment analysis as a new stylometric feature, by comparing its performance in attributing authorship against the performance of traditional stylometric features. Experimentation, with a corpus of sci-fi texts, found sentiment analysis to have a much lower performance in assigning authorship than the traditional stylometric features.},
+   Year = {2015} }
+
+
+
+
+@article{
+Altrabsheh-8105,
+   Author = {Altrabsheh, Nabeela},
+   Title = {Sentiment analysis on students’ real-time feedback},
+   Abstract = {Previous literature identifies that students’ real-time feedback is important in the learning process. There are numerous studies that have collected students’ feedback in real time. However, they include several limitations of which the most important is analysing the feedback. In this thesis, we address these limitations by proposing a system that will automatically analyse students’ feedback in real time and present the analysis results to the lecturer. To create such a system, we propose the use of sentiment analysis.The extensive literature highlights the importance of this research in the sentiment analysis field, as there is no research exploring sentiment analysis for students’ real-time feedback and research in the educational domain has been focused mainly on e-learning. The literature shows that emotions are also important in learning and could be detected using sentiment analysis. Consequently, this research is also important as there is little research in detecting emotion from students’ feedback.Polarity detection is explored and two experiments were done to identify the best combination of preprocessing, features and machine learning techniques to create an optimal model for polarity detection of students’ feedback. As a result, we found that the optimal model was to use a lower level of preprocessing, unigrams for features and Complement Naive Bayes for the classifier.Emotion detection in students’ feedback is also explored. Two experiments were done to find the optimal model to detect emotions related to learning from students’ feedback. The results showed that models which detect a single emotion have a better performance than multiple emotion models. Three emotions (i.e. Amused, Bored, and Excited) were more easily detected than others. The optimal model to detect emotion included a low level preprocessing, unigrams as features and Complement Naive Bayes as the classifier.Sarcasm detection in students’ feedback is explored. Our results showed that the lower level of preprocessing led to the best performance. Moreover, by adding other features, such as polarity and emotions, to the unigrams, sarcasm detection increased. Lastly, the best classifier to detect sarcasm was Complement Naive Bayes.Visualisation of the sentiment analysis models results is also investigated. Six visualisations were created and evaluated by lecturers. The findings indicated that there lecturers had no strong preference for a specific visualisation.The system evaluation was performed in real-life settings. As a result, we found that the lecturers were highly satisfied with the system, while the students had a neutral towards negative view of it.},
+   Year = {2016} }
+
+
+
+
+@article{
+HaniewiczKaczmarek-8106,
+   Author = {Haniewicz, Konstanty and Kaczmarek, Monika and Adamczyk, Magdalena and Rutkowski, Wojciech},
+   Title = {Sentiment analysis resources for Polish: A collaborative approach},
+   Journal = {International Journal of Knowledge & Learning},
+   Volume = {9},
+   Number = {1/2},
+   Abstract = {With a rapid increase in the amount of information available on the web, there is a growing need for sentiment analysis. The overall objective of our ongoing research is to work out a robust method of detecting sentiment in Polish texts by means of developing relevant polarity lexical resources. The present study attempts to illuminate the process of creating a general polarity lexicon for Polish based on outputs provided by a customised Markov Random Walk algorithm, operating on an independently built semantic network for the Polish language. The customisations include a specially developed application that allows for a collaborative evaluation of the algorithm's output so that it can be used as a newest of parameters in a subsequent iteration of experiments. The results are compared with both the findings of our previous studies as well as those reported by other researchers.},
+   Year = {2014} }
+
+
+
+
+@article{
+RuffoSanguinetti-8107,
+   Author = {Ruffo, Giancarlo Francesco and Sanguinetti, Manuela and Allisio, Leonardo and Sulis, Emilio and Bosco, Cristina and Patti, Viviana and Mussa, Valeria},
+   Title = {Developing corpora and tools for sentiment analysis: the experience of the University of Turin group},
+   Abstract = {The paper describes the ongoing experience at the University of Turin in developing linguistic resources and toolsfor sentiment analysis of social media.We describe in particular the development of Senti-TUT, a human annotated corpus of Italian Tweets including labels forsentiment polarity and irony, which has been recently exploited within the SENTIment POLarity Classification shared taskat Evalita 2014. Furthermore, we reportabout our ongoing work on the Felicitt脿 web-based platform for estimating happiness in Italian cities, which provides visualizationtechniques to interactively explore the results of sentiment analysis performed over Italian geotagged Tweets.},
+   Year = {2014} }
+
+
+
+
+@article{
+ShaikaChowdhury-8108,
+   Author = {Shaika and Chowdhury and Chowdhury and Wasifa},
+   Title = {Sentiment analysis for Bangla microblog posts},
+   Journal = {Department of Computer Science & Engineering Brac University},
+   Abstract = {Sentiment analysis has received great attention recently due to the huge amount of user-generated information on the microblogging sites, such as Twitter [1], which are utilized for many applications like product review mining and making future predictions of events such as predicting election results. Much of the research work on sentiment analysis has been applied to the English language, but construction of resources and tools for sentiment analysis in languages other than English is a growing need since the microblog posts are not just posted in English, but in other languages as well. Work on Bangla (or Bengali language) is necessary as it is one of the most spoken languages, ranked seventh in the world [13]. In this paper, we aim to automatically extract the sentiments or opinions conveyed by users from Bangla microblog posts and then identify the overall polarity of texts as either negative or positive. We use a semi-supervised bootstrapping approach for the development of the training corpus which avoids the need for labor intensive manual annotation. For classification, we use Support Vector Machines (SVM) and Maximum Entropy (MaxEnt) and do a comparative analysis on the performance of these two machine learning algorithms by experimenting with a combination of various sets of features. We also construct a Twitter-specific Bangla sentiment lexicon, which is utilized for the rule-based classifier and as a binary feature in the classifiers used. For our work, we choose Twitter as the microblogging site as it is one of the most popular microblogging platforms in the world.},
+   Year = {2014} }
+
+
+
+
+@article{
+Zeng-8109,
+   Author = {Zeng, Fu Qiu},
+   Title = {On Sentiment Analysis of Campus Network Reviews about Education——a Case Study of Fenghua BBS of Hunan University of Commerce},
+   Journal = {Journal of Hunan University of Commerce},
+   Abstract = {Forum on a campus network provides a public and virtual platform for the university students to share their educational experience with other people.As a result,the exponential growth of reviews on forum occurs.Among these reviews,there is a huge amount of information about education available for teaching management.As today鈥檚 students increasingly make their opinions available online,there have accumulated a huge amount of reviews on the forum.It is very difficult to deal with the huge amount of information by manually-operated methods;so much of it is ignored by people.This paper adopts Bayes text sentiment classification technology to address this problem by automatically classifying students鈥檙eviews about education into positive or negative opinions.Experimental results on the dataset obtained from Fenghua BBS of Hunan University of Commerce show that the accuracy of sentiment classification is about 87.5% and no statistically significant difference between the distributions in the classification result and those in artificial classification result.This work overcomes some weaknesses of traditional teaching evaluation and provides a new method by which the department can implement teaching management dynamically.},
+   Keywords = {sentiment analysis;teaching review;online teaching evaluation;Bayes classifier},
+   Year = {2013} }
+
+
+
+
+@article{
+KimShaw-8110,
+   Author = {Kim, Jihie and Shaw, Erin and Wyner, Saul and Kim, Taehwan},
+   Title = {Sentiment Analysis of a Student Q&A Board for Computer Science},
+   Abstract = {ABSTRACT  Students' emotions and attitudes are discernible in messages posted to online question and answer boards. Understanding student sentiment may help instructors identify students with low confidence or high frustration, optimize help-seeking, and potentially improve performance. Towards this end, we present a set emotion speech acts that were used by students in a university-level computer science course to express certainty and uncertainty, frustration, tension, and politeness in an online Q&A board. An analysis of the dataset by gender and roles is given.},
+   Year = {2012} }
+
+
+
+
+@article{
+SioudMarcgravel-8111,
+   Author = {Sioud, Aymen and MarcGravel and Gagn, Caroline},
+   Title = {Sentiment analysis of student reviews of student writing},
+   Journal = {Applied Mechanics & Materials},
+   Volume = {86},
+   Number = {10},
+   Pages = {2415-2424},
+   Abstract = {ABSTRACT  Eli is a web-based application for coordi-nating and assessing writing review, typi-cally used by students in English composi-tion classes at the secondary or undergrad-uate level. It provides students and in-structors with information about the reviews that students write of one another's writing, based on reception (whether the original au-thor finds the review helpful), but does not cur-rently attempt to compute any metrics based on the content of the reviews themselves. I examine some sentiment-determination ap-proaches, implemented using the UIMA frame-work, and their applicability to the Eli review data. The long-term goal of this project is to use sentiment-determination techniques to an-alyze the rhetorical tone&mdash;the attitude of the writer toward the material&mdash;of reviews. I de-scribe how this information may be useful for instructors, and how the introduction of NLP techniques into an application like Eli can ex-tend its capabilities; and discuss what senti-ment analysis might tell us about writing re-view.},
+   Keywords = {Public Culture Service;Demonstration Area;Demonstration Project},
+   Year = {2011} }
+
+
+
+
+@article{
+Dasgupta-8113,
+   Author = {Dasgupta, Maitrayee},
+   Title = {Study of different algorithms in Sentiment Analysis and the existing Issues},
+   Journal = {Academic Medicine Journal of the Association of American Medical Colleges},
+   Volume = {70},
+   Number = {12},
+   Pages = {1138-41},
+   Abstract = {Little is known about how internal medicine residents train for and practice telephone management. To address this deficiency, a national survey of program directors at accredited internal medicine training sites was conducted to evaluate residents' training for and practice of telephone medicine.A 43-item questionnaire was mailed in December 1993 to all program directors at the 416 accredited internal medicine training sites in the United States. A limited questionnaire, regarding the most essential training questions, was mailed to all non-responders.The response rate was 60% (250) for the full questionnaire. Only 15 (6%) of the programs offered formal training in telephone management to their residents. This training usually consisted of single lectures (nine programs) or reading materials (seven programs). The respondents felt that formal training in telephone management was very important (155, 62%) and that such training should be a part of every internal medicine curriculum (150, 60%).Few internal medicine programs offered training in telephone management. When training occurred, it was usually limited and informal. Most program directors felt that training was important and that current training efforts were unsatisfactory, emphasizing the need for curriculum development and implementation in telephone management.},
+   Keywords = {Administrator Attitudes;Educational Needs;Graduate Medical Education;Higher Education;Internal Medicine;Interpersonal Communication;Medical Schools;National Surveys;Physician Patient Relationship;Professional Education},
+   Year = {1995} }
+
+
+
+
+@article{
+BarbieriRonzano-8115,
+   Author = {Barbieri, Francesco and Ronzano, Francesco and Saggion, Horacio},
+   Title = {UPF-taln: SemEval 2015 Tasks 10 and 11 Sentiment Analysis of Literal and Figurative Language in Twitter ∗},
+   Abstract = {In this paper, we describe the approach used by the UPF-taln team for tasks 10 and 11 of SemEval 2015 that respectively focused on "Sentiment Analysis in Twitter" and "Sen- timent Analysis of Figurative Language in Twitter". Our approach achieved satisfac- tory results in the figurative language analy- sis task, obtaining the second best result. In task 10, our approach obtained acceptable per- formances. We experimented with both word- based features and domain-independent intrin- sic word features. We exploited two ma- chine learning methods: the supervised algo- rithm Support Vector Machines for task 10, and Random-Sub-Space with M5P as base al- gorithm for task 11.},
+   Year = {} }
+
+
+
+
+@article{
+Alhaddad-8116,
+   Author = {Alhaddad, Alaa},
+   Title = {"Sentiment Analysis of Microblogs in Education Domain"},
+   Year = {} }
+
+
+
+
+@article{
+Wojcik-8117,
+   Author = {Wojcik, Michael},
+   Title = {Sentiment analysis of student reviews of student writing},
+   Year = {} }
+
+
+
+
+@article{
+JagtapDhotre-8118,
+   Author = {Jagtap, Balaji and Dhotre, Virendrakumar},
+   Title = {SVM and HMM Based Hybrid Approach of Sentiment Analysis for Teacher Feedback Assessment},
+   Abstract = {Abstract: Sentiment analysis view from broad range of field of natural language processing and opinion mining. Most of the researcher focus on the product and services. This paper design to automate teacher feedback assessment system. As know, teacher is important part of education. Therefor progress and performance monitoring of teacher is also important factor of education system. It could be measure by taking feedback from student for particular teacher. Data collect from student is larger in size to concluding result is difficult task. Here, sentiment analysis play the role with help of HMM and SVM base hybrid sentiment classification model with advent feature extraction method.},
+   Year = {} }
+
+
+
+
+@article{
+PatilSeemakurty-8119,
+   Author = {Patil, Santosh S. and Seemakurty, Uttej and Valarmathi, B.},
+   Title = {ANALYSIS OF SMS FEEDBACK AND ONLINE FEEDBACK USING SENTIMENT-ANALYSIS FOR ASSESSMENT OF TEACHING},
+   Abstract = {In this we introducing the feedback from student by collecting through SMS's and online using free text for assessment of teaching. In traditional method, the assessment of the teacher is done by students in the format of Multiple Choice Question (MCQ) or polling using SMS facility. In the MCQ, the feedback may be a single-alphabet (A or B or C or D) and in the case of polling, either we can select Yes (Y) or No (N) to give feedback about the teacher. In the proposed system, the assessment of the teacher is done by students in the form of free text. These SMS's are collected by the System. Then it will analyze the SMS's and gives the feed-back of teacher by using Sentiment Analysis. The system will have lecturer and student login pages. In student login, there is an option to give feedback with many categories (teaching, behaviour, communication, knowledge, interaction) of a teacher. The system will check the spelling and grammar errors for the free text given by the student and it will highlight the errors, for changing to correct one. In Lecturer login, we will show the feedback in graphical representation for all categories and overall presentation also.},
+   Year = {} }
+
+
+
+
+@article{
+IgamaNebre-8120,
+   Author = {Igama, Loida Q. and Nebre, Nelson A. and Alforja, Lord Zoe S. and Santos, Carla Mae M. and Garcia, Garry John A.},
+   Title = {GamiNaire: A Gamified Student Opinionaire with the Use of Sentiment Analysis},
+   Abstract = {Abstract-- This paper discusses the retrieval of data using Sentiment Analysis for finding the desired output requested by the users. This system serves as a survey to the user but not like a common survey we've usually answer, instead it has a twist that the user might have fun or answer the questions easily, because this survey has a concept of a game. The system will show pictures and some questions related to the picture that needs to be answered by the user. After the user finished the said game, the system will gather its score by simply classifying the negative and positive answers.},
+   Year = {} }
+
+
+
+
+@article{
+PatelaUndaviaa-8121,
+   Author = {Patela, Trisha and Undaviaa, Jaimin and Patela, Atul},
+   Title = {Sentiment Analysis of Parents Feedback for Educational Institutes},
+   Abstract = {ABSTRACT:Big amount of data available in the forms of reviews, opinions, feedbacks, remarks, comments, observations, clarifications, and explanations that has to be manage with some efficient manner. In this paper, we have collected feedback of parents and analyzed to find locus of the parents towards the institute. This research paper combines the data mining with natural language processing to extract the nuggets of knowledge from massive volume of student feedback dataset on faculty performance.Keywords: Natural Language Processing, Opinion Mining, Feedback Analysis, Sentiment Analysis, Educational Institutes.},
+   Year = {} }
+
+
+
+
+@article{
+MaksVossen-8122,
+   Author = {Maks, Isa and Vossen, Piek},
+   Title = {Sentiment Analysis of Reviews: Should we analyze writer intentions or reader perceptions?},
+   Abstract = {Many sentiment-analysis methods for the classification of reviews use training and test-data based on star ratings provided by reviewers. However, when reading re- views it appears that the reviewers' rat- ings do not always give an accurate measure of the sentiment of the review. We performed an annotation study which showed that reader perceptions can also be expressed in ratings in a reliable way and that they are closer to the text than the reviewer ratings. Moreover, we applied two common sentiment-analysis tech- niques and evaluated them on both reader and reviewer ratings. We come to the conclusion that it would be better to train models on reader ratings, rather than on reviewer ratings (as is usually done).},
+   Year = {} }
+
+
+
+
+@article{
+Goryll-8123,
+   Author = {Goryll, Michael.},
+   Title = {Untersuchung des selbstorganisierenden Wachstums von Ge-C-Si/Si-Strukturen im Hinblick auf nulldimensionale effekte /},
+   Journal = {Journal of the Japan Society for Precision Engineering},
+   Volume = {37},
+   Number = {1},
+   Pages = {51-7},
+   Abstract = {Abstract OBJECTIVE: To estimate trends in mortality due to different stroke subtypes in the population of Belgrade during the period 1989-2003. PATIENTS AND METHODS: Mortality data for stroke were compiled from material of the Municipal Institute of Statistics. Stroke mortality rates were standardized by world standard population. Linear regression coefficient in time trend analysis of mortality rates was assessed by Fisher's test. RESULTS: In Belgrade, 1989-2003, the highest values of mortality rates were for ischemic stroke in both sexes: 50.1/100,000-men, and 39.9/100,000-women. The mortality rate from subarachnoid hemorrhage (SAH) was lower in men (3.9/100,000) compared to women (5.3/100,000). For intracerebral hemorrhage (ICH), the death rate was 3.1 times higher than that for SAH. Stroke due to hemorrhage was a more common cause of death than ischemic stroke for both sexes in all age groups up to 59. In older age, ischemic stroke became the more frequent cause of death. The time trends of stroke mortality rates in the Belgrade population during the period 1989-2003 showed that the most excessive statistically significant increase in death rates was related to ICH in both sexes. The death rates from SAH had increasing tendency in both sexes, especially in women (p=0.017). Upward trends were observed for ischemic stroke mortality rates too, with statistical significance in men (p=0.048). CONCLUSION: Further research is needed to explain the causes of the increasing burden of stroke in Serbia. Since different profiles of risk factors play a role in the etiology of different stroke subtypes, these facts should be taken into account in the creation of both prevention and management strategies.},
+   Keywords = {Humans;Brain Ischemia;Mortality;Age Distribution;Sex Distribution;Adolescent;Adult;Aged;Aged, 80 and over;Child},
+   Year = {2011} }
+
+
+
+
+@article{
+Feng-8124,
+   Author = {Feng, Xiao},
+   Title = {Analysis of Sentiment Editying about the College Chinese Teaching},
+   Journal = {Journal of Sichuan Police College},
+   Abstract = {The edifying of sentiment is very important to college students. The College Chinese teaches knowledge and at the same time, emphasis on the edifying with noble spirit, encouraging with excellent works, exerting a subtle influence or shock their soul from various angles.},
+   Keywords = {The College Chinese;Teaching;Sentiment Editying},
+   Year = {2001} }
+
+
+
+
+@article{
+MorettiMcknight-8125,
+   Author = {Moretti, Antonio and Mcknight, Kathy and Salleb-Aouissi, Ansaf},
+   Title = {Application of Sentiment and Topic Analysis to Teacher Evaluation Policy in the U.S.},
+   Abstract = {We examine the potential value of Internet text to under- stand education policy related to teacher evaluation. We discuss the use of sentiment analysis and topic modeling us- ing articles from the New York Times and Time Magazine, to explore media portrayal of these policies. Findings indi- cate that sentiment analysis and topic modeling are promis- ing methods for analyzing Internet data in ways that can inform policy decision-making, but there are limitations to account for when interpreting patterns over time.},
+   Year = {} }
+
+
+
+
+@article{
+Wojcik-8126,
+   Author = {Wojcik, Michael},
+   Title = {Estimating sentiment in Eli: Computational analysis of tone in student responses to student writing},
+   Abstract = {Eli is a web-based application for coordinating and assessing writing review, typically used by students in English composition classes at the secondary or undergraduate level. It provides students and instructors with infor- mation about the reviews that students write of one another's writing, based on reception (whether the original author finds the review helpful), but does not currently attempt to compute any metrics based on the content of the reviews themselves. I describe a proto- type of a proposed addition to Eli which em- ploys sentiment-determination techniques to analyze the rhetorical tone--the attitude of the writer toward the material--of reviews. I de- scribe how this information may be useful for instructors, and how the introduction of NLP techniques into an application like Eli can ex- tend its capabilities; and discuss what senti- ment analysis might tell us about writing re- view.},
+   Year = {} }
+
+
+
+
+@article{
+Cai-8127,
+   Author = {Cai, Ai Fang},
+   Title = {An Analysis of the Sentiment in Qin Guan's Ci Poetry},
+   Journal = {Journal of Xinxiang Teachers College},
+   Abstract = {Qin Guan′s Ci poetry is full of sorrow and sadness ,which concides with human′s aesthetic and deep psychological characteristic . Rodin in his Philosophy of Art said :"It′s much better that art works present its main character more obvious ,which is just art′s essence". It has something with the reason that Qin Guan's Ci poetry is very popular.},
+   Keywords = {sadness;psychology distance;self-comfirmed},
+   Year = {2003} }
+
+
+
+
+@article{
+ZhuoWu-8128,
+   Author = {Zhuo, Min and Wu, Jianping},
+   Title = {Visualization Analysis on Contemporary Youth's Haze Sentiment},
+   Journal = {Youth Studies},
+   Abstract = {Haze has become an environmental risk event which has great relationship with people's livelihood.With sentiment analysis as research method and visualization as presentation results,this study focuses on young users of micro blog,and tries to explore contemporary youth's attitude towards haze event and its influencing factors.According to results,haze sentiments could be divided into three levels,two major categories,seven subcategories and fifteen subdivisions;'fear' and 'sadness' are the main second-level sentiments;attitude towards haze varies with condition of air quality and is influenced by hot events.The study on haze sentiment could provide support for emotional warning and monitoring towards haze event;it could also provide evidence in emotional analysis for stimulating contemporary youth's environmental protection behavior and enhancing their coping towards environmental risk events.Based on analysis of influencing factors of haze sentiment,this paper provides some related suggestions regarding management and guidance towards haze emotion.},
+   Keywords = {Contemporary Youth;Attitude towards Haze;Sentiment Analysis;Visualization Analysis Environmental Conservation},
+   Year = {2015} }
+
+
+
+
+@article{
+LevyFox-8131,
+   Author = {Levy and Fox, Mildred},
+   Title = {An analysis of a program designed to modify self concept and school sentiment of low achieving students /},
+   Year = {} }
+
+
+
+
+@article{
+Zhang-8132,
+   Author = {Zhang, Lingyan},
+   Title = {Analysis on the Strategies of College Students' Public Sentiment Education under the New Media Environment},
+   Journal = {Journal of Jilin Agricultural Science & Technology University},
+   Abstract = {In recent years,public opinion has become the sociology,psychology,political science research topic in the field of public opinion,college students showed great difference with ordinary public opinion because of the particularity of undergraduates.With the development of the new media era,the rapid development of information,on the ideological impact is more and more big,the Youth League serves as guide the ideological trends of university organization,must shoulder the responsibility of guiding college students' public opinion.The issue from the new media environment on college students' public opinion characteristics,types,characteristics and transmission were analyzed,and to explore the new media environment particularity on college students' public opinion effect,the Communist Youth League organizations in the new situation to improve college students' public opinion guidance mode,establish a rapid intervention mechanism,to help students establish a healthy outlook on life and values.},
+   Keywords = {college students;public sentiment;new media},
+   Year = {2012} }
+
+
+
+
+@article{
+Huang-8133,
+   Author = {Huang, Mei Qing},
+   Title = {An Analysis of Elements of Sentiment in Mathematics Teaching},
+   Journal = {Science Information},
+   Abstract = {Elements of sentiment must be inspired in mathematics teaching.Showing its aesthetics and practical use,developing the nice elements of emotion field,stabilify that nice sentiment by harmonious teaching relationship.},
+   Keywords = {mathematics teaching;emotion & attitude;nice;harmonious},
+   Year = {2007} }
+
+
+
+
+@article{
+You-8134,
+   Author = {You, Shu Cai},
+   Title = {The Analysis of “The Knotty Sentiment over Resentment” for Middle-school Students},
+   Journal = {Journal of Cangzhou Teachers College},
+   Abstract = {At the beginning of adolescence, middle-school students are experiencing the special and deep changes both physically and psychologically. They are different both in cognition and estimation from adults. They bear the cognitive conflicts deep in mind, which results in the knotty sentiment over resentment. Neglected and unsolved in time, it would have a bad effect on teaching and learning or even cause trouble on the full development of middle-school students.},
+   Keywords = {middle-school students;adolescence;the adult feeling;self-estimate;self-respect;self-confidence;inferiority complex},
+   Year = {2003} }
+
+
+
+
+@article{
+GreavesRamirez-Cano-8136,
+   Author = {Greaves, Felix and Ramirez-Cano, Daniel and Millett, Christopher and Darzi, Ara and Donaldson, Liam},
+   Title = {Machine learning and sentiment analysis of unstructured free-text information about patient experience online},
+   Journal = {Lancet},
+   Volume = {380},
+   Pages = {S10},
+   Abstract = {Machine learning and sentiment analysis of unstructured free-text information about patient experience online. By - Dr Felix Greaves BMBCh, Daniel Ramirez-Cano PhD, Christopher Millett PhD, Prof Ar...},
+   Year = {2012} }
+
+
+
+
+@article{
+HajmohammadiIbrahim-8137,
+   Author = {Hajmohammadi, Mohammad Sadegh and Ibrahim, Roliana and Selamat, Ali and Fujita, Hamido},
+   Title = {Combination of active learning and self-training for cross-lingual sentiment classification with density analysis of unlabelled samples},
+   Journal = {Information Sciences},
+   Volume = {317},
+   Number = {C},
+   Pages = {67-77},
+   Abstract = {In recent years, research in sentiment classification has received considerable attention by natural language processing researchers. Annotated sentiment corpora are the most important resources used in sentiment classification. However, since most recent research works in this field have focused on the English language, there are accordingly not enough annotated sentiment resources in other languages. Manual construction of reliable annotated sentiment corpora for a new language is a labour-intensive and time-consuming task. Projection of sentiment corpus from one language into another language is a natural solution used in cross-lingual sentiment classification. Automatic machine translation services are the most commonly tools used to directly project information from one language into another. However, since term distribution across languages may be different due to variations in linguistic terms and writing styles, cross-lingual methods cannot reach the performance of monolingual methods. In this paper, a novel learning model is proposed based on the combination of uncertainty-based active learning and semi-supervised self-training approaches to incorporate unlabelled sentiment documents from the target language in order to improve the performance of cross-lingual methods. Further, in this model, the density measures of unlabelled examples are considered in active learning part in order to avoid outlier selection. The empirical evaluation on book review datasets in three different languages shows that the proposed model can significantly improve the performance of cross-lingual sentiment classification in comparison with other existing and baseline methods.},
+   Keywords = {Active learning;Cross-lingual;Density measure;Self-training;Sentiment classification},
+   Year = {2015} }
+
+
+
+
+@article{
+SilvaColetta-8138,
+   Author = {Silva, Nadia Felix F. Da and Coletta, Luiz F. S. and Hruschka, Eduardo R.},
+   Title = {A Survey and Comparative Study of Tweet Sentiment Analysis via Semi-Supervised Learning},
+   Journal = {Acm Computing Surveys},
+   Volume = {49},
+   Number = {1},
+   Pages = {1-26},
+   Abstract = {Twitter is a microblogging platform in which users can post status messages, called 鈥渢weets,鈥 to their friends. It has provided an enormous dataset of the so-called sentiments, whose classification can take place through supervised learning. To build supervised learning models, classification algorithms require a set of representative labeled data. However, labeled data are usually difficult and expensive to obtain, which motivates the interest in semi-supervised learning. This type of learning uses unlabeled data to complement the information provided by the labeled data in the training process; therefore, it is particularly useful in applications including tweet sentiment analysis, where a huge quantity of unlabeled data is accessible. Semi-supervised learning for tweet sentiment analysis, although appealing, is relatively new. We provide a comprehensive survey of semi-supervised approaches applied to tweet classification. Such approaches consist of graph-based, wrapper-based, and topic-based methods. A comparative study of algorithms based on self-training, co-training, topic modeling, and distant supervision highlights their biases and sheds light on aspects that the practitioner should consider in real-world applications.   <!-- #ads iframe { /* float: none;*/ width: 300px; border:0px !important; margin-top: 0px; margin-right: 12px; margin-bottom: 0px; margin-left: 0px; } #ads div { display: inline; width: 300px; } #ads .bsap_adhere { display:none; }   BuySellAds Ad Code   (function(){ var bsa = document.createElement('script'); bsa.type = 'text/javascript'; bsa.async = true; bsa.src = '//s3.buysellads.com/ac/bsa.js'; (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa); })();   End BuySellAds Ad Code   Advertisements     BuySellAds Zone Code    End BuySellAds Zone Code   BuySellAds Zone Code    End BuySellAds Zone Code   BuySellAds Zone Code    End BuySellAds Zone Code},
+   Keywords = {Co-training;self-training;semi-supervised learning;topic modeling;tweet sentiment analysis},
+   Year = {2016} }
+
+
+
+
+@article{
+KranjcSmailović-8139,
+   Author = {Kranjc, Janez and Smailović, Jasmina and Podpečan, Vid and Grčar, Miha and Žnidaršič, Martin and Lavrač, Nada},
+   Title = {Active learning for sentiment analysis on data streams: Methodology and workflow implementation in the ClowdFlows platform},
+   Journal = {Information Processing & Management},
+   Volume = {51},
+   Number = {2},
+   Pages = {187-203},
+   Abstract = {Sentiment analysis from data streams is aimed at detecting authors’ attitude, emotions and opinions from texts in real-time. To reduce the labeling effort needed in the data collection phase, active learning is often applied in streaming scenarios, where a learning algorithm is allowed to select new examples to be manually labeled in order to improve the learner’s performance. Even though there are many on-line platforms which perform sentiment analysis, there is no publicly available interactive on-line platform for dynamic adaptive sentiment analysis, which would be able to handle changes in data streams and adapt its behavior over time. This paper describes ClowdFlows, a cloud-based scientific workflow platform, and its extensions enabling the analysis of data streams and active learning. Moreover, by utilizing the data and workflow sharing in ClowdFlows, the labeling of examples can be distributed through crowdsourcing. The advanced features of ClowdFlows are demonstrated on a sentiment analysis use case, using active learning with a linear Support Vector Machine for learning sentiment classification models to be applied to microblogging data streams.},
+   Keywords = {antibiotics},
+   Year = {2015} }
+
+
+
+
+@article{
+ChenXu-8140,
+   Author = {Chen, Tao and Xu, Ruifeng and He, Yulan and Xia, Yunqing},
+   Title = {Learning User and Product Distributed Representations Using a Sequence Model for Sentiment Analysis},
+   Journal = {IEEE Computational Intelligence Magazine},
+   Volume = {11},
+   Number = {3},
+   Pages = {34-44},
+   Abstract = {In product reviews, it is observed that the distribution of polarity ratings over reviews written by different users or evaluated based on different products are often skewed in the real world. As such, incorporating user and product information would be helpful for the task of sentiment classification of reviews. However, existing approaches ignored the temporal nature of reviews posted by the same user or evaluated on the same product. We argue that the temporal relations of reviews might be potentially useful for learning user and product embedding and thus propose employing a sequence model to embed these temporal relations into user and product representations so as to improve the performance of document-level sentiment analysis. Specifically, we first learn a distributed representation of each review by a one-dimensional convolutional neural network. Then, taking these representations as pretrained vectors, we use a recurrent neural network with gated recurrent units to learn distributed representations of users and products. Finally, we feed the user, product and review representations into a machine learning classifier for sentiment classification. Our approach has been evaluated on three large-scale review datasets from the IMDB and Yelp. Experimental results show that: (1) sequence modeling for the purposes of distributed user and product representation learning can improve the performance of document-level sentiment classification; (2) the proposed approach achieves state-of-the-art results on these benchmark datasets.},
+   Keywords = {Analytical models;Classification algorithms;Computational modeling;Neural networks;Semantics;Sentiment analysis;Support vector machines},
+   Year = {2016} }
+
+
+
+
+@article{
+Bartlett-8141,
+   Author = {Bartlett, Robin L.},
+   Title = {A Flip of the Coin—A Roll of the Die: An Answer to the Free-Rider Problem in Economic Instruction},
+   Journal = {Journal of Economic Education},
+   Volume = {26},
+   Number = {2},
+   Pages = {131-139},
+   Year = {1995} }
+
+
+
+
+@article{
+PangLee-8142,
+   Author = {Pang, Bo and Lee, Lillian},
+   Title = {Opinion Mining and Sentiment Analysis},
+   Journal = {Foundations & Trends in Information Retrieval},
+   Volume = {2},
+   Number = {1-2},
+   Pages = {1-135},
+   Year = {2008} }
+
+
+
+
+@article{
+ColaceCasaburi-8143,
+   Author = {Colace, Francesco and Casaburi, Luca and De Santo, Massimo and Greco, Luca},
+   Title = {Sentiment detection in social networks and in collaborative learning environments},
+   Journal = {Computers in Human Behavior},
+   Volume = {51, Part B},
+   Number = {""},
+   Pages = {1061 - 1067},
+   DOI = {http://dx.doi.org/10.1016/j.chb.2014.11.090},
+   Note = {Computing for Human Learning, Behaviour and Collaboration in the Social and Mobile Networks Era},
+   Abstract = {Abstract Daily millions of messages appear on the web, which is becoming a rich source of data for opinion mining and sentiment analysis. The computational study of opinions, feelings and emotions expressed in a text often relates to the identification of agreement or disagreement with statements, contained in comments or reviews, that convey positive or negative feelings. The detection and analysis of sentiment in textual communication is a topic attracting attention also in the context of collaborative learning in social networks, being learners actively engaged in presenting and defending ideas and opinions, as well as exchanging moods about courses with peers. In this paper, we investigate the adoption of a probabilistic approach based on the Latent Dirichlet Allocation (LDA) as Sentiment Grabber. Through this approach, for a set of documents belonging to a same knowledge domain, a graph, the Mixed Graph of Terms, can be automatically extracted. The paper shows how this graph contains a set of weighted word pairs, which are discriminative for sentiment classification. The proposed method has been tested in different context: a standard dataset containing movie reviews; a real-time analysis of social networks posts; a collaborative learning scenario. The experimental evaluation shows how the proposed approach is effective and satisfactory.},
+   Keywords = {Information extraction; Sentiment analysis; Latent Dirichlet allocation},
+   Year = {2015} }
+
+
+
+
+@article{
+OrtigosaMart I N-8144,
+   Author = {Ortigosa, Alvaro and Mart I N, Jos E. M. and Carro, Rosa M.},
+   Title = {Sentiment analysis in Facebook and its application to e-learning},
+   Journal = {Computers in Human Behavior},
+   Volume = {31},
+   Pages = {527--541},
+   DOI = {10.1016/j.chb.2013.05.024},
+   Abstract = {This paper presents a new method for sentiment analysis in Facebook that, starting from messages written by users, supports: (i) to extract information about the users' sentiment polarity (positive, neutral or negative), as transmitted in the messages they write; and (ii) to model the users' usual sentiment polarity and to detect significant emotional changes. We have implemented this method in SentBuk, a Facebook application also presented in this paper. SentBuk retrieves messages written by users in Facebook and classifies them according to their polarity, showing the results to the users through an interactive interface. It also supports emotional change detection, friend's emotion finding, user classification according to their messages, and statistics, among others. The classification method implemented in SentBuk follows a hybrid approach: it combines lexical-based and machine-learning techniques. The results obtained through this approach show that it is feasible to perform sentiment analysis in Facebook with high accuracy (83.27{\%}). In the context of e-learning, it is very useful to have information about the users' sentiments available. On one hand, this information can be used by adaptive e-learning systems to support personalized learning, by considering the user's emotional state when recommending him/her the most suitable activities to be tackled at each time. On the other hand, the students' sentiments towards a course can serve as feedback for teachers, especially in the case of online learning, where face-to-face contact is less frequent. The usefulness of this work in the context of e-learning, both for teachers and for adaptive systems, is described too.},
+   Year = {2014} }
+
+
+
+
+@article{
+Feldman-8145,
+   Author = {Feldman, Ronen},
+   Title = {Techniques and applications for sentiment analysis},
+   Journal = {Communications of the ACM},
+   Volume = {56},
+   Number = {4},
+   Pages = {82},
+   DOI = {10.1145/2436256.2436274},
+   Abstract = {The main applications and challenges of one of the hottest research areas in computer science.},
+   Year = {2013} }
+
+
+
+
+@article{
+王科夏睿-8146,
+   Author = {王科 and 夏睿},
+   Title = {情感词典自动构建方法综述},
+   Journal = {自动化学报},
+   Volume = {42},
+   Number = {4},
+   Pages = {495-511},
+   Year = {2016} }
+
+
+
+
+@article{
+孙建旺吕学强-8147,
+   Author = {孙建旺 and 吕学强 and 张雷瀚},
+   Title = {基于词典与机器学习的中文微博情感分析研究},
+   Journal = {计算机应用与软件},
+   Volume = {31},
+   Number = {7},
+   Pages = {177-181},
+   Year = {2014} }
+
+
+
+
+@article{
+张林钱冠群-8148,
+   Author = {张林 and 钱冠群 and 樊卫国 and 华琨 and 张莉},
+   Title = {轻型评论的情感分析研究},
+   Journal = {软件学报},
+   Number = {12},
+   Pages = {2790-2807},
+   Note = {页数: 18},
+   Abstract = {以在智能移动设备上发表的用户评论作为研究对象,并将该类评论称为轻型评论.指出了轻型评论与早期互联网评论及短文本研究的异同点,并通过实验总结轻型评论的独有特性:字数少、跨度大,短小评论数量众多,评论长度与数量满足幂率分布.同时,针对轻型评论的情感分类研究展开了一系列的实验研究,发现:(1)情感分类效果随着评论长度的增加而下降;(2)传统的特征筛选方法以及特征加权方法对于轻型评论效果都不够理想;(3)极性词在短评论中比例高于长评论;(4)长、短评论在用词上存在较高的重叠度.在此基础上,提出了一种基于短评论特征共现的特征筛选方法,将短小评论中的优势信息和传统的特征筛选方法相结合,在筛选掉无用噪音的同...},
+   Keywords = {情感分析;用户评论;短文本;意见挖掘},
+   Year = {2014} }
+
+
+
+
+@article{
+TurneyLittman-8151,
+   Author = {Turney, Peter D. and Littman, Michael L.},
+   Title = {Measuring Praise and Criticism: Inference of Semantic Orientation from Association},
+   Journal = {ACM Transactions on Information Systems},
+   Volume = {21},
+   Number = {4},
+   Pages = {315--346},
+   DOI = {10.1145/944012.944013},
+   Abstract = {The evaluative character of a word is called its semantic orientation. Positive semantic orientation indicates praise (e.g., “honest”, “intrepid”) and negative semantic orientation indicates criticism (e.g., “disturbing”, “superfluous”). Semantic orientation varies in both direction (positive or negative) and degree (mild to strong). An automated system for measuring semantic orientation would have application in text classification, text filtering, tracking opinions in online discussions, analysis of survey responses, and automated chat systems (chatbots). This paper introduces a method for inferring the semantic orientation of a word from its statistical association with a set of positive and negative paradigm words. Two instances of this approach are evaluated, based on two different statistical measures of word association: pointwise mutual information (PMI) and latent semantic analysis (LSA). The method is experimentally tested with 3,596 words (including adjectives, adverbs, nouns, and verbs) that have been manually labeled positive (1,614 words) and negative (1,982 words). The method attains an accuracy of 82.8{\%} on the full test set, but the accuracy rises above 95{\%} when the algorithm is allowed to abstain from classifying mild words.},
+   Keywords = {Sentiment Analysis},
+   Year = {2003} }
+
+
+
+
+@article{
+徐军丁宇新-8152,
+   Author = {徐军 and 丁宇新 and 王晓龙},
+   Title = {使用机器学习方法进行新闻的情感自动分类},
+   Journal = {中文信息学报},
+   Number = {06},
+   Pages = {95-100},
+   Note = {页数: 6},
+   Abstract = {本文主要研究机器学习方法在新闻文本的情感分类中的应用,判断其是正面还是负面。我们利用朴素贝叶斯和最大熵方法进行新闻及评论语料的情感分类研究。实验表明,机器学习方法在基于情感的文本分类中也能取得不错的分类性能,最高准确率能达到90%。同时我们也发现,对于基于情感的文本分类,选择具有语义倾向的词汇作为特征项、对否定词正确处理和采用二值作为特征项权重能提高分类的准确率。总之,基于情感的文本分类是一个更具挑战性的工作。},
+   Keywords = {计算机应用;中文信息处理;文本分类;情感分析;贝叶斯;最大熵},
+   Year = {2007} }
+
+
+
+
+@article{
+PangLee-8153,
+   Author = {Pang, Bo and Lee, Lillian},
+   Title = {Opinion Mining and Sentiment Analysis},
+   Journal = {Foundations & Trends in Information Retrieval},
+   Volume = {2},
+   Number = {1-2},
+   Pages = {1-135},
+   Year = {2008} }
+
+
+
+
+@article{
+Liu-8156,
+   Author = {Liu, Bing},
+   Title = {Sentiment analysis and opinion mining},
+   Journal = {Synthesis lectures on human language technologies},
+   Volume = {5},
+   Number = {1},
+   Pages = {1--167},
+   Year = {2012} }
+
+
+
+
+@phdthesis{
+苏增才-7908,
+   Author = {苏增才},
+   Title = {基于word2vec和SVMperf的网络中文文本评论信息情感分类研究},
+   School = {河北科技大学},
+   Type = {phd苏增才2015基于,},
+   Abstract = {近些年来,随着web2.0技术的产生和飞速发展,尤其是诸如电子商务、博客、论坛、微博等许多新兴互联网平台的出现,越来越多的用户习惯于在这些网络平台上发表自己的观点,表达自己的感受。而随着网络用户量的不断增加,产生的用户评论数量也呈爆炸式增长,仅凭用户来翻看这些评论以获取有价值的信息,变得不切实际。因此,一个新的用来帮助用户对海量评论进行分析甄选,从中抽取出有价值的信息的研究方向应运而生,即“情感分类”。在情感分类研究中,用的最多的也最有效的方法是基于机器学习的方法。在基于机器学习方法的情感分类研究中,最重要的环节是有效特征的提取。在前人的研究中,往往只考虑了浅显的词汇特征和句法特征,而忽略了对于隐含的语义特征的提取。针对此问题,本文主要进行了以下三个方面的研究:1)本文利用word2vec可以获取语义联系的特性,首先对文本语料库进行了相似特征聚类的实验,将语料库中描述同一个产品特征的词语进行了聚类,方便后续的情感分类研究工作可以获得良好的分析总结。实验结果表明,利用word2vec可以很好地将语料库中的相似特征提取出来,并聚合为同一产品特征簇。2)本文提出了基于word2vec和SVMperf的中文文本情感分类研究方法。方法利用word2vec的特性,将文本中的词汇表示为向量空间中的高维向量,通过对这些词向量进行余弦相似度的计算,从而获得词汇之间在语义上的相似度,然后将这些向量作为语义特征,用SVMperf分类模型进行训练,得到最终的分类结果。实验结果表明,此方法可以获得较好的分类结果。3)为了进一步提升分类的正确率,本文又在上述情感分类方法的基础上,在提取特征时,考虑了否定词、程度词和转折词等上下文结构特征,再结合语义特征,一起作为有效特征用SVMperf训练和测试。实验结果表明,结合了上下文结构特征的情感分类方法可以获得更佳的分类效果。最后,本文将情感分类算法与具体应用相结合,开发了一套股票分析系统。系统主要通过对股民评论的情感指数与股票价格走势的分析对比,判断两者有无相关性。},
+   Keywords = {相似特征聚类;情感分类;word2vec;SVMperf;语义特征;上下文结构特征},
+   Year = {2015} }
+
+
+
+
+@phdthesis{
+杨佳能阳爱民-8020,
+   Author = {杨佳能 and 阳爱民 and 周咏梅},
+   Title = {基于语义分析的中文微博情感分类方法},
+   School = {广东外语外贸大学},
+   Type = {phd杨佳能2014基于语义分析的中文微博情感分类方法,},
+   Abstract = {Web2.0的出现使用户成为互联网信息的创造者和管理者,彻底地改变了互联网信息单向传播的模式。微博作为典型的Web2.0互联网应用,自引入国内以来,迅速发展成为人们分享和获取信息的核心社交平台。用户通过微博发表观点、表达情感,使互联网产生了海量的包含情感的文本信息。对微博进行情感分析研究,有助于微博监管、舆情发现、舆论引导和商业竞争情报分析等工作的实现。相对于传统文本,微博内容具有主题广泛、表达口语化以及语言碎片化等特点,针对于微博的情感分析会遇到更多的困难和挑战。目前国内关于中文微博情感分析方面的研究尚处于起步阶段,还有大量研究问题需要深入探讨解决。因此,对微博情感分析进行研究,具有较高的理论价值和应用价值。 论文以新浪和腾讯微博消息作为研究对象,使用语义分析的方法探讨了中文微博情感分析相关技术,主要包括情感词典构建方法、中文微博情感分析方法以及文本(包括微博)的情感分析实验系统的设计和实现等内容。 在情感词典构建研究方面,提出一种基于语义分析的中文基础情感词典构建方法,利用HowNet和SentiWordNet资源,将词语自动分解为多个义元后计算其情感倾向强度值,使用支持向量机构建微博情感分类器进行实验,实验结果表明该词典优于一般极性情感词典。在网络用语情感词典和表情符号情感词典构建方面,借鉴SO-PMI算法,采用基于语料统计的方法对相应候选词集进行情感权值计算。 在微博情感分析技术研究方面,提出一种基于语义分析的中文微博情感分类方法。折中方法结合所构建的词典对文本进行依存句法分析,并构建情感表达式树,根据制定的规则计算微博的情感强度,根据强度值判断微博的情感倾向类别。实验结果验证了该方法的有效性,也表明所构建的表情符号情感词典和网络用语情感词典能够有效地增强情感分类器的性能。 在文本(包括微博)情感分析实验系统设计和实现方面,利用构建的词典资源以及提出的情感分析方法,设计和实现基于C/S和B/S混合体系结构的文本情感分析的实验系统,对海量数据文本情感分析进行探讨。实验系统功能主要包括情感词典构建工具、语料管理工具、情感分类工具以及在线情感分析和可视化工具等。},
+   Keywords = {中文微博;情感分类;情感词典;支持向量机;语义分析},
+   Year = {2014} }
+
+
+
+
+@phdthesis{
+陈仲帅刘洋-8053,
+   Author = {陈仲帅 and 刘洋 and 禹晓辉},
+   Title = {英语情态句的情感倾向性分析},
+   School = {山东大学},
+   Type = {phd陈仲帅2014英语情态句的情感倾向性分析,},
+   Abstract = {本文研究了英语中情态句的情感倾向性分析问题,即根据情态句中表 达的情感倾向将它分为褒义、贬义或中立类。情感倾向性分析是意见挖掘里的重要研究内容,很多研究人员在这方面做了大量的工作,旨在通过改进特征设计及分类 方法提高情感倾向性分析的准确率。但随着这类工作的逐渐成熟,分析效果已经很难再有较大提高。这类工作的一个明显的不足是没有考虑不同句型本身的特点。近 几年一些学者指出,很难找到一种一刀切的方法有效的处理不同句型的情感分析问题。需要采用分而治之的方法,将特殊句式的句子抽取出来,针对它们的特点单独 处理。受这些工作的启发,...},
+   Keywords = {情态句;情感倾向;意见挖掘;情感分析;稀疏性},
+   Year = {2014} }
+
+
