@@ -27,7 +27,8 @@ BaiChen-7909,
    Pages = {358-363},
    Abstract = {In recent years, Weibo has greatly enriched people's life. More and more people are actively sharing information with others and expressing their opinions and feelings on Weibo. Analyzing emotion hidden in this information can benefit online marketing, branding, customer relationship management and monitoring public opinions. Sentiment analysis is to identify the emotional tendencies of the microblog messages, that is to classify users' emotions into positive, negative and neutral. This paper presents a novel model to build a Sentiment Dictionary using Word2vec tool based on our Semantic Orientation Pointwise Similarity Distance (SO-SD) model. Then we use the Emotional Dictionary to obtain the emotional tendencies of Weibo messages. Through the experiment, we validate the effectiveness of our method, by which we have performed a preliminary exploration of the sentiment analysis of Chinese Weibo in this paper.},
    Keywords = {Web sites;customer relationship management;emotion recognition;marketing data processing;natural language processing;pattern classification;Chinese Weibo;SO-SD model;Sina Weibo;Weibo messages},
-   Year = {2014} }
+   Year = {2014}, 
+   review   = {将获得的微博文本词汇，建立情感词汇，基本情感词典，采用基于语义的工具（Word2vec）字典定位点相似距离，建立一种情感分类模型，利用情感词典确定微博信息的情感倾向。通过验证，使用新浪微博的情感词典，然后对微博内容进行情感分类有83%的准确率。}}
 
 
 
