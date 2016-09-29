@@ -27,7 +27,9 @@ BaiChen-7909,
    Pages = {358-363},
    Abstract = {In recent years, Weibo has greatly enriched people's life. More and more people are actively sharing information with others and expressing their opinions and feelings on Weibo. Analyzing emotion hidden in this information can benefit online marketing, branding, customer relationship management and monitoring public opinions. Sentiment analysis is to identify the emotional tendencies of the microblog messages, that is to classify users' emotions into positive, negative and neutral. This paper presents a novel model to build a Sentiment Dictionary using Word2vec tool based on our Semantic Orientation Pointwise Similarity Distance (SO-SD) model. Then we use the Emotional Dictionary to obtain the emotional tendencies of Weibo messages. Through the experiment, we validate the effectiveness of our method, by which we have performed a preliminary exploration of the sentiment analysis of Chinese Weibo in this paper.},
    Keywords = {Web sites;customer relationship management;emotion recognition;marketing data processing;natural language processing;pattern classification;Chinese Weibo;SO-SD model;Sina Weibo;Weibo messages},
-   Year = {2014} }
+   Year = {2014},
+   review   = {将获得的微博文本词汇，建立情感词汇，基本情感词典，采用基于语义的工具（Word2vec）字典定位点相似距离，建立一种情感分类模型，利用情感词典确定微博信息的情感倾向。通过验证，使用新浪微博的情感词典，然后对微博内容进行情感分类有83%的准确率。},
+}
 
 
 
@@ -39,7 +41,9 @@ SuXu-7910,
    Pages = {1-6},
    Abstract = {package is adopted to train and classify the comment texts. To conduct the experiments, we collect a large number of Chinese comments on clothing products as data set. The experimental results show that the accuracy of sentiment classification is over 90 percent, which proves the effectiveness of proposed method for Chinese sentiment classification.},
    Keywords = {feature extraction;feature selection;natural language processing;neural nets;support vector machines;word processing;Chinese sentiment classification;SVMperf package;Word2vec;feature selection},
-   Year = {2014} }
+   Year = {2014} ,
+   review   = {利用上下文的语义可以获得更深的词语间的关系，更有利于情感分类，这种基于语义的情感分析会获得更好的的结果，文章指出利用具有相似特点的词语组成一个集群，使用word2vec来训练收集到的评论文本，将情感词汇的分类基于机器学习。文章主要使用的方法是将获得的文本利用分词工具进行分离，然后删除一些语气词和结束词，然后利用word2vec来训练文本，产生模型文件，然后学习向量，将最接近的词组成一个集群。将这些词汇分类一是基于hownet情感词汇和IARDict，扩充传统词典。二是利用词性的不同来分来不同类别的词汇。三是使用采用SVMperf。},
+}
 
 
 
