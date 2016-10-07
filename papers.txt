@@ -52,7 +52,9 @@ SuXu-7910,
 XuLiang-7912,
    Author = {Xu, Steven and Liang, Hui Zhi and Baldwin, Timothy},
    Title = {UNIMELB at SemEval-2016 Tasks 4A and 4B: An Ensemble of Neural Networks and a Word2Vec Based Model for Sentiment Classification},
-   Year = {2016} }
+   Year = {2016},
+   review = {文章研究的是将两种子任务：一个是只有文章的子任务A，另一个是主题相关的子任务B，文章所要用到的用三种不同的模型来进行情感分类：Convolutional Neural networks（卷积神经网络是由一个单一的一维卷积层具有非线性，最大混合层，层差，和一个softmax分类层），Long short term memory network（用递归结构对应，其中包括一个嵌入层，LSTM层，和一个softmax分类层），word2vec Bayes（基于word2vec使用泰迪贝叶斯公式来计算一个属于情感类的文档）。这三种分类器得到的准确性不一致，情感分析文档分类器不同的分类器得到不同的结果，将这些分类器结合起来，会获得更好的结果。}
+   }
 
 
 
