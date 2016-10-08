@@ -53,7 +53,7 @@ XuLiang-7912,
    Author = {Xu, Steven and Liang, Hui Zhi and Baldwin, Timothy},
    Title = {UNIMELB at SemEval-2016 Tasks 4A and 4B: An Ensemble of Neural Networks and a Word2Vec Based Model for Sentiment Classification},
    Year = {2016},
-   review = {文章研究的是将两种子任务：一个是只有文章的子任务A，另一个是主题相关的子任务B，文章所要用到的用三种不同的模型来进行情感分类：Convolutional Neural networks（卷积神经网络是由一个单一的一维卷积层具有非线性，最大混合层，层差，和一个softmax分类层），Long short term memory network（用递归结构对应，其中包括一个嵌入层，LSTM层，和一个softmax分类层），word2vec Bayes（基于word2vec使用泰迪贝叶斯公式来计算一个属于情感类的文档）。这三种分类器得到的准确性不一致，情感分析文档分类器不同的分类器得到不同的结果，将这些分类器结合起来，会获得更好的结果。}
+   review = {文章研究的是将两种子任务：一个是只有文章的子任务A，另一个是主题相关的子任务B，文章所要用到的用三种不同的模型来进行情感分类：Convolutional Neural networks（卷积神经网络是由一个单一的一维卷积层具有非线性，最大混合层，层差，和一个softmax分类层），Long short term memory network（用递归结构对应，其中包括一个嵌入层，LSTM层，和一个softmax分类层），word2vec Bayes（基于word2vec使用泰迪贝叶斯公式来计算一个属于情感类的文档）。这三种分类器得到的准确性不一致，情感分析文档分类器不同的分类器得到不同的结果，将这些分类器结合起来，会获得更好的结果。},
    }
 
 
@@ -66,7 +66,9 @@ ShamsShakery-7914,
    Pages = {216-221},
    Abstract = {Sentiment analysis is the process of analyzing the characteristics of opinions, feelings, and emotions which are expressed in textual data. This paper presents a novel approach for generation of a lexical resource named PersianClues used for sentiment analysis in Persian language. Moreover, a novel unsupervised LDA-based sentiment analysis method called LDASA is proposed. In order to generate the PersianClues, at the first phase, an automatic translation approach is used to translate the existing English clues to Persian. Next, iterative refinement approach is used to correct the erroneous clues resulted from previous step. Then, topic-based polar sets are achieved from these clues and finally, each document is categorized into its related polarity using a classification algorithm. To evaluate this method, three resources about hotels, cell phones and digital cameras have been manually gathered from the e-shopping websites and the results of sentiment analysis on these resources are compared with a baseline named SVM-Unigrams. The experimental results demonstrate an improvement of 9% on average in polarity classification accuracy of the base system.},
    Keywords = {iterative methods;language translation;natural language processing;pattern classification;support vector machines;text analysis;English clues;LDA-based sentiment analysis method;LDASA;Persian language},
-   Year = {2012} }
+   Year = {2012},
+   review   = {文章提出将基于文档主题模型的情感分析方法（LDASA）应用于波斯语言的情感分析，为了创建波斯情感分析语料库，作者将英语语料库转换为波斯语料库，利用术语刷选的方法除去结束词和语气词，对于术语相似词汇采用概念图的方法，用术语间的相互信息计算来表示术语的相似度。然后利用术语将其它平均相似性转换成极性词集。这样生成波斯语索引。采用LDA模型分析情感词汇，选择SVM的分类算法来对波斯语进行情感分类。结果表明采用基于主题的波斯索引的LDASA方法的相对于只基于一元词汇的分析系统可以明显提高准确性。},
+   }
 
 
 
